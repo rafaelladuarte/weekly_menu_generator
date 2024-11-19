@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Cardápio Aleatório</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .cardapio {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 8px;
+        }
+        .cardapio h2 {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gerador de Cardápio Aleatório</h1>
+    <p>Clique no botão abaixo para gerar uma combinação de prato principal, guarnição e salada.</p>
+
+    <button onclick="gerarCardapio()">Gerar Cardápio</button>
+
+    <div id="resultado" class="cardapio" style="display:none;">
+        <h2>Prato Principal: <span id="prato-principal"></span></h2>
+        <h2>Guarnição: <span id="guarnicao"></span></h2>
+        <h2>Salada: <span id="salada"></span></h2>
+    </div>
+
+    <script>
+        const pratosPrincipais = [
+            "Frango Cremoso", "Almôndega de Carne Bovina ao Sugo", "Bife de Panela",
+            "Filé de Frango ao Molho de Açafrão", "Filé de Peixe à Milanesa",
+            "Quibe Recheado com Molho Branco e Mussarela", "Coxa e Sobrecoxa Assada", "Galinhada"
+        ];
+
+        const guarnicoes = [
+            "Batata Palito Cozida", "Macarrão à Primavera", "Mandioca Amanteigada",
+            "Repolho Refogado", "Purê de Batata", "Chuchu Refogado", "Seleta de Legumes (Abobrinha, Vagem e Ervilha)",
+            "Creme de Milho"
+        ];
+
+        const saladas = [
+            "Acelga e Cenoura", "Chicória e Tomate", "Repolho Roxo e Manga", "Tabule",
+            "Alface e Tomate", "Chicória e Cenoura", "Couve, Acelga e Uva Passa", "Mix de Folhas com Abacaxi"
+        ];
+
+        function gerarCardapio() {
+            const pratoAleatorio = pratosPrincipais[Math.floor(Math.random() * pratosPrincipais.length)];
+            const guarnicaoAleatoria = guarnicoes[Math.floor(Math.random() * guarnicoes.length)];
+            const saladaAleatoria = saladas[Math.floor(Math.random() * saladas.length)];
+
+            document.getElementById("prato-principal").innerText = pratoAleatorio;
+            document.getElementById("guarnicao").innerText = guarnicaoAleatoria;
+            document.getElementById("salada").innerText = saladaAleatoria;
+
+            document.getElementById("resultado").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
