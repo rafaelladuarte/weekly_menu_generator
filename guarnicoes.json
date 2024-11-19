@@ -1,0 +1,36 @@
+{
+  "guarnicoes": [
+    {
+      "nome": "Batata Palito Cozida",
+      "ingredientes": ["Batata", "Sal", "Água"]
+    },
+    {
+      "nome": "Macarrão à Primavera",
+      "ingredientes": ["Macarrão", "Cebola", "Alho", "Pimentão", "Tomate", "Azeite"]
+    },
+    {
+      "nome": "Mandioca Amanteigada",
+      "ingredientes": ["Mandioca", "Manteiga", "Sal", "Alho"]
+    },
+    {
+      "nome": "Repolho Refogado",
+      "ingredientes": ["Repolho", "Cebola", "Óleo ou Azeite", "Alho", "Sal"]
+    },
+    {
+      "nome": "Purê de Batata",
+      "ingredientes": ["Batata", "Leite", "Manteiga", "Sal"]
+    },
+    {
+      "nome": "Chuchu Refogado",
+      "ingredientes": ["Chuchu", "Cebola", "Alho", "Óleo", "Sal"]
+    },
+    {
+      "nome": "Seleta de Legumes (Abobrinha, Vagem e Ervilha)",
+      "ingredientes": ["Abobrinha", "Vagem", "Ervilha", "Sal", "Óleo"]
+    },
+    {
+      "nome": "Creme de Milho",
+      "ingredientes": ["Milho", "Creme de Leite", "Manteiga", "Sal"]
+    }
+  ]
+}
