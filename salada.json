@@ -1,0 +1,36 @@
+{
+  "saladas": [
+    {
+      "nome": "Acelga e Cenoura",
+      "ingredientes": ["Acelga", "Cenoura", "Vinagre", "Sal", "Azeite"]
+    },
+    {
+      "nome": "Chicória e Tomate",
+      "ingredientes": ["Chicória", "Tomate", "Sal", "Azeite", "Vinagre"]
+    },
+    {
+      "nome": "Repolho Roxo e Manga",
+      "ingredientes": ["Repolho Roxo", "Manga", "Vinagre", "Azeite", "Sal"]
+    },
+    {
+      "nome": "Tabule",
+      "ingredientes": ["Trigo para Quibe", "Tomate", "Pepino", "Salsinha", "Cebola", "Limão", "Azeite", "Sal"]
+    },
+    {
+      "nome": "Alface e Tomate",
+      "ingredientes": ["Alface", "Tomate", "Azeite", "Sal", "Vinagre"]
+    },
+    {
+      "nome": "Chicória e Cenoura",
+      "ingredientes": ["Chicória", "Cenoura", "Azeite", "Sal", "Vinagre"]
+    },
+    {
+      "nome": "Couve, Acelga e Uva Passa",
+      "ingredientes": ["Couve", "Acelga", "Uva Passa", "Azeite", "Vinagre", "Sal"]
+    },
+    {
+      "nome": "Mix de Folhas com Abacaxi",
+      "ingredientes": ["Folhas Verdes (Alface, Rúcula)", "Abacaxi", "Azeite", "Sal", "Vinagre"]
+    }
+  ]
+}
