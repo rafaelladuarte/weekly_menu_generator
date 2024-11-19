@@ -3,47 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio Aleatório</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Gerador de Cardápio Aleatório</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .cardapio {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 8px;
+        }
+        .cardapio h2 {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Cardápio Semanal Aleatório</h1>
 
-        <div class="card">
-            <h2>Prato Principal</h2>
-            <p>{{ prato['nome'] }}</p>
-            <h3>Ingredientes:</h3>
-            <ul>
-                {% for ingrediente in prato['ingredientes'] %}
-                    <li>{{ ingrediente }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+    <h1>Gerador de Cardápio Aleatório</h1>
+    <p>Clique no botão abaixo para gerar uma combinação de prato principal, guarnição e salada.</p>
 
-        <div class="card">
-            <h2>Guarnição</h2>
-            <p>{{ guarnicao['nome'] }}</p>
-            <h3>Ingredientes:</h3>
-            <ul>
-                {% for ingrediente in guarnicao['ingredientes'] %}
-                    <li>{{ ingrediente }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+    <button onclick="gerarCardapio()">Gerar Cardápio</button>
 
-        <div class="card">
-            <h2>Salada</h2>
-            <p>{{ salada['nome'] }}</p>
-            <h3>Ingredientes:</h3>
-            <ul>
-                {% for ingrediente in salada['ingredientes'] %}
-                    <li>{{ ingrediente }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-
-        <a href="/" class="btn">Gerar Novo Cardápio</a>
+    <div id="resultado" class="cardapio" style="display:none;">
+        <h2>Prato Principal: <span id="prato-principal"></span></h2>
+        <h2>Guarnição: <span id="guarnicao"></span></h2>
+        <h2>Salada: <span id="salada"></span></h2>
     </div>
+
+    <script>
+        let pratosPrincipais = [];
+        let guarnicoes = [];
+        let saladas = [];
+
+        // Função para carregar os JSONs
+        async function carregarJSONs() {
+            try {
+                // Carregando os dados dos arquivos JSON
+                const pratosResponse = await fetch('pratosPrincipais.json');
+                const guarnicoesResponse = await fetch('guarnicoes.json');
+                const saladasResponse = await fetch('saladas.json');
+                
+                // Convertendo os JSONs para objetos JavaScript
+                const pratosData = await pratosResponse.json();
+                const guarnicoesData = await guarnicoesResponse.json();
+                const saladasData = await saladasResponse.json();
+
+                // Atribuindo os dados aos arrays
+                pratosPrincipais = pratosData.pratos_principais;
+                guarnicoes = guarnicoesData.guarnicoes;
+                saladas = saladasData.saladas;
+
+            } catch (error) {
+                console.error("Erro ao carregar os JSONs:", error);
+            }
+        }
+
+        // Função para gerar cardápio aleatório
+        async function gerarCardapio() {
+            if (pratosPrincipais.length === 0 || guarnicoes.length === 0 || saladas.length === 0) {
+                // Espera o carregamento dos JSONs se ainda não estiverem carregados
+                await carregarJSONs();
+            }
+
+            const pratoAleatorio = pratosPrincipais[Math.floor(Math.random() * pratosPrincipais.length)];
+            const guarnicaoAleatoria = guarnicoes[Math.floor(Math.random() * guarnicoes.length)];
+            const saladaAleatoria = saladas[Math.floor(Math.random() * saladas.length)];
+
+            document.getElementById("prato-principal").innerText = pratoAleatorio.nome;
+            document.getElementById("guarnicao").innerText = guarnicaoAleatoria.nome;
+            document.getElementById("salada").innerText = saladaAleatoria.nome;
+
+            document.getElementById("resultado").style.display = "block";
+        }
+
+        // Chama a função para carregar os JSONs assim que a página carregar
+        window.onload = carregarJSONs;
+    </script>
+
 </body>
 </html>
