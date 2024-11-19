@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Aleatório</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cardápio Semanal Aleatório</h1>
+
+        <div class="card">
+            <h2>Prato Principal</h2>
+            <p>{{ prato['nome'] }}</p>
+            <h3>Ingredientes:</h3>
+            <ul>
+                {% for ingrediente in prato['ingredientes'] %}
+                    <li>{{ ingrediente }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Guarnição</h2>
+            <p>{{ guarnicao['nome'] }}</p>
+            <h3>Ingredientes:</h3>
+            <ul>
+                {% for ingrediente in guarnicao['ingredientes'] %}
+                    <li>{{ ingrediente }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Salada</h2>
+            <p>{{ salada['nome'] }}</p>
+            <h3>Ingredientes:</h3>
+            <ul>
+                {% for ingrediente in salada['ingredientes'] %}
+                    <li>{{ ingrediente }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <a href="/" class="btn">Gerar Novo Cardápio</a>
+    </div>
+</body>
+</html>
