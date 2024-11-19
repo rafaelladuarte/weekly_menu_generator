@@ -1,0 +1,36 @@
+{
+  "pratos_principais": [
+    {
+      "nome": "Frango Cremoso",
+      "ingredientes": ["Frango", "Creme de Leite", "Alho", "Cebola", "Temperos diversos"]
+    },
+    {
+      "nome": "Almôndega de Carne Bovina ao Sugo",
+      "ingredientes": ["Carne Bovina Moída", "Cebola", "Alho", "Tomate", "Molho de Tomate", "Ovo", "Farinha de Trigo", "Queijo Ralado"]
+    },
+    {
+      "nome": "Bife de Panela",
+      "ingredientes": ["Carne de Bife", "Alho", "Cebola", "Tomate", "Água", "Tempero a gosto"]
+    },
+    {
+      "nome": "Filé de Frango ao Molho de Açafrão",
+      "ingredientes": ["Filé de Frango", "Açafrão", "Creme de Leite", "Alho", "Cebola", "Óleo ou Manteiga"]
+    },
+    {
+      "nome": "Filé de Peixe à Milanesa",
+      "ingredientes": ["Filé de Peixe", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Quibe Recheado com Molho Branco e Mussarela",
+      "ingredientes": ["Carne Moída", "Trigo para Quibe", "Mussarela", "Cebola", "Alho", "Temperos diversos", "Molho Branco"]
+    },
+    {
+      "nome": "Coxa e Sobrecoxa Assada",
+      "ingredientes": ["Coxa e Sobrecoxa de Frango", "Alho", "Limão", "Temperos diversos", "Óleo ou Azeite"]
+    },
+    {
+      "nome": "Galinhada",
+      "ingredientes": ["Frango", "Arroz", "Cebola", "Alho", "Pimentão", "Temperos diversos", "Azeite"]
+    }
+  ]
+}
