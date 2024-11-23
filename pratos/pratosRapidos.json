@@ -1,0 +1,53 @@
+{
+    "pratos": [
+      {
+        "nome": "Pão Francês com Ovos Mexidos",
+        "ingredientes": ["Pão Francês", "Ovos", "Manteiga", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Wrap de Peito de Peru com Alface e Creme de Ricota",
+        "ingredientes": ["Wrap", "Peito de Peru", "Alface", "Creme de Ricota", "Tomate"]
+      },
+      {
+        "nome": "Omelete com Vegetais",
+        "ingredientes": ["Ovo", "Espinafre", "Cebola", "Tomate", "Pimentão", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Tapioca com Frango Desfiado e Queijo Cottage",
+        "ingredientes": ["Goma de Tapioca", "Frango Desfiado", "Queijo Cottage", "Salsa", "Sal"]
+      },
+      {
+        "nome": "Wrap de Frango Desfiado com Alface e Tomate",
+        "ingredientes": ["Wrap", "Frango Desfiado", "Alface", "Tomate", "Maionese", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Frango Grelhado com Batata Doce e Brócolis",
+        "ingredientes": ["Peito de Frango", "Batata Doce", "Brócolis", "Azeite", "Alho", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Batata Recheada",
+        "ingredientes": ["Batata", "Queijo Ralado", "Creme de Leite", "Bacon", "Cebolinha", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Pão Pizza",
+        "ingredientes": ["Pão", "Molho de Tomate", "Queijo Mussarela", "Tomate", "Orégano", "Azeite"]
+      },
+      {
+        "nome": "Cone de Carne",
+        "ingredientes": ["Massa de Cone", "Carne Moída", "Queijo Mussarela", "Alface", "Tomate", "Molho"]
+      },
+      {
+        "nome": "Rapizza de Ovos e Queijo",
+        "ingredientes": ["Wrap", "Ovos", "Queijo Mussarela", "Tomate", "Orégano", "Azeite"]
+      },
+      {
+        "nome": "Nuggets Caseiro",
+        "ingredientes": ["Frango Moído", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar", "Sal", "Pimenta do Reino"]
+      },
+      {
+        "nome": "Sanduíche Natural de Pão de Francês",
+        "ingredientes": ["Pão de Francês", "Peito de Peru", "Alface", "Tomate", "Maionese", "Queijo"]
+      }
+    ]
+  }
+  

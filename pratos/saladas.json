@@ -31,6 +31,10 @@
     {
       "nome": "Mix de Folhas com Abacaxi",
       "ingredientes": ["Folhas Verdes (Alface, Rúcula)", "Abacaxi", "Azeite", "Sal", "Vinagre"]
+    },
+    {
+      "nome": "Couve e Laranja",
+       "ingredientes": ["Couve", "Laranja"]
     }
   ]
 }

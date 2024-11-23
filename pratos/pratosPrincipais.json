@@ -29,8 +29,48 @@
       "ingredientes": ["Coxa e Sobrecoxa de Frango", "Alho", "Limão", "Temperos diversos", "Óleo ou Azeite"]
     },
     {
-      "nome": "Galinhada",
-      "ingredientes": ["Frango", "Arroz", "Cebola", "Alho", "Pimentão", "Temperos diversos", "Azeite"]
+      "nome": "Frango à Parmegiana",
+      "ingredientes": ["Filé de Frango", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Molho de Tomate", "Queijo Mussarela", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Frango Xadrez",
+      "ingredientes": ["Peito de Frango", "Pimentão", "Cebola", "Molho de Soja", "Amendoim", "Cenoura", "Óleo de Gergelim"]
+    },
+    {
+      "nome": "Frango Empanado",
+      "ingredientes": ["Filé de Frango", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Strogonoff de Frango",
+      "ingredientes": ["Peito de Frango", "Creme de Leite", "Molho de Tomate", "Mostarda", "Ketchup", "Champignon"]
+    },
+    {
+      "nome": "Frango Grelhado",
+      "ingredientes": ["Filé de Frango", "Azeite", "Sal", "Pimenta do Reino", "Alho"]
+    },
+    {
+      "nome": "Frango Assado com Ervas",
+      "ingredientes": ["Frango Inteiro", "Alho", "Alecrim", "Tomilho", "Sal", "Azeite", "Limão"]
+    },
+    {
+      "nome": "Frango a Passarinho",
+      "ingredientes": ["Frango Cortado em Pedaços Pequenos", "Alho", "Sal", "Pimenta do Reino", "Limão", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Lombo a Molho Barbecue",
+      "ingredientes": ["Lombo de Porco", "Molho Barbecue", "Alho", "Sal", "Pimenta do Reino", "Azeite"]
+    },
+    {
+      "nome": "Pernil Assado a Molho Madeira",
+      "ingredientes": ["Pernil de Porco", "Molho Madeira", "Alho", "Cebola", "Vinho Tinto", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Picadinho de Pernil ao Cubo",
+      "ingredientes": ["Pernil de Porco em Cubos", "Cebola", "Alho", "Pimentão", "Tomate", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Frango com Legumes ao Forno",
+      "ingredientes": ["Coxa e Sobrecoxa de Frango", "Batata", "Cenoura", "Pimentão", "Cebola", "Alho", "Azeite", "Ervas Aromáticas"]
     }
   ]
 }

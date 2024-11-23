@@ -1,36 +1,112 @@
 {
   "guarnicoes": [
     {
-      "nome": "Batata Palito Cozida",
-      "ingredientes": ["Batata", "Sal", "Água"]
-    },
-    {
       "nome": "Macarrão à Primavera",
-      "ingredientes": ["Macarrão", "Cebola", "Alho", "Pimentão", "Tomate", "Azeite"]
+      "ingredientes": ["Macarrão", "Cebola", "Alho", "Pimentão", "Tomate", "Azeite", "Sal", "Pimenta-do-reino", "Manjericão fresco"]
     },
     {
       "nome": "Mandioca Amanteigada",
-      "ingredientes": ["Mandioca", "Manteiga", "Sal", "Alho"]
+      "ingredientes": ["Mandioca", "Manteiga", "Sal", "Alho", "Salsinha picada"]
     },
     {
       "nome": "Repolho Refogado",
-      "ingredientes": ["Repolho", "Cebola", "Óleo ou Azeite", "Alho", "Sal"]
-    },
-    {
-      "nome": "Purê de Batata",
-      "ingredientes": ["Batata", "Leite", "Manteiga", "Sal"]
+      "ingredientes": ["Repolho", "Cebola", "Óleo ou Azeite", "Alho", "Sal", "Pimenta-do-reino"]
     },
     {
       "nome": "Chuchu Refogado",
-      "ingredientes": ["Chuchu", "Cebola", "Alho", "Óleo", "Sal"]
+      "ingredientes": ["Chuchu", "Cebola", "Alho", "Óleo", "Sal", "Salsinha picada"]
     },
     {
-      "nome": "Seleta de Legumes (Abobrinha, Vagem e Ervilha)",
-      "ingredientes": ["Abobrinha", "Vagem", "Ervilha", "Sal", "Óleo"]
+      "nome": "Seleta de Legumes",
+      "ingredientes": ["Abobrinha", "Vagem", "Ervilha", "Cenoura", "Milho", "Sal", "Óleo", "Pimenta-do-reino"]
     },
     {
       "nome": "Creme de Milho",
-      "ingredientes": ["Milho", "Creme de Leite", "Manteiga", "Sal"]
+      "ingredientes": ["Milho", "Creme de Leite", "Manteiga", "Sal", "Cebola", "Leite", "Amido de Milho"]
+    },
+    {
+      "nome": "Farofa Confete",
+      "ingredientes": [
+        "Cenoura", "Farinha de mandioca", "Farinha de milho",
+        "Ervilha conserva", "Milho conserva", "Óleo",
+        "Margarina", "Cebola", "Alho", "Açafrão", "Sal", "Salsinha picada"
+      ]
+    },
+    {
+      "nome": "Purê de Batata Doce",
+      "ingredientes": ["Batata Doce", "Leite", "Manteiga", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Batata Doce Rústica",
+      "ingredientes": ["Batata Doce", "Azeite", "Sal", "Alecrim", "Pimenta-do-reino", "Alho"]
+    },
+    {
+      "nome": "Batata Inglesa Cozida",
+      "ingredientes": ["Batata", "Sal", "Água", "Salsinha picada", "Manteiga"]
+    },
+    {
+      "nome": "Batata Inglesa Rústica",
+      "ingredientes": ["Batata Inglesa", "Azeite", "Sal", "Alecrim", "Pimenta-do-reino", "Alho"]
+    },
+    {
+      "nome": "Purê de Batata Inglesa",
+      "ingredientes": ["Batata Inglesa", "Leite", "Manteiga", "Sal", "Noz-moscada"]
+    },
+    {
+      "nome": "Batata Inglesa Gratinada",
+      "ingredientes": ["Batata Inglesa", "Creme de Leite", "Queijo Parmesão", "Manteiga", "Alho", "Sal", "Pimenta-do-reino", "Noz-moscada"]
+    },
+    {
+      "nome": "Purê de Abóbora Cabotiá",
+      "ingredientes": ["Abóbora Cabotiá", "Manteiga", "Creme de Leite", "Sal", "Noz-moscada"]
+    },
+    {
+      "nome": "Abóbora Cabotiá Refogada",
+      "ingredientes": ["Abóbora Cabotiá", "Alho", "Cebola", "Azeite", "Sal", "Pimenta-do-reino", "Salsinha picada"]
+    },
+    {
+      "nome": "Abobrinha Italiana Refogada",
+      "ingredientes": ["Abobrinha", "Cebola", "Alho", "Azeite", "Sal", "Pimenta-do-reino", "Orégano"]
+    },
+    {
+      "nome": "Salada de Batata com Maionese",
+      "ingredientes": ["Batata", "Maionese", "Cenoura", "Ervilha", "Cebola", "Salsinha", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Couve Refogada com Bacon",
+      "ingredientes": ["Couve", "Bacon", "Alho", "Óleo", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Purê de Mandioca",
+      "ingredientes": ["Mandioca", "Leite", "Manteiga", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Batata Inglesa Saúte",
+      "ingredientes": ["Batata Inglesa", "Manteiga", "Alho", "Sal", "Salsinha picada"]
+    },
+    {
+      "nome": "Berinjela à Milanesa",
+      "ingredientes": ["Berinjela", "Farinha de Rosca", "Ovo", "Farinha de Trigo", "Sal", "Pimenta-do-reino", "Óleo para fritar"]
+    },
+    {
+      "nome": "Virado de Abobrinha",
+      "ingredientes": ["Abobrinha", "Farinha de Mandioca", "Alho", "Cebola", "Óleo", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Virado de Couve",
+      "ingredientes": ["Couve", "Farinha de Mandioca", "Alho", "Óleo", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Virado de Repolho",
+      "ingredientes": ["Repolho", "Farinha de Mandioca", "Alho", "Óleo", "Sal", "Pimenta-do-reino"]
+    },
+    {
+      "nome": "Milho Refogado",
+      "ingredientes": ["Milho", "Manteiga", "Cebola", "Sal", "Pimenta-do-reino", "Salsinha picada"]
+    },
+    {
+      "nome": "Couve-flor Gratinada",
+      "ingredientes": ["Couve-flor", "creme de leite", "queijo parmesão", "manteiga", "sal", "pimenta-do-reino"]
     }
   ]
 }
