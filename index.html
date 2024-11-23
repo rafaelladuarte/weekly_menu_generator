@@ -4,85 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Cardápio Aleatório</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 30px;
-        }
-        .cardapio {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-top: 20px;
-            display: inline-block;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-        .cardapio h2 {
-            margin: 10px 0;
-            color: #333;
-        }
-        button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        #resultado {
-            display: none;
-        }
-        select {
-            padding: 10px;
-            margin-top: 10px;
-            font-size: 16px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="script.js"></script>
 
     <h1>Gerador de Cardápio Aleatório</h1>
     <p>Escolha o tipo de refeição:</p>
 
     <!-- Selecção de tipo de refeição -->
     <select id="tipoRefeicao">
-        <option value="completa">Completa</option>
-        <option value="rapido">Rápida</option>
+        <option value="completo">Completo</option>
+        <option value="rapido">Rápido</option>
     </select>
 
     <p>Clique no botão abaixo para gerar o cardápio baseado na sua escolha.</p>
 
     <button onclick="gerarCardapio()">Gerar Cardápio</button>
+    <br>
 
-    <div id="resultado" class="cardapio">
-        <h2>Prato Principal: <span id="prato-principal"></span></h2>
-        <h2>Guarnição: <span id="guarnicao"></span></h2>
-        <h2>Salada: <span id="salada"></span></h2>
-        <h2 id="prato-rapido" style="display: none;"></h2>
+    <!-- Resultado para pratos completos -->
+    <div id="resultado-completo" class="cardapio">
+        <h2>Prato Completo</h2>
+        <h3>Prato Principal: <span id="prato-principal"></span></h3>
+        <h3>Guarnição: <span id="guarnicao"></span></h3>
+        <h3>Salada: <span id="salada"></span></h3>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Resultado para pratos rápidos -->
+    <div id="resultado-rapido" class="cardapio">
+        <h2>Prato Rápido</h2>
+        <h3>Prato: <span id="prato-rapido"></span></h3>
+    </div>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-    "pratos": [
+    "pratos_rapidos": [
       {
         "nome": "Pão Francês com Ovos Mexidos",
         "ingredientes": ["Pão Francês", "Ovos", "Manteiga", "Sal", "Pimenta do Reino"]

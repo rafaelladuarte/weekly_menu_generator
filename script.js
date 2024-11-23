@@ -19,10 +19,10 @@ async function carregarJSONs() {
         const saladasData = await saladasResponse.json();
 
         // Atribuindo os dados aos arrays
-        pratosRapidos = rapidosData.pratos_rapidos;
-        pratosPrincipais = pratosData.pratos_principais;
-        guarnicoes = guarnicoesData.guarnicoes;
-        saladas = saladasData.saladas;
+        pratosRapidos = rapidosData.pratos_rapidos || [];
+        pratosPrincipais = pratosData.pratos_principais || [];
+        guarnicoes = guarnicoesData.guarnicoes || [];
+        saladas = saladasData.saladas || [];
 
     } catch (error) {
         console.error("Erro ao carregar os JSONs:", error);
@@ -31,15 +31,29 @@ async function carregarJSONs() {
 
 // Função para gerar cardápio aleatório
 async function gerarCardapio() {
-    if (pratosPrincipais.length === 0 || guarnicoes.length === 0 || saladas.length === 0 || pratosRapidos.length === 0) {
-        // Espera o carregamento dos JSONs se ainda não estiverem carregados
+    // Verifique se os JSONs foram carregados corretamente antes de tentar acessar os dados
+    if (!pratosPrincipais || !guarnicoes || !saladas || !pratosRapidos) {
         await carregarJSONs();
     }
+
+    // Certifique-se de que os arrays estão corretamente carregados
+    if (
+        !Array.isArray(pratosPrincipais) || !Array.isArray(guarnicoes) ||
+        !Array.isArray(saladas) || !Array.isArray(pratosRapidos)
+    ) {
+        alert("Erro ao carregar dados para gerar o cardápio.");
+        return;
+    }
+
 
     // Obtendo o tipo de refeição selecionado
     const tipoRefeicao = document.getElementById("tipoRefeicao").value;
 
-    if (tipoRefeicao === "completa") {
+    // Reseta as exibições
+    document.getElementById("resultado-completo").style.display = "none";
+    document.getElementById("resultado-rapido").style.display = "none";
+
+    if (tipoRefeicao === "completo") {
         // Gerar refeição completa (prato principal, guarnição e salada)
         const pratoAleatorio = pratosPrincipais[Math.floor(Math.random() * pratosPrincipais.length)];
         const guarnicaoAleatoria = guarnicoes[Math.floor(Math.random() * guarnicoes.length)];
@@ -49,13 +63,16 @@ async function gerarCardapio() {
         document.getElementById("guarnicao").innerText = guarnicaoAleatoria.nome;
         document.getElementById("salada").innerText = saladaAleatoria.nome;
 
-        document.getElementById("resultado").style.display = "block";
+        // Exibe a seção de pratos completos
+        document.getElementById("resultado-completo").style.display = "inline-block";
     } else if (tipoRefeicao === "rapido") {
         // Gerar refeição rápida (prato rápido)
         const pratoRapidoAleatorio = pratosRapidos[Math.floor(Math.random() * pratosRapidos.length)];
 
         document.getElementById("prato-rapido").innerText = pratoRapidoAleatorio.nome;
-        document.getElementById("resultado").style.display = "block";
+
+        // Exibe a seção de pratos rápidos
+        document.getElementById("resultado-rapido").style.display = "inline-block";
     }
 }
 
