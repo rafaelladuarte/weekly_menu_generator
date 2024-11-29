@@ -10,11 +10,7 @@
       },
       {
         "nome": "Omelete com Vegetais",
-        "ingredientes": ["Ovo", "Espinafre", "Cebola", "Tomate", "Pimentão", "Sal", "Pimenta do Reino"]
-      },
-      {
-        "nome": "Tapioca com Frango Desfiado e Queijo Cottage",
-        "ingredientes": ["Goma de Tapioca", "Frango Desfiado", "Queijo Cottage", "Salsa", "Sal"]
+        "ingredientes": ["Ovo", "Mussarela", "Cebola", "Tomate Cereja", "Sal", "Pimenta do Reino"]
       },
       {
         "nome": "Wrap de Frango Desfiado com Alface e Tomate",
@@ -45,9 +41,24 @@
         "ingredientes": ["Frango Moído", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar", "Sal", "Pimenta do Reino"]
       },
       {
-        "nome": "Sanduíche Natural de Pão de Francês",
-        "ingredientes": ["Pão de Francês", "Peito de Peru", "Alface", "Tomate", "Maionese", "Queijo"]
+        "nome": "Sanduíche Natural de Peito de Peru",
+        "ingredientes": ["Pão de Forma", "Peito de Peru", "Alface", "Tomate", "Maionese", "Queijo"]
+      },
+      {
+        "nome": "Crepioca com Requeijão Cremoso e Peito de Peru",
+        "ingredientes": ["Ovo", "Tapioca", "Peito de Peru", "Requeijão Cremoso"]
+      },
+      {
+        "nome": "X-Tudo Caseiro",
+        "ingredientes": [
+          "Pão de Hamburguer", "Hamburguer", "Mussarela",
+          "Alface", "Tomate", "Ovo Frito", "Peito de Peru"
+        ]
+      },
+      {
+        "nome": "Panqueca de Carne",
+        "ingredientes": [""]
       }
     ]
   }
-  
+

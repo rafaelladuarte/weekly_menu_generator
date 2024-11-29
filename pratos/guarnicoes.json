@@ -107,6 +107,54 @@
     {
       "nome": "Couve-flor Gratinada",
       "ingredientes": ["Couve-flor", "creme de leite", "queijo parmesão", "manteiga", "sal", "pimenta-do-reino"]
+    },
+    {
+      "nome": "Caponata de Berinjela",
+      "ingredientes": ["Berinjela", "Pimentão", "Cebola", "Alho", "Azeitonas", "Azeite", "Vinagre", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Batata Frita",
+      "ingredientes": ["Batata", "Óleo para Fritar", "Sal"]
+    },
+    {
+      "nome": "Sunomono",
+      "ingredientes": ["Pepino Japonês", "Vinagre de Arroz", "Açúcar", "Gergelim", "Sal"]
+    },
+    {
+      "nome": "Banana Frita",
+      "ingredientes": ["Banana", "Óleo para Fritar", "Açúcar", "Canela em Pó"]
+    },
+    {
+      "nome": "Ratatouille",
+      "ingredientes": ["Berinjela", "Abobrinha", "Pimentão", "Tomate", "Cebola", "Alho", "Azeite", "Ervas de Provence", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Brócolis Refogado",
+      "ingredientes": ["Brócolis", "Alho", "Azeite", "Sal"]
+    },
+    {
+      "nome": "Brócolis Gratinado",
+      "ingredientes": ["Brócolis", "Molho Branco", "Queijo Mussarela", "Queijo Parmesão", "Sal"]
+    },
+    {
+      "nome": "Mandioca Frita",
+      "ingredientes": ["Mandioca", "Óleo para Fritar", "Sal"]
+    },
+    {
+      "nome": "Guacamole",
+      "ingredientes": ["Abacate", "Cebola", "Tomate", "Coentro", "Suco de Limão", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Berinjela Recheada",
+      "ingredientes": ["Berinjela", "Carne Moída ou Vegetais", "Cebola", "Alho", "Molho de Tomate", "Queijo Ralado", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Tomate Recheado",
+      "ingredientes": ["Tomate", "Carne Moída ou Ricota", "Cebola", "Alho", "Queijo Ralado", "Azeite", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Souflé de Legumes",
+      "ingredientes": ["Legumes Variados", "Ovos", "Farinha de Trigo", "Leite", "Queijo Ralado", "Manteiga", "Sal", "Pimenta do Reino"]
     }
   ]
 }

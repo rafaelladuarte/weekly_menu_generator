@@ -5,26 +5,6 @@
       "ingredientes": ["Frango", "Creme de Leite", "Alho", "Cebola", "Temperos diversos"]
     },
     {
-      "nome": "Almôndega de Carne Bovina ao Sugo",
-      "ingredientes": ["Carne Bovina Moída", "Cebola", "Alho", "Tomate", "Molho de Tomate", "Ovo", "Farinha de Trigo", "Queijo Ralado"]
-    },
-    {
-      "nome": "Bife de Panela",
-      "ingredientes": ["Carne de Bife", "Alho", "Cebola", "Tomate", "Água", "Tempero a gosto"]
-    },
-    {
-      "nome": "Filé de Frango ao Molho de Açafrão",
-      "ingredientes": ["Filé de Frango", "Açafrão", "Creme de Leite", "Alho", "Cebola", "Óleo ou Manteiga"]
-    },
-    {
-      "nome": "Filé de Peixe à Milanesa",
-      "ingredientes": ["Filé de Peixe", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
-    },
-    {
-      "nome": "Quibe Recheado com Molho Branco e Mussarela",
-      "ingredientes": ["Carne Moída", "Trigo para Quibe", "Mussarela", "Cebola", "Alho", "Temperos diversos", "Molho Branco"]
-    },
-    {
       "nome": "Coxa e Sobrecoxa Assada",
       "ingredientes": ["Coxa e Sobrecoxa de Frango", "Alho", "Limão", "Temperos diversos", "Óleo ou Azeite"]
     },
@@ -37,7 +17,7 @@
       "ingredientes": ["Peito de Frango", "Pimentão", "Cebola", "Molho de Soja", "Amendoim", "Cenoura", "Óleo de Gergelim"]
     },
     {
-      "nome": "Frango Empanado",
+      "nome": "Frango a Milanesa",
       "ingredientes": ["Filé de Frango", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
     },
     {
@@ -49,12 +29,108 @@
       "ingredientes": ["Filé de Frango", "Azeite", "Sal", "Pimenta do Reino", "Alho"]
     },
     {
-      "nome": "Frango Assado com Ervas",
+      "nome": "Frango Assado com Ervas e Batata",
       "ingredientes": ["Frango Inteiro", "Alho", "Alecrim", "Tomilho", "Sal", "Azeite", "Limão"]
     },
     {
-      "nome": "Frango a Passarinho",
+      "nome": "Frango a Passarinho com Cebola",
       "ingredientes": ["Frango Cortado em Pedaços Pequenos", "Alho", "Sal", "Pimenta do Reino", "Limão", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Filé de Frango ao Molho de Açafrão",
+      "ingredientes": ["Filé de Frango", "Açafrão", "Creme de Leite", "Alho", "Cebola", "Óleo ou Manteiga"]
+    },
+    {
+      "nome": "Lasanha de Frango",
+      "ingredientes": ["Massa para Lasanha", "Frango Desfiado", "Molho de Tomate", "Molho Branco", "Queijo Mussarela", "Queijo Parmesão", "Cebola", "Alho"]
+    },
+    {
+      "nome": "Fricassê",
+      "ingredientes": ["Frango Desfiado", "Milho", "Creme de Leite", "Requeijão", "Cebola", "Batata Palha", "Queijo Mussarela"]
+    },
+    {
+      "nome": "Escondidinho de Frango",
+      "ingredientes": ["Frango Desfiado", "Purê de Batata", "Requeijão", "Queijo Mussarela", "Alho", "Cebola"]
+    },
+    {
+      "nome": "Frango com Legumes",
+      "ingredientes": ["Peito de Frango", "Cenoura", "Abobrinha", "Brócolis", "Cebola", "Alho", "Azeite", "Sal"]
+    },
+    {
+      "nome": "Frango Teriyaki",
+      "ingredientes": ["Peito de Frango", "Molho Teriyaki", "Gergelim", "Cebolinha", "Azeite"]
+    },
+    {
+      "nome": "Frango ao Molho Curry",
+      "ingredientes": ["Peito de Frango", "Curry", "Leite de Coco", "Alho", "Cebola", "Azeite", "Sal"]
+    },
+    {
+      "nome": "Frango ao Molho Mostarda",
+      "ingredientes": ["Filé de Frango", "Mostarda Dijon", "Creme de Leite", "Cebola", "Alho", "Azeite"]
+    },
+    {
+      "nome": "Galinha Caipira",
+      "ingredientes": ["Frango Caipira", "Cebola", "Alho", "Tomate", "Pimentão", "Colorau", "Coentro"]
+    },
+    {
+      "nome": "Linguiça de Frango",
+      "ingredientes": []
+    },
+    {
+      "nome": "Almôndegas",
+      "ingredientes": ["Carne Bovina Moída", "Cebola", "Alho", "Tomate", "Molho de Tomate", "Ovo", "Farinha de Trigo", "Queijo Ralado"]
+    },
+    {
+      "nome": "Carne de Panela com Batata",
+      "ingredientes": ["Carne de Bife", "Alho", "Cebola", "Tomate", "Água", "Tempero a gosto"]
+    },
+    {
+      "nome": "Bife ao Molho Barbecue",
+      "ingredientes": ["Bife de Contrafilé", "Molho Barbecue", "Alho", "Cebola"]
+    },
+    {
+      "nome": "Bife à Milanesa",
+      "ingredientes": ["Bife de Contra-filé", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Bife à Parmegiana",
+      "ingredientes": ["Bife à Milanesa", "Molho de Tomate", "Queijo Mussarela", "Queijo Parmesão"]
+    },
+    {
+      "nome": "Bife de Fígado Acebolado",
+      "ingredientes": ["Bife de Fígado", "Cebola", "Alho", "Sal", "Pimenta do Reino", "Óleo ou Manteiga"]
+    },
+    {
+      "nome": "Picadinho de Carne",
+      "ingredientes": ["Carne em Cubos", "Cebola", "Alho", "Tomate", "Cenoura", "Ervilha", "Batata", "Sal", "Pimenta"]
+    },
+    {
+      "nome": "Carne Moída",
+      "ingredientes": ["Carne Moída", "Cebola", "Alho", "Tomate", "Sal", "Pimenta"]
+    },
+    {
+      "nome": "Vaca Atolada",
+      "ingredientes": ["Costela Bovina", "Mandioca", "Cebola", "Alho", "Tomate", "Pimentão"]
+    },
+    {
+      "nome": "Bife Wellington",
+      "ingredientes": ["Filé Mignon", "Massa Folhada", "Cogumelos", "Presunto Cru", "Mostarda Dijon", "Gema de Ovo"]
+    },
+    {
+      "nome": "Escondidinho de Carne Moída",
+      "ingredientes": ["Carne Moída", "Purê de Mandioca", "Queijo Mussarela", "Cebola", "Alho"]
+    },
+    {
+      "nome": "Rocambole de Carne Moída Recheado",
+      "ingredientes": ["Carne Moída", "Queijo Mussarela", "Presunto", "Cebola", "Alho", "Farinha de Rosca", "Ovo"]
+    },
+    {
+      "nome": "Filé de Peixe à Milanesa",
+      "ingredientes": ["Filé de Peixe", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+    },
+    {
+      "nome": "Quibe Recheado com Molho Branco e Mussarela",
+      "ingredientes": ["Carne Moída", "Trigo para Quibe", "Mussarela", "Cebola", "Alho", "Temperos diversos", "Molho Branco"]
     },
     {
       "nome": "Lombo a Molho Barbecue",
@@ -69,8 +145,16 @@
       "ingredientes": ["Pernil de Porco em Cubos", "Cebola", "Alho", "Pimentão", "Tomate", "Sal", "Pimenta do Reino"]
     },
     {
-      "nome": "Frango com Legumes ao Forno",
-      "ingredientes": ["Coxa e Sobrecoxa de Frango", "Batata", "Cenoura", "Pimentão", "Cebola", "Alho", "Azeite", "Ervas Aromáticas"]
+      "nome": "Costelinha Suína Caramelizada",
+      "ingredientes": ["Costelinha Suína", "Açúcar Mascavo", "Molho de Soja", "Alho", "Cebola", "Mel", "Vinagre", "Sal", "Pimenta do Reino", "Óleo"]
+    },
+    {
+      "nome": "Filé de Porco ao Molho de Laranja e Gengibre",
+      "ingredientes": ["Filé de Porco", "Laranja", "Gengibre", "Alho", "Cebola", "Mel", "Azeite", "Sal", "Pimenta do Reino"]
+    },
+    {
+      "nome": "Bisteca de Porco Grelhada",
+      "ingredientes": ["Bisteca de Porco", "Alho", "Limão", "Sal", "Pimenta do Reino", "Azeite"]
     }
   ]
 }
