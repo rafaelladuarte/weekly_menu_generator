@@ -2,159 +2,666 @@
   "pratos_principais": [
     {
       "nome": "Frango Cremoso",
-      "ingredientes": ["Frango", "Creme de Leite", "Alho", "Cebola", "Temperos diversos"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Frango": "500 gramas",
+        "Creme de Leite": "1 caixinha",
+        "Alho": "2 dentes",
+        "Cebola": "1 unidade",
+        "Temperos diversos": "a gosto"
+      },
+      "receita": [
+        "Tempere o frango com os temperos de sua preferência e reserve.",
+        "Em uma panela, aqueça um fio de óleo e refogue o alho e a cebola até dourarem.",
+        "Adicione o frango e cozinhe até dourar.",
+        "Acrescente o creme de leite, misture bem e cozinhe por mais 5 minutos.",
+        "Sirva acompanhado de arroz ou purê de batatas."
+      ]
     },
     {
       "nome": "Coxa e Sobrecoxa Assada",
-      "ingredientes": ["Coxa e Sobrecoxa de Frango", "Alho", "Limão", "Temperos diversos", "Óleo ou Azeite"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Coxa e Sobrecoxa de Frango": "1kg",
+        "Alho": "3 dentes",
+        "Limão": "1 unidade",
+        "Temperos diversos": "a gosto",
+        "Óleo ou Azeite": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere as coxas e sobrecoxas com o alho, suco de limão e temperos de sua preferência.",
+        "Deixe marinar por pelo menos 30 minutos.",
+        "Pré-aqueça o forno a 200°C.",
+        "Coloque o frango em uma assadeira, regue com óleo ou azeite e cubra com papel-alumínio.",
+        "Asse por 40 minutos, retire o papel e deixe dourar por mais 20 minutos."
+      ]
     },
     {
       "nome": "Frango à Parmegiana",
-      "ingredientes": ["Filé de Frango", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Molho de Tomate", "Queijo Mussarela", "Óleo para Fritar"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé de Frango": "4 unidades",
+        "Farinha de Trigo": "1 xícara",
+        "Ovo": "2 unidades",
+        "Farinha de Rosca": "1 xícara",
+        "Molho de Tomate": "2 xícaras",
+        "Queijo Mussarela": "200g",
+        "Óleo para Fritar": "suficiente para fritar"
+      },
+      "receita": [
+        "Tempere os filés de frango com sal e pimenta.",
+        "Passe cada filé na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+        "Aqueça o óleo e frite os filés até ficarem dourados. Escorra em papel-toalha.",
+        "Em uma assadeira, coloque os filés, cubra com o molho de tomate e finalize com o queijo mussarela.",
+        "Leve ao forno preaquecido a 180°C até o queijo derreter e dourar."
+      ]
     },
     {
       "nome": "Frango Xadrez",
-      "ingredientes": ["Peito de Frango", "Pimentão", "Cebola", "Molho de Soja", "Amendoim", "Cenoura", "Óleo de Gergelim"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Peito de Frango": "400g em cubos",
+        "Pimentão": "1 unidade de cada cor (verde, vermelho, amarelo)",
+        "Cebola": "1 unidade grande",
+        "Molho de Soja": "1/4 de xícara",
+        "Amendoim": "1/2 xícara",
+        "Cenoura": "1 unidade média em rodelas",
+        "Óleo de Gergelim": "1 colher de sopa"
+      },
+      "receita": [
+        "Aqueça o óleo de gergelim em uma panela wok ou frigideira.",
+        "Adicione o frango e doure bem. Retire e reserve.",
+        "Na mesma panela, refogue os pimentões, a cebola e a cenoura por 3 minutos.",
+        "Volte o frango para a panela, adicione o molho de soja e misture bem.",
+        "Finalize com o amendoim e sirva quente, acompanhado de arroz."
+      ]
     },
     {
-      "nome": "Frango a Milanesa",
-      "ingredientes": ["Filé de Frango", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+      "nome": "Frango à Milanesa",
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé de Frango": "4 unidades",
+        "Farinha de Trigo": "1 xícara",
+        "Ovo": "2 unidades",
+        "Farinha de Rosca": "1 xícara",
+        "Óleo para Fritar": "suficiente para fritar"
+      },
+      "receita": [
+        "Tempere os filés de frango com sal e pimenta.",
+        "Passe cada filé na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+        "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados.",
+        "Escorra em papel-toalha e sirva com limão ou o acompanhamento de sua preferência."
+      ]
     },
     {
       "nome": "Strogonoff de Frango",
-      "ingredientes": ["Peito de Frango", "Creme de Leite", "Molho de Tomate", "Mostarda", "Ketchup", "Champignon"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Peito de Frango": "500g em cubos",
+        "Creme de Leite": "1 caixinha",
+        "Molho de Tomate": "1/2 xícara",
+        "Mostarda": "1 colher de sopa",
+        "Ketchup": "2 colheres de sopa",
+        "Champignon": "1/2 xícara"
+      },
+      "receita": [
+        "Em uma panela, aqueça um fio de óleo e refogue o frango até dourar.",
+        "Adicione o molho de tomate, mostarda e ketchup. Misture bem e cozinhe por 5 minutos.",
+        "Acrescente o champignon e o creme de leite, mexendo até incorporar.",
+        "Sirva quente com arroz e batata palha."
+      ]
     },
     {
       "nome": "Frango Grelhado",
-      "ingredientes": ["Filé de Frango", "Azeite", "Sal", "Pimenta do Reino", "Alho"]
+      "verificado": false,
+      "porção": 2,
+      "ingredientes": {
+        "Filé de Frango": "2 unidades",
+        "Azeite": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Alho": "1 dente picado"
+      },
+      "receita": [
+        "Tempere os filés de frango com sal, pimenta e alho.",
+        "Aqueça uma frigideira com azeite em fogo médio.",
+        "Grelhe os filés por 3-4 minutos de cada lado ou até estarem cozidos e dourados.",
+        "Sirva acompanhado de salada ou legumes grelhados."
+      ]
     },
     {
       "nome": "Frango Assado com Ervas e Batata",
-      "ingredientes": ["Frango Inteiro", "Alho", "Alecrim", "Tomilho", "Sal", "Azeite", "Limão"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Frango Inteiro": "1 unidade (aproximadamente 1.5kg)",
+        "Alho": "4 dentes picados",
+        "Alecrim": "2 ramos",
+        "Tomilho": "2 ramos",
+        "Sal": "a gosto",
+        "Azeite": "3 colheres de sopa",
+        "Limão": "1 unidade"
+      },
+      "receita": [
+        "Tempere o frango com sal, alho, azeite, suco de limão e as ervas. Deixe marinar por 1 hora.",
+        "Pré-aqueça o forno a 200°C.",
+        "Coloque o frango em uma assadeira e distribua batatas cortadas em pedaços ao redor.",
+        "Cubra com papel-alumínio e asse por 1 hora. Retire o papel e deixe dourar por mais 30 minutos.",
+        "Sirva quente acompanhado das batatas."
+      ]
     },
     {
-      "nome": "Frango a Passarinho com Cebola",
-      "ingredientes": ["Frango Cortado em Pedaços Pequenos", "Alho", "Sal", "Pimenta do Reino", "Limão", "Óleo para Fritar"]
+      "nome": "Frango à Passarinho com Cebola",
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Frango Cortado em Pedaços Pequenos": "1kg",
+        "Alho": "3 dentes picados",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Limão": "1 unidade",
+        "Óleo para Fritar": "suficiente para fritar"
+      },
+      "receita": [
+        "Tempere o frango com alho, sal, pimenta e suco de limão. Deixe marinar por 30 minutos.",
+        "Aqueça o óleo em uma panela funda.",
+        "Frite o frango em pequenas porções até dourar e ficar crocante.",
+        "Sirva com rodelas de cebola crua ou refogada, a gosto."
+      ]
     },
     {
       "nome": "Filé de Frango ao Molho de Açafrão",
-      "ingredientes": ["Filé de Frango", "Açafrão", "Creme de Leite", "Alho", "Cebola", "Óleo ou Manteiga"]
+      "verificado": false,
+      "porção": 2,
+      "ingredientes": {
+        "Filé de Frango": "2 unidades",
+        "Açafrão": "1 colher de chá",
+        "Creme de Leite": "1 caixinha",
+        "Alho": "1 dente picado",
+        "Cebola": "1/2 unidade picada",
+        "Óleo ou Manteiga": "1 colher de sopa"
+      },
+      "receita": [
+        "Tempere os filés de frango com sal e pimenta.",
+        "Em uma frigideira, aqueça o óleo ou a manteiga e doure os filés. Reserve.",
+        "Na mesma frigideira, refogue o alho e a cebola.",
+        "Adicione o açafrão e o creme de leite, misture bem e deixe aquecer sem ferver.",
+        "Coloque os filés de volta à frigideira, cubra com o molho e sirva."
+      ]
     },
     {
       "nome": "Lasanha de Frango",
-      "ingredientes": ["Massa para Lasanha", "Frango Desfiado", "Molho de Tomate", "Molho Branco", "Queijo Mussarela", "Queijo Parmesão", "Cebola", "Alho"]
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Massa para Lasanha": "1 pacote",
+        "Frango Desfiado": "500g",
+        "Molho de Tomate": "2 xícaras",
+        "Molho Branco": "2 xícaras",
+        "Queijo Mussarela": "300g",
+        "Queijo Parmesão": "50g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados"
+      },
+      "receita": [
+        "Em uma panela, refogue o alho e a cebola. Adicione o frango desfiado e o molho de tomate, misturando bem.",
+        "Em um refratário, monte a lasanha alternando camadas de massa, molho de tomate com frango, molho branco e queijo mussarela.",
+        "Finalize com queijo parmesão por cima.",
+        "Asse em forno preaquecido a 180°C por 30 minutos ou até gratinar."
+      ]
     },
     {
       "nome": "Fricassê",
-      "ingredientes": ["Frango Desfiado", "Milho", "Creme de Leite", "Requeijão", "Cebola", "Batata Palha", "Queijo Mussarela"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Frango Desfiado": "500g",
+        "Milho": "1 lata",
+        "Creme de Leite": "1 caixinha",
+        "Requeijão": "1 copo",
+        "Cebola": "1 unidade picada",
+        "Batata Palha": "1 pacote pequeno",
+        "Queijo Mussarela": "200g"
+      },
+      "receita": [
+        "No liquidificador, bata o milho (com a água da lata), o creme de leite e o requeijão até formar um creme.",
+        "Em uma panela, refogue a cebola e o frango desfiado. Adicione o creme e cozinhe por 5 minutos.",
+        "Coloque a mistura em um refratário, cubra com o queijo mussarela e leve ao forno preaquecido a 180°C até derreter.",
+        "Finalize com batata palha por cima e sirva."
+      ]
     },
     {
       "nome": "Escondidinho de Frango",
-      "ingredientes": ["Frango Desfiado", "Purê de Batata", "Requeijão", "Queijo Mussarela", "Alho", "Cebola"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Frango Desfiado": "500g",
+        "Purê de Batata": "500g",
+        "Requeijão": "1 copo",
+        "Queijo Mussarela": "200g",
+        "Alho": "2 dentes picados",
+        "Cebola": "1 unidade picada"
+      },
+      "receita": [
+        "Em uma panela, refogue o alho e a cebola. Adicione o frango desfiado e misture bem.",
+        "Em um refratário, espalhe metade do purê de batata no fundo.",
+        "Adicione o frango refogado por cima e cubra com o requeijão.",
+        "Finalize com o restante do purê e polvilhe queijo mussarela por cima.",
+        "Leve ao forno preaquecido a 180°C até dourar e sirva."
+      ]
     },
     {
       "nome": "Frango com Legumes",
-      "ingredientes": ["Peito de Frango", "Cenoura", "Abobrinha", "Brócolis", "Cebola", "Alho", "Azeite", "Sal"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Peito de Frango": "500g em cubos",
+        "Cenoura": "2 unidades em rodelas",
+        "Abobrinha": "1 unidade em cubos",
+        "Brócolis": "1/2 maço",
+        "Cebola": "1 unidade em pétalas",
+        "Alho": "2 dentes picados",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto"
+      },
+      "receita": [
+        "Tempere o frango com sal e reserve.",
+        "Em uma panela ou frigideira grande, aqueça o azeite e refogue o alho e a cebola.",
+        "Adicione o frango e cozinhe até dourar.",
+        "Acrescente os legumes e cozinhe por 5-7 minutos, mexendo ocasionalmente, até que fiquem macios.",
+        "Ajuste o sal, se necessário, e sirva."
+      ]
     },
     {
       "nome": "Frango Teriyaki",
-      "ingredientes": ["Peito de Frango", "Molho Teriyaki", "Gergelim", "Cebolinha", "Azeite"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Peito de Frango": "500g em tiras",
+        "Molho Teriyaki": "1/2 xícara",
+        "Gergelim": "1 colher de sopa",
+        "Cebolinha": "2 colheres de sopa picadas",
+        "Azeite": "1 colher de sopa"
+      },
+      "receita": [
+        "Tempere o frango com sal, se necessário.",
+        "Aqueça o azeite em uma frigideira e doure as tiras de frango.",
+        "Adicione o molho teriyaki e cozinhe por mais 5 minutos, até o molho reduzir ligeiramente.",
+        "Finalize com gergelim e cebolinha por cima. Sirva com arroz branco ou legumes."
+      ]
     },
     {
       "nome": "Frango ao Molho Curry",
-      "ingredientes": ["Peito de Frango", "Curry", "Leite de Coco", "Alho", "Cebola", "Azeite", "Sal"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Peito de Frango": "500g em cubos",
+        "Curry": "1 colher de sopa",
+        "Leite de Coco": "1 xícara",
+        "Alho": "2 dentes picados",
+        "Cebola": "1 unidade picada",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto"
+      },
+      "receita": [
+        "Tempere o frango com sal e reserve.",
+        "Aqueça o azeite em uma panela e refogue o alho e a cebola até dourar.",
+        "Adicione o curry e misture bem. Em seguida, acrescente o frango e refogue até dourar.",
+        "Despeje o leite de coco e cozinhe por 10 minutos em fogo baixo, até o molho engrossar.",
+        "Ajuste o sal, se necessário, e sirva com arroz branco ou pão naan."
+      ]
     },
     {
       "nome": "Frango ao Molho Mostarda",
-      "ingredientes": ["Filé de Frango", "Mostarda Dijon", "Creme de Leite", "Cebola", "Alho", "Azeite"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé de Frango": "500g",
+        "Mostarda Dijon": "3 colheres de sopa",
+        "Creme de Leite": "1 xícara",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Azeite": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere o frango com sal e pimenta, e reserve.",
+        "Aqueça o azeite em uma frigideira e doure os filés de frango dos dois lados. Retire e reserve.",
+        "Na mesma frigideira, refogue a cebola e o alho até dourar.",
+        "Adicione a mostarda dijon e o creme de leite, misturando bem.",
+        "Retorne os filés de frango à frigideira e cozinhe por mais 5 minutos em fogo baixo. Sirva quente."
+      ]
     },
     {
       "nome": "Galinha Caipira",
-      "ingredientes": ["Frango Caipira", "Cebola", "Alho", "Tomate", "Pimentão", "Colorau", "Coentro"]
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Frango Caipira": "1kg, cortado em pedaços",
+        "Cebola": "2 unidades picadas",
+        "Alho": "3 dentes picados",
+        "Tomate": "2 unidades picadas",
+        "Pimentão": "1 unidade picado",
+        "Colorau": "1 colher de sopa",
+        "Coentro": "a gosto"
+      },
+      "receita": [
+        "Tempere a galinha caipira com sal, alho e coentro.",
+        "Aqueça uma panela grande e refogue a cebola e o pimentão com um pouco de óleo.",
+        "Adicione o colorau, o tomate e os pedaços de galinha. Refogue até dourar.",
+        "Cubra com água e cozinhe em fogo médio por 45 minutos, ou até a carne estar macia.",
+        "Ajuste os temperos e sirva com arroz branco ou pirão."
+      ]
     },
     {
       "nome": "Linguiça de Frango",
-      "ingredientes": []
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Linguiça de Frango": "500g"
+      },
+      "receita": [
+        "Aqueça uma frigideira em fogo médio.",
+        "Corte as linguiças de frango em pedaços ou mantenha inteiras, conforme preferir.",
+        "Grelhe a linguiça, virando ocasionalmente, até que estejam douradas e completamente cozidas.",
+        "Sirva com acompanhamentos de sua escolha, como arroz, farofa ou salada."
+      ]
     },
     {
       "nome": "Almôndegas",
-      "ingredientes": ["Carne Bovina Moída", "Cebola", "Alho", "Tomate", "Molho de Tomate", "Ovo", "Farinha de Trigo", "Queijo Ralado"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Carne Bovina Moída": "500g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Tomate": "1 unidade picada",
+        "Molho de Tomate": "1 xícara",
+        "Ovo": "1 unidade",
+        "Farinha de Trigo": "2 colheres de sopa",
+        "Queijo Ralado": "3 colheres de sopa"
+      },
+      "receita": [
+        "Em uma tigela, misture a carne moída, o ovo, a farinha, o alho, a cebola e o queijo ralado. Tempere com sal e pimenta.",
+        "Modele pequenas bolas e reserve.",
+        "Aqueça uma panela com óleo e doure as almôndegas.",
+        "Adicione o tomate picado e o molho de tomate, cozinhando por 10 minutos em fogo baixo.",
+        "Sirva com arroz ou espaguete."
+      ]
     },
     {
       "nome": "Carne de Panela com Batata",
-      "ingredientes": ["Carne de Bife", "Alho", "Cebola", "Tomate", "Água", "Tempero a gosto"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Carne de Bife": "500g, cortada em cubos",
+        "Alho": "2 dentes picados",
+        "Cebola": "1 unidade picada",
+        "Tomate": "2 unidades picadas",
+        "Água": "2 xícaras",
+        "Tempero a gosto": "a gosto"
+      },
+      "receita": [
+        "Tempere a carne com sal e pimenta, e reserve.",
+        "Em uma panela de pressão, aqueça o óleo e doure a carne.",
+        "Adicione o alho, a cebola e o tomate, refogando bem.",
+        "Coloque as batatas cortadas em pedaços grandes, cubra com água e tampe a panela.",
+        "Cozinhe por 20 minutos após pegar pressão. Ajuste os temperos e sirva."
+      ]
     },
     {
       "nome": "Bife ao Molho Barbecue",
-      "ingredientes": ["Bife de Contrafilé", "Molho Barbecue", "Alho", "Cebola"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Bife de Contrafilé": "4 unidades",
+        "Molho Barbecue": "1/2 xícara",
+        "Alho": "2 dentes picados",
+        "Cebola": "1 unidade picada"
+      },
+      "receita": [
+        "Tempere os bifes com sal, pimenta e alho.",
+        "Aqueça uma frigideira e grelhe os bifes até o ponto desejado. Retire e reserve.",
+        "Na mesma frigideira, refogue a cebola até dourar.",
+        "Adicione o molho barbecue e misture bem. Deixe aquecer.",
+        "Sirva os bifes cobertos com o molho."
+      ]
     },
     {
       "nome": "Bife à Milanesa",
-      "ingredientes": ["Bife de Contra-filé", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Bife de Contra-filé": "4 unidades",
+        "Farinha de Trigo": "1 xícara",
+        "Ovo": "2 unidades, batidos",
+        "Farinha de Rosca": "1 xícara",
+        "Óleo para Fritar": "suficiente para imersão"
+      },
+      "receita": [
+        "Tempere os bifes com sal e pimenta.",
+        "Passe cada bife na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+        "Aqueça o óleo em uma panela funda e frite os bifes até ficarem dourados.",
+        "Retire e deixe escorrer em papel toalha. Sirva quente."
+      ]
     },
     {
       "nome": "Bife à Parmegiana",
-      "ingredientes": ["Bife à Milanesa", "Molho de Tomate", "Queijo Mussarela", "Queijo Parmesão"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Bife à Milanesa": "4 unidades",
+        "Molho de Tomate": "2 xícaras",
+        "Queijo Mussarela": "200g",
+        "Queijo Parmesão": "50g"
+      },
+      "receita": [
+        "Pré-aqueça o forno a 180°C.",
+        "Coloque os bifes à milanesa em um refratário.",
+        "Cubra com o molho de tomate e espalhe o queijo mussarela por cima.",
+        "Polvilhe o queijo parmesão e leve ao forno por 15 minutos, ou até o queijo derreter e dourar.",
+        "Sirva imediatamente."
+      ]
     },
     {
       "nome": "Bife de Fígado Acebolado",
-      "ingredientes": ["Bife de Fígado", "Cebola", "Alho", "Sal", "Pimenta do Reino", "Óleo ou Manteiga"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Bife de Fígado": "500g",
+        "Cebola": "2 unidades cortadas em rodelas",
+        "Alho": "2 dentes picados",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Óleo ou Manteiga": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere os bifes com sal, pimenta e alho.",
+        "Aqueça o óleo ou a manteiga em uma frigideira e doure os bifes. Retire e reserve.",
+        "Na mesma frigideira, refogue as cebolas até ficarem macias e douradas.",
+        "Disponha as cebolas sobre os bifes e sirva quente."
+      ]
     },
     {
       "nome": "Picadinho de Carne",
-      "ingredientes": ["Carne em Cubos", "Cebola", "Alho", "Tomate", "Cenoura", "Ervilha", "Batata", "Sal", "Pimenta"]
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Carne em Cubos": "500g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Tomate": "2 unidades picadas",
+        "Cenoura": "1 unidade picada",
+        "Ervilha": "1/2 xícara",
+        "Batata": "2 unidades picadas",
+        "Sal": "a gosto",
+        "Pimenta": "a gosto"
+      },
+      "receita": [
+        "Aqueça uma panela com óleo e doure a carne em cubos.",
+        "Adicione o alho e a cebola, refogando até dourar.",
+        "Coloque o tomate, a cenoura e a batata, misturando bem.",
+        "Cubra com água e cozinhe em fogo baixo até os legumes estarem macios.",
+        "Adicione as ervilhas, ajuste os temperos e deixe cozinhar por mais 5 minutos.",
+        "Sirva com arroz ou polenta."
+      ]
     },
     {
       "nome": "Carne Moída",
-      "ingredientes": ["Carne Moída", "Cebola", "Alho", "Tomate", "Sal", "Pimenta"]
+      "ingredientes": [
+        "Carne Moída",
+        "Cebola",
+        "Alho",
+        "Tomate",
+        "Sal",
+        "Pimenta"
+      ]
     },
     {
       "nome": "Vaca Atolada",
-      "ingredientes": ["Costela Bovina", "Mandioca", "Cebola", "Alho", "Tomate", "Pimentão"]
+      "ingredientes": [
+        "Costela Bovina",
+        "Mandioca",
+        "Cebola",
+        "Alho",
+        "Tomate",
+        "Pimentão"
+      ]
     },
     {
       "nome": "Bife Wellington",
-      "ingredientes": ["Filé Mignon", "Massa Folhada", "Cogumelos", "Presunto Cru", "Mostarda Dijon", "Gema de Ovo"]
+      "ingredientes": [
+        "Filé Mignon",
+        "Massa Folhada",
+        "Cogumelos",
+        "Presunto Cru",
+        "Mostarda Dijon",
+        "Gema de Ovo"
+      ]
     },
     {
       "nome": "Escondidinho de Carne Moída",
-      "ingredientes": ["Carne Moída", "Purê de Mandioca", "Queijo Mussarela", "Cebola", "Alho"]
+      "ingredientes": [
+        "Carne Moída",
+        "Purê de Mandioca",
+        "Queijo Mussarela",
+        "Cebola",
+        "Alho"
+      ]
     },
     {
       "nome": "Rocambole de Carne Moída Recheado",
-      "ingredientes": ["Carne Moída", "Queijo Mussarela", "Presunto", "Cebola", "Alho", "Farinha de Rosca", "Ovo"]
+      "ingredientes": [
+        "Carne Moída",
+        "Queijo Mussarela",
+        "Presunto",
+        "Cebola",
+        "Alho",
+        "Farinha de Rosca",
+        "Ovo"
+      ]
     },
     {
       "nome": "Filé de Peixe à Milanesa",
-      "ingredientes": ["Filé de Peixe", "Farinha de Trigo", "Ovo", "Farinha de Rosca", "Óleo para Fritar"]
+      "ingredientes": [
+        "Filé de Peixe",
+        "Farinha de Trigo",
+        "Ovo",
+        "Farinha de Rosca",
+        "Óleo para Fritar"
+      ]
     },
     {
       "nome": "Quibe Recheado com Molho Branco e Mussarela",
-      "ingredientes": ["Carne Moída", "Trigo para Quibe", "Mussarela", "Cebola", "Alho", "Temperos diversos", "Molho Branco"]
+      "ingredientes": [
+        "Carne Moída",
+        "Trigo para Quibe",
+        "Mussarela",
+        "Cebola",
+        "Alho",
+        "Temperos diversos",
+        "Molho Branco"
+      ]
     },
     {
       "nome": "Lombo a Molho Barbecue",
-      "ingredientes": ["Lombo de Porco", "Molho Barbecue", "Alho", "Sal", "Pimenta do Reino", "Azeite"]
+      "ingredientes": [
+        "Lombo de Porco",
+        "Molho Barbecue",
+        "Alho",
+        "Sal",
+        "Pimenta do Reino",
+        "Azeite"
+      ]
     },
     {
       "nome": "Pernil Assado a Molho Madeira",
-      "ingredientes": ["Pernil de Porco", "Molho Madeira", "Alho", "Cebola", "Vinho Tinto", "Sal", "Pimenta do Reino"]
+      "ingredientes": [
+        "Pernil de Porco",
+        "Molho Madeira",
+        "Alho",
+        "Cebola",
+        "Vinho Tinto",
+        "Sal",
+        "Pimenta do Reino"
+      ]
     },
     {
       "nome": "Picadinho de Pernil ao Cubo",
-      "ingredientes": ["Pernil de Porco em Cubos", "Cebola", "Alho", "Pimentão", "Tomate", "Sal", "Pimenta do Reino"]
+      "ingredientes": [
+        "Pernil de Porco em Cubos",
+        "Cebola",
+        "Alho",
+        "Pimentão",
+        "Tomate",
+        "Sal",
+        "Pimenta do Reino"
+      ]
     },
     {
       "nome": "Costelinha Suína Caramelizada",
-      "ingredientes": ["Costelinha Suína", "Açúcar Mascavo", "Molho de Soja", "Alho", "Cebola", "Mel", "Vinagre", "Sal", "Pimenta do Reino", "Óleo"]
+      "ingredientes": [
+        "Costelinha Suína",
+        "Açúcar Mascavo",
+        "Molho de Soja",
+        "Alho",
+        "Cebola",
+        "Mel",
+        "Vinagre",
+        "Sal",
+        "Pimenta do Reino",
+        "Óleo"
+      ]
     },
     {
       "nome": "Filé de Porco ao Molho de Laranja e Gengibre",
-      "ingredientes": ["Filé de Porco", "Laranja", "Gengibre", "Alho", "Cebola", "Mel", "Azeite", "Sal", "Pimenta do Reino"]
+      "ingredientes": [
+        "Filé de Porco",
+        "Laranja",
+        "Gengibre",
+        "Alho",
+        "Cebola",
+        "Mel",
+        "Azeite",
+        "Sal",
+        "Pimenta do Reino"
+      ]
     },
     {
       "nome": "Bisteca de Porco Grelhada",
-      "ingredientes": ["Bisteca de Porco", "Alho", "Limão", "Sal", "Pimenta do Reino", "Azeite"]
+      "ingredientes": [
+        "Bisteca de Porco",
+        "Alho",
+        "Limão",
+        "Sal",
+        "Pimenta do Reino",
+        "Azeite"
+      ]
     }
   ]
 }
