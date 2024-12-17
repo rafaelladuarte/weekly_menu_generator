@@ -209,317 +209,569 @@
     },
     {
       "nome": "Batata Inglesa Rústica",
-      "ingredientes": [
-        "Batata Inglesa",
-        "Azeite",
-        "Sal",
-        "Alecrim",
-        "Pimenta-do-reino",
-        "Alho"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Batata Inglesa": "500g",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Alecrim": "1 colher de chá",
+        "Pimenta-do-reino": "a gosto",
+        "Alho": "3 dentes"
+      },
+      "receita": [
+        "Lave bem as batatas e corte em pedaços médios, com casca.",
+        "Tempere com azeite, alho picado, alecrim, sal e pimenta-do-reino.",
+        "Leve ao forno preaquecido a 200°C por aproximadamente 30 minutos ou até dourar.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Purê de Batata Inglesa",
-      "ingredientes": [
-        "Batata Inglesa",
-        "Leite",
-        "Manteiga",
-        "Sal",
-        "Noz-moscada"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Batata Inglesa": "500g",
+        "Leite": "1/2 xícara",
+        "Manteiga": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Noz-moscada": "a gosto"
+      },
+      "receita": [
+        "Cozinhe as batatas descascadas até ficarem macias.",
+        "Amasse as batatas e misture com leite e manteiga.",
+        "Tempere com sal e uma pitada de noz-moscada.",
+        "Mexa bem até atingir a textura desejada e sirva quente."
       ]
     },
     {
       "nome": "Batata Inglesa Gratinada",
-      "ingredientes": [
-        "Batata Inglesa",
-        "Creme de Leite",
-        "Queijo Parmesão",
-        "Manteiga",
-        "Alho",
-        "Sal",
-        "Pimenta-do-reino",
-        "Noz-moscada"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Batata Inglesa": "500g",
+        "Creme de Leite": "200ml",
+        "Queijo Parmesão": "50g",
+        "Manteiga": "1 colher de sopa",
+        "Alho": "2 dentes",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto",
+        "Noz-moscada": "a gosto"
+      },
+      "receita": [
+        "Corte as batatas em rodelas finas e cozinhe rapidamente por 5 minutos.",
+        "Unte uma assadeira com manteiga e espalhe o alho picado.",
+        "Monte camadas de batata e cubra com creme de leite.",
+        "Tempere com sal, pimenta e noz-moscada.",
+        "Finalize com queijo parmesão ralado por cima.",
+        "Leve ao forno preaquecido a 200°C até gratinar."
       ]
     },
     {
       "nome": "Purê de Abóbora Cabotiá",
-      "ingredientes": [
-        "Abóbora Cabotiá",
-        "Manteiga",
-        "Creme de Leite",
-        "Sal",
-        "Noz-moscada"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Abóbora Cabotiá": "500g",
+        "Manteiga": "2 colheres de sopa",
+        "Creme de Leite": "200ml",
+        "Sal": "a gosto",
+        "Noz-moscada": "a gosto"
+      },
+      "receita": [
+        "Cozinhe a abóbora descascada até ficar bem macia.",
+        "Amasse a abóbora e adicione a manteiga e o creme de leite.",
+        "Tempere com sal e noz-moscada.",
+        "Misture bem até ficar cremoso e sirva quente."
       ]
     },
     {
       "nome": "Abóbora Cabotiá Refogada",
-      "ingredientes": [
-        "Abóbora Cabotiá",
-        "Alho",
-        "Cebola",
-        "Azeite",
-        "Sal",
-        "Pimenta-do-reino",
-        "Salsinha picada"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Abóbora Cabotiá": "500g",
+        "Alho": "2 dentes",
+        "Cebola": "1 unidade pequena",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto",
+        "Salsinha picada": "a gosto"
+      },
+      "receita": [
+        "Corte a abóbora em cubos pequenos.",
+        "Refogue a cebola e o alho no azeite até dourar.",
+        "Adicione a abóbora, tempere com sal e pimenta-do-reino.",
+        "Cozinhe em fogo baixo até a abóbora ficar macia.",
+        "Finalize com salsinha picada e sirva."
       ]
     },
     {
       "nome": "Abobrinha Italiana Refogada",
-      "ingredientes": [
-        "Abobrinha",
-        "Cebola",
-        "Alho",
-        "Azeite",
-        "Sal",
-        "Pimenta-do-reino",
-        "Orégano"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Abobrinha": "2 unidades",
+        "Cebola": "1 unidade média",
+        "Alho": "2 dentes",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto",
+        "Orégano": "a gosto"
+      },
+      "receita": [
+        "Corte as abobrinhas em rodelas ou cubos médios.",
+        "Refogue a cebola e o alho no azeite até ficarem levemente dourados.",
+        "Adicione a abobrinha e tempere com sal, pimenta-do-reino e orégano.",
+        "Cozinhe até a abobrinha ficar macia, mas ainda firme.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Salada de Batata com Maionese",
-      "ingredientes": [
-        "Batata",
-        "Maionese",
-        "Cenoura",
-        "Ervilha",
-        "Cebola",
-        "Salsinha",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Batata": "500g",
+        "Maionese": "1 xícara",
+        "Cenoura": "1 unidade média",
+        "Ervilha": "1/2 xícara",
+        "Cebola": "1 unidade pequena",
+        "Salsinha": "a gosto",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Cozinhe as batatas e a cenoura cortadas em cubos até ficarem macias.",
+        "Escorra bem e deixe esfriar.",
+        "Em uma tigela, misture as batatas, cenoura, ervilha, cebola picada e maionese.",
+        "Tempere com sal, pimenta-do-reino e finalize com salsinha picada.",
+        "Leve à geladeira por 30 minutos e sirva."
       ]
     },
     {
       "nome": "Couve Refogada com Bacon",
-      "ingredientes": [
-        "Couve",
-        "Bacon",
-        "Alho",
-        "Óleo",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Couve": "1 maço",
+        "Bacon": "100g",
+        "Alho": "2 dentes",
+        "Óleo": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Lave e corte a couve em tiras finas.",
+        "Em uma frigideira, frite o bacon até dourar.",
+        "Adicione o alho picado e refogue até ficar levemente dourado.",
+        "Acrescente a couve, tempere com sal e pimenta-do-reino.",
+        "Refogue rapidamente até a couve murchar e sirva quente."
       ]
     },
     {
       "nome": "Purê de Mandioca",
-      "ingredientes": [
-        "Mandioca",
-        "Leite",
-        "Manteiga",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Mandioca": "500g",
+        "Leite": "1/2 xícara",
+        "Manteiga": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Cozinhe a mandioca em água com sal até ficar bem macia.",
+        "Amasse a mandioca ainda quente e misture com leite e manteiga.",
+        "Tempere com sal e pimenta-do-reino.",
+        "Mexa até obter uma textura lisa e sirva quente."
       ]
     },
     {
-      "nome": "Batata Inglesa Saúte",
-      "ingredientes": [
-        "Batata Inglesa",
-        "Manteiga",
-        "Alho",
-        "Sal",
-        "Salsinha picada"
+      "nome": "Batata Inglesa Sauté",
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Batata Inglesa": "500g",
+        "Manteiga": "2 colheres de sopa",
+        "Alho": "2 dentes",
+        "Sal": "a gosto",
+        "Salsinha picada": "a gosto"
+      },
+      "receita": [
+        "Cozinhe as batatas cortadas em cubos até ficarem al dente.",
+        "Em uma frigideira, derreta a manteiga e refogue o alho picado até dourar.",
+        "Adicione as batatas cozidas, tempere com sal e refogue até dourarem.",
+        "Finalize com salsinha picada e sirva."
       ]
     },
     {
       "nome": "Berinjela à Milanesa",
-      "ingredientes": [
-        "Berinjela",
-        "Farinha de Rosca",
-        "Ovo",
-        "Farinha de Trigo",
-        "Sal",
-        "Pimenta-do-reino",
-        "Óleo para fritar"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Berinjela": "2 unidades",
+        "Farinha de Rosca": "1 xícara",
+        "Ovo": "2 unidades",
+        "Farinha de Trigo": "1/2 xícara",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto",
+        "Óleo para fritar": "suficiente"
+      },
+      "receita": [
+        "Corte as berinjelas em fatias médias e tempere com sal e pimenta-do-reino.",
+        "Passe as fatias na farinha de trigo, depois nos ovos batidos e, por último, na farinha de rosca.",
+        "Aqueça o óleo em uma frigideira e frite as fatias até dourarem.",
+        "Escorra em papel toalha e sirva quente."
       ]
     },
     {
       "nome": "Virado de Abobrinha",
-      "ingredientes": [
-        "Abobrinha",
-        "Farinha de Mandioca",
-        "Alho",
-        "Cebola",
-        "Óleo",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Abobrinha": "2 unidades",
+        "Farinha de Mandioca": "1 xícara",
+        "Alho": "2 dentes",
+        "Cebola": "1 unidade pequena",
+        "Óleo": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Rale ou corte a abobrinha em cubos pequenos.",
+        "Refogue o alho e a cebola no óleo até dourarem.",
+        "Adicione a abobrinha e tempere com sal e pimenta-do-reino.",
+        "Acrescente a farinha de mandioca aos poucos, mexendo até obter uma mistura soltinha.",
+        "Ajuste os temperos e sirva quente."
       ]
     },
     {
       "nome": "Virado de Couve",
-      "ingredientes": [
-        "Couve",
-        "Farinha de Mandioca",
-        "Alho",
-        "Óleo",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Couve": "1 maço",
+        "Farinha de Mandioca": "1 xícara",
+        "Alho": "2 dentes",
+        "Óleo": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Corte a couve em tiras finas.",
+        "Refogue o alho no óleo até dourar.",
+        "Adicione a couve e refogue rapidamente.",
+        "Acrescente a farinha de mandioca, tempere com sal e pimenta-do-reino.",
+        "Mexa bem até ficar soltinho e sirva quente."
       ]
     },
     {
       "nome": "Virado de Repolho",
-      "ingredientes": [
-        "Repolho",
-        "Farinha de Mandioca",
-        "Alho",
-        "Óleo",
-        "Sal",
-        "Pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Repolho": "1/2 unidade média",
+        "Farinha de Mandioca": "1 xícara",
+        "Alho": "2 dentes",
+        "Óleo": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Corte o repolho em tiras finas.",
+        "Em uma frigideira, refogue o alho no óleo até dourar.",
+        "Adicione o repolho e tempere com sal e pimenta-do-reino.",
+        "Acrescente a farinha de mandioca aos poucos, mexendo até ficar soltinho.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Milho Refogado",
-      "ingredientes": [
-        "Milho",
-        "Manteiga",
-        "Cebola",
-        "Sal",
-        "Pimenta-do-reino",
-        "Salsinha picada"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Milho": "2 xícaras (pode ser em conserva ou milho fresco)",
+        "Manteiga": "2 colheres de sopa",
+        "Cebola": "1 unidade pequena",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto",
+        "Salsinha picada": "a gosto"
+      },
+      "receita": [
+        "Se estiver usando milho fresco, retire os grãos da espiga.",
+        "Em uma panela, derreta a manteiga e refogue a cebola picada até ficar transparente.",
+        "Adicione o milho, tempere com sal e pimenta-do-reino.",
+        "Refogue por 5-7 minutos, mexendo ocasionalmente.",
+        "Finalize com salsinha picada e sirva quente."
       ]
     },
     {
       "nome": "Couve-flor Gratinada",
-      "ingredientes": [
-        "Couve-flor",
-        "creme de leite",
-        "queijo parmesão",
-        "manteiga",
-        "sal",
-        "pimenta-do-reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Couve-flor": "1 unidade média",
+        "Creme de Leite": "1 lata",
+        "Queijo Parmesão": "1/2 xícara",
+        "Manteiga": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Cozinhe a couve-flor em água com sal até ficar al dente.",
+        "Escorra e disponha a couve-flor em um refratário.",
+        "Misture o creme de leite com sal e pimenta-do-reino e despeje sobre a couve-flor.",
+        "Polvilhe com queijo parmesão e adicione pedaços de manteiga por cima.",
+        "Leve ao forno preaquecido a 200°C até gratinar.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Caponata de Berinjela",
-      "ingredientes": [
-        "Berinjela",
-        "Pimentão",
-        "Cebola",
-        "Alho",
-        "Azeitonas",
-        "Azeite",
-        "Vinagre",
-        "Sal",
-        "Pimenta do Reino"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Berinjela": "2 unidades",
+        "Pimentão": "1 unidade vermelha",
+        "Cebola": "1 unidade grande",
+        "Alho": "2 dentes",
+        "Azeitonas": "1/2 xícara",
+        "Azeite": "1/4 de xícara",
+        "Vinagre": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta-do-reino": "a gosto"
+      },
+      "receita": [
+        "Corte a berinjela, o pimentão e a cebola em cubos pequenos.",
+        "Em uma frigideira grande ou assadeira, aqueça o azeite e refogue a cebola e o alho.",
+        "Adicione a berinjela, o pimentão e as azeitonas.",
+        "Tempere com sal, pimenta-do-reino e vinagre.",
+        "Cozinhe em fogo médio, mexendo ocasionalmente, até os legumes ficarem macios.",
+        "Sirva quente ou frio."
       ]
     },
     {
       "nome": "Batata Frita",
-      "ingredientes": [
-        "Batata",
-        "Óleo para Fritar",
-        "Sal"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Batata": "500g",
+        "Óleo para fritar": "suficiente",
+        "Sal": "a gosto"
+      },
+      "receita": [
+        "Descasque e corte as batatas em palitos.",
+        "Aqueça o óleo em uma panela ou frigideira funda.",
+        "Frite as batatas em óleo quente até ficarem douradas e crocantes.",
+        "Retire, escorra em papel toalha e tempere com sal.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Sunomono",
-      "ingredientes": [
-        "Pepino Japonês",
-        "Vinagre de Arroz",
-        "Açúcar",
-        "Gergelim",
-        "Sal"
+      "verificado": false,
+      "porção": 2,
+      "ingredientes": {
+        "Pepino Japonês": "2 unidades",
+        "Vinagre de Arroz": "1/4 de xícara",
+        "Açúcar": "2 colheres de sopa",
+        "Gergelim": "a gosto",
+        "Sal": "a gosto"
+      },
+      "receita": [
+        "Corte os pepinos em fatias bem finas.",
+        "Tempere com sal e deixe descansar por 10 minutos. Esprema delicadamente para retirar o excesso de água.",
+        "Misture o vinagre de arroz e o açúcar até dissolver.",
+        "Adicione o pepino e misture bem.",
+        "Finalize com gergelim e sirva gelado."
       ]
     },
     {
       "nome": "Banana Frita",
-      "ingredientes": [
-        "Banana",
-        "Óleo para Fritar",
-        "Açúcar",
-        "Canela em Pó"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Banana": "4 unidades",
+        "Óleo para fritar": "suficiente",
+        "Açúcar": "2 colheres de sopa",
+        "Canela em Pó": "1 colher de chá"
+      },
+      "receita": [
+        "Descasque as bananas e corte-as ao meio, no sentido do comprimento.",
+        "Aqueça o óleo em uma frigideira e frite as bananas até dourarem.",
+        "Retire e escorra em papel toalha.",
+        "Polvilhe com açúcar e canela antes de servir."
       ]
     },
     {
       "nome": "Ratatouille",
-      "ingredientes": [
-        "Berinjela",
-        "Abobrinha",
-        "Pimentão",
-        "Tomate",
-        "Cebola",
-        "Alho",
-        "Azeite",
-        "Ervas de Provence",
-        "Sal",
-        "Pimenta do Reino"
-      ]
+      "porcao": "4 porções",
+      "verificado": false,
+      "receita": [
+        "Corte a berinjela, abobrinha, pimentão, tomate e cebola em rodelas finas.",
+        "Pique o alho.",
+        "Tempere os vegetais com azeite, ervas de Provence, sal e pimenta-do-reino.",
+        "Monte os vegetais em camadas em um refratário.",
+        "Asse no forno preaquecido a 180°C até os vegetais ficarem macios."
+      ],
+      "ingredientes": {
+        "Berinjela": "1 unidade",
+        "Abobrinha": "1 unidade",
+        "Pimentão": "1 unidade",
+        "Tomate": "2 unidades",
+        "Cebola": "1 unidade",
+        "Alho": "2 dentes picados",
+        "Azeite": "2 colheres de sopa",
+        "Ervas de Provence": "a gosto",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      }
     },
     {
       "nome": "Brócolis Refogado",
-      "ingredientes": [
-        "Brócolis",
-        "Alho",
-        "Azeite",
-        "Sal"
-      ]
+      "porcao": "2 porções",
+      "verificado": false,
+      "receita": [
+        "Lave e corte o brócolis em pedaços.",
+        "Pique o alho.",
+        "Aqueça o azeite em uma frigideira.",
+        "Adicione o alho picado e refogue até dourar.",
+        "Acrescente o brócolis e tempere com sal.",
+        "Refogue até o brócolis ficar al dente."
+      ],
+      "ingredientes": {
+        "Brócolis": "1 maço",
+        "Alho": "2 dentes picados",
+        "Azeite": "1 colher de sopa",
+        "Sal": "a gosto"
+      }
     },
     {
       "nome": "Brócolis Gratinado",
-      "ingredientes": [
-        "Brócolis",
-        "Molho Branco",
-        "Queijo Mussarela",
-        "Queijo Parmesão",
-        "Sal"
-      ]
+      "porcao": "3 porções",
+      "verificado": false,
+      "receita": [
+        "Cozinhe o brócolis em água com sal até ficar macio.",
+        "Coloque o brócolis em um refratário.",
+        "Cubra com molho branco.",
+        "Adicione queijo mussarela e parmesão por cima.",
+        "Leve ao forno preaquecido a 200°C até gratinar."
+      ],
+      "ingredientes": {
+        "Brócolis": "1 maço",
+        "Molho Branco": "1 xícara",
+        "Queijo Mussarela": "100g",
+        "Queijo Parmesão": "50g",
+        "Sal": "a gosto"
+      }
     },
     {
       "nome": "Mandioca Frita",
-      "ingredientes": [
-        "Mandioca",
-        "Óleo para Fritar",
-        "Sal"
-      ]
+      "porcao": "2 porções",
+      "verificado": false,
+      "receita": [
+        "Cozinhe a mandioca em água com sal até ficar macia.",
+        "Escorra a mandioca e corte em pedaços.",
+        "Aqueça o óleo em uma frigideira funda.",
+        "Frite os pedaços de mandioca até dourarem.",
+        "Retire e deixe escorrer em papel toalha.",
+        "Tempere com sal e sirva quente."
+      ],
+      "ingredientes": {
+        "Mandioca": "500g",
+        "Óleo para Fritar": "suficiente",
+        "Sal": "a gosto"
+      }
     },
     {
       "nome": "Guacamole",
-      "ingredientes": [
-        "Abacate",
-        "Cebola",
-        "Tomate",
-        "Coentro",
-        "Suco de Limão",
-        "Sal",
-        "Pimenta do Reino"
-      ]
+      "porcao": "2 porções",
+      "verificado": false,
+      "receita": [
+        "Retire a polpa do abacate e coloque em uma tigela.",
+        "Amasse o abacate com um garfo.",
+        "Adicione a cebola, tomate e coentro picados.",
+        "Tempere com suco de limão, sal e pimenta-do-reino.",
+        "Misture bem até obter uma consistência uniforme."
+      ],
+      "ingredientes": {
+        "Abacate": "1 unidade",
+        "Cebola": "1/2 unidade picada",
+        "Tomate": "1 unidade picada",
+        "Coentro": "a gosto",
+        "Suco de Limão": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      }
     },
     {
       "nome": "Berinjela Recheada",
-      "ingredientes": [
-        "Berinjela",
-        "Carne Moída ou Vegetais",
-        "Cebola",
-        "Alho",
-        "Molho de Tomate",
-        "Queijo Ralado",
-        "Sal",
-        "Pimenta do Reino"
-      ]
+      "porcao": "2 porções",
+      "verificado": false,
+      "receita": [
+        "Corte a berinjela ao meio no sentido do comprimento.",
+        "Retire a polpa e reserve.",
+        "Refogue a carne moída ou vegetais com cebola, alho e molho de tomate.",
+        "Recheie as metades da berinjela com o refogado.",
+        "Cubra com queijo ralado.",
+        "Asse no forno preaquecido a 180°C até a berinjela ficar macia."
+      ],
+      "ingredientes": {
+        "Berinjela": "1 unidade",
+        "Carne Moída ou Vegetais": "150g",
+        "Cebola": "1/2 unidade picada",
+        "Alho": "2 dentes picados",
+        "Molho de Tomate": "1/2 xícara",
+        "Queijo Ralado": "50g",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      }
     },
     {
       "nome": "Tomate Recheado",
-      "ingredientes": [
-        "Tomate",
-        "Carne Moída ou Ricota",
-        "Cebola",
-        "Alho",
-        "Queijo Ralado",
-        "Azeite",
-        "Sal",
-        "Pimenta do Reino"
-      ]
+      "porcao": "2 porções",
+      "verificado": false,
+      "receita": [
+        "Corte a tampa dos tomates e retire o miolo.",
+        "Prepare o recheio com carne moída ou ricota, cebola e alho.",
+        "Recheie os tomates com a mistura preparada.",
+        "Cubra com queijo ralado e um fio de azeite.",
+        "Leve ao forno preaquecido a 180°C até gratinar."
+      ],
+      "ingredientes": {
+        "Tomate": "2 unidades",
+        "Carne Moída ou Ricota": "100g",
+        "Cebola": "1/2 unidade picada",
+        "Alho": "1 dente picado",
+        "Queijo Ralado": "50g",
+        "Azeite": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      }
     },
     {
       "nome": "Souflé de Legumes",
-      "ingredientes": [
-        "Legumes Variados",
-        "Ovos",
-        "Farinha de Trigo",
-        "Leite",
-        "Queijo Ralado",
-        "Manteiga",
-        "Sal",
-        "Pimenta do Reino"
-      ]
+      "porcao": "4 porções",
+      "verificado": false,
+      "receita": [
+        "Cozinhe os legumes variados (cenoura, abobrinha, brócolis).",
+        "Separe as claras das gemas e bata as claras em neve.",
+        "Misture os legumes com as gemas, farinha, leite, queijo ralado e manteiga.",
+        "Incorpore delicadamente as claras em neve.",
+        "Despeje a mistura em uma forma untada.",
+        "Asse no forno preaquecido a 180°C até dourar."
+      ],
+      "ingredientes": {
+        "Legumes Variados": "1 xícara (cenoura, abobrinha, brócolis)",
+        "Ovos": "3 unidades",
+        "Farinha de Trigo": "2 colheres de sopa",
+        "Leite": "1 xícara",
+        "Queijo Ralado": "50g",
+        "Manteiga": "1 colher de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      }
     }
   ]
 }

@@ -57,29 +57,54 @@ async function gerarCardapio() {
         verificadoCompleto.innerHTML = pratoAleatorio.verificado ? 'Verificado' : 'Não Verificado'
         verificadoCompleto.style.color = pratoAleatorio.verificado ? 'green' : 'red'
 
-        let etapa = ''
-        listaCompleto.innerHTML = ''
-
-        for (let i = 0; i < pratoAleatorio.receita.length; i++) {
-            const passo = pratoAleatorio.receita[i];
-            
-            etapa += `<li> ${passo} </li>`
-        }
-
-        listaCompleto.innerHTML = etapa
-
-        let topico = ''
-        itensCompleto.innerHTML = ''
+        let topicoPrato = ''
+        itensPratoPrincipal.innerHTML = ''
 
         for (let ingrediente in pratoAleatorio.ingredientes) {
-            const item = ingrediente
-            const quantidade = pratoAleatorio.ingredientes[ingrediente]
+            const itemPrato = ingrediente
+            const quantidadePrato = pratoAleatorio.ingredientes[ingrediente]
 
-            topico += `<li> ${item}: ${quantidade} </li>`
+            topicoPrato += `<li> ${itemPrato}: ${quantidadePrato} </li>`
           }
 
-        itensCompleto.innerHTML = topico
+        itensPratoPrincipal.innerHTML = topicoPrato 
+
+        let etapaPrato = ''
+        listaPratoPrincipal.innerHTML = ''
+
+        for (let i = 0; i < pratoAleatorio.receita.length; i++) {
+            const passoPrato = pratoAleatorio.receita[i];
+            
+            etapaPrato += `<li> ${passoPrato} </li>`
+        }
+
+        listaPratoPrincipal.innerHTML = etapaPrato
+
+        let topicoGuarnicao= ''
+        itensGuarnicao.innerHTML = ''
+
+        for (let ingrediente in guarnicaoAleatoria.ingredientes) {
+            const itemGuarnicao = ingrediente
+            const quantidadeGuarnicao = guarnicaoAleatoria.ingredientes[ingrediente]
+
+            topicoGuarnicao += `<li> ${itemGuarnicao}: ${quantidadeGuarnicao} </li>`
+          }
+
+        itensGuarnicao.innerHTML = topicoGuarnicao
+
+        let etapaGuarnicao = ''
+        listaGuarnicao.innerHTML = ''
+
+        for (let i = 0; i < guarnicaoAleatoria.receita.length; i++) {
+            const passoGuarnicao = guarnicaoAleatoria.receita[i];
+            
+            etapaGuarnicao += `<li> ${passoGuarnicao} </li>`
+        }
+
+        listaGuarnicao.innerHTML = etapaGuarnicao
+
         resultadoCompleto.style.display = "inline-block";
+
         
     } else if (tipoRefeicao === "rapido") {
 
@@ -117,7 +142,8 @@ async function gerarCardapio() {
 }
 
 function verReceita(tipoReceita){
-    receitaCompleto.style.display = "none";
+    receitaPratoPrincipal.style.display = "none";
+    receitaGuarnicao.style.display = "none";
     receitaRapido.style.display = "none";
 
     document.getElementById("receita" + tipoReceita).style.display = 'inline-block'
@@ -125,14 +151,16 @@ function verReceita(tipoReceita){
 }
 
 function verIngredientes(tipoReceita){
-    ingredientesCompleto.style.display = "none";
+    ingredientesPratoPrincipal.style.display = "none";
+    ingredientesGuarnicao.style.display = "none";
     ingredientesRapido.style.display = "none";
 
     document.getElementById("ingredientes" + tipoReceita).style.display = 'inline-block'
 }
 
 function hideReceitas(){
-    receitaCompleto.style.display = "none";
+    receitaPratoPrincipal.style.display = "none";
+    receitaGuarnicao.style.display = "none";
     receitaRapido.style.display = "none";
 }
 

@@ -29,7 +29,8 @@
             <h3>Prato Principal: <span id="pratoPrincipal"></span></h3>
             <h3>Guarnição: <span id="guarnicao"></span></h3>
             <h3>Salada: <span id="salada"></span></h3>
-            <button onclick="verReceita('Completo')">Receita</button>
+            <button onclick="verReceita('PratoPrincipal')">Receita Prato Principal</button>
+            <button onclick="verReceita('Guarnicao')">Receita Guarnição</button>
         </div>
     
         <div id="resultadoRapido" class="cardapio">
@@ -40,19 +41,31 @@
         </div>
     </div>
 
-    <div class="receita">
-        <div id="receitaCompleto" class="cardapio">
+    <div>
+        <div id="receitaGuarnicao" class="receita">
             <h2>Ingredientes</h2>
-            <ul id="itensCompleto">
+            <ul id="itensGuarnicao">
 
             </ul>
             <h2>Modo de Preparo</h2>
-            <ol id="listaCompleto">
+            <ol id="listaGuarnicao">
 
             </ol>
         </div>
 
-        <div id="receitaRapido" class="cardapio">
+        <div id="receitaPratoPrincipal" class="receita">
+            <h2>Ingredientes</h2>
+            <ul id="itensPratoPrincipal">
+
+            </ul>
+            <h2>Modo de Preparo</h2>
+            <ol id="listaPratoPrincipal">
+
+            </ol>
+        </div>
+
+
+        <div id="receitaRapido" class="receita">
             <h2>Ingredientes</h2>
             <ul id="itensRapido">
 
