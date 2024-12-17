@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Cardápio Aleatório</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <script src="script.js"></script>
 
     <h1>Gerador de Cardápio Aleatório</h1>
     <p>Escolha o tipo de refeição:</p>
 
-    <!-- Selecção de tipo de refeição -->
-    <select id="tipoRefeicao">
+    <select id="tipoRefeicao" onchange="hideReceitas(); hideResulto()">
         <option value="completo">Completo</option>
         <option value="rapido">Rápido</option>
     </select>
@@ -23,18 +22,47 @@
     <button onclick="gerarCardapio()">Gerar Cardápio</button>
     <br>
 
-    <!-- Resultado para pratos completos -->
-    <div id="resultado-completo" class="cardapio">
-        <h2>Prato Completo</h2>
-        <h3>Prato Principal: <span id="prato-principal"></span></h3>
-        <h3>Guarnição: <span id="guarnicao"></span></h3>
-        <h3>Salada: <span id="salada"></span></h3>
+    <div>
+        <div id="resultadoCompleto" class="cardapio">
+            <h2>Prato Completo</h2>
+            <p class="verificado" id="verificadoCompleto"></p>
+            <h3>Prato Principal: <span id="pratoPrincipal"></span></h3>
+            <h3>Guarnição: <span id="guarnicao"></span></h3>
+            <h3>Salada: <span id="salada"></span></h3>
+            <button onclick="verReceita('Completo')">Receita</button>
+        </div>
+    
+        <div id="resultadoRapido" class="cardapio">
+            <h2>Prato Rápido</h2>
+            <p class="verificado" id="verificadoRapido"></p>
+            <h3>Prato: <span id="pratoRapido"></span></h3>
+            <button onclick="verReceita('Rapido')">Receita</button>
+        </div>
     </div>
 
-    <!-- Resultado para pratos rápidos -->
-    <div id="resultado-rapido" class="cardapio">
-        <h2>Prato Rápido</h2>
-        <h3>Prato: <span id="prato-rapido"></span></h3>
+    <div class="receita">
+        <div id="receitaCompleto" class="cardapio">
+            <h2>Ingredientes</h2>
+            <ul id="itensCompleto">
+
+            </ul>
+            <h2>Modo de Preparo</h2>
+            <ol id="listaCompleto">
+
+            </ol>
+        </div>
+
+        <div id="receitaRapido" class="cardapio">
+            <h2>Ingredientes</h2>
+            <ul id="itensRapido">
+
+            </ul>
+
+            <h2>Modo de Preparo</h2>
+            <ol id="listaRapido">
+
+            </ol>
+        </div>
     </div>
 
 </body>

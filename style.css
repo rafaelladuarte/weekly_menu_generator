@@ -14,6 +14,7 @@ p {
     color: #555;
     margin-bottom: 30px;
 }
+
 .cardapio {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -52,3 +53,8 @@ select {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
+
+.verificado{
+    font-size: 12px;
+}
+

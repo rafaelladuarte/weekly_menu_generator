@@ -513,154 +513,276 @@
     },
     {
       "nome": "Carne Moída",
-      "ingredientes": [
-        "Carne Moída",
-        "Cebola",
-        "Alho",
-        "Tomate",
-        "Sal",
-        "Pimenta"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Carne Moída": "500g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Tomate": "2 unidades picadas",
+        "Sal": "a gosto",
+        "Pimenta": "a gosto"
+      },
+      "receita": [
+        "Aqueça uma panela com óleo e refogue a cebola e o alho até dourar.",
+        "Adicione a carne moída e cozinhe até que fique bem soltinha.",
+        "Acrescente os tomates e tempere com sal e pimenta.",
+        "Cozinhe até que o molho esteja espesso e os tomates desmanchados.",
+        "Sirva com arroz e feijão ou como recheio de tortas e pastéis."
       ]
     },
     {
       "nome": "Vaca Atolada",
-      "ingredientes": [
-        "Costela Bovina",
-        "Mandioca",
-        "Cebola",
-        "Alho",
-        "Tomate",
-        "Pimentão"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Costela Bovina": "1kg",
+        "Mandioca": "800g",
+        "Cebola": "1 unidade picada",
+        "Alho": "3 dentes picados",
+        "Tomate": "2 unidades picadas",
+        "Pimentão": "1 unidade picada",
+        "Sal": "a gosto",
+        "Pimenta": "a gosto"
+      },
+      "receita": [
+        "Em uma panela de pressão, doure as costelas com óleo.",
+        "Adicione a cebola, o alho, o tomate e o pimentão. Refogue bem.",
+        "Acrescente água até cobrir as costelas e cozinhe por 30 minutos após pegar pressão.",
+        "Adicione a mandioca em pedaços e mais água, se necessário.",
+        "Cozinhe sem pressão até que a mandioca esteja macia e o caldo espesso.",
+        "Ajuste os temperos e sirva quente."
       ]
     },
     {
       "nome": "Bife Wellington",
-      "ingredientes": [
-        "Filé Mignon",
-        "Massa Folhada",
-        "Cogumelos",
-        "Presunto Cru",
-        "Mostarda Dijon",
-        "Gema de Ovo"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé Mignon": "500g",
+        "Massa Folhada": "1 rolo",
+        "Cogumelos": "200g, picados",
+        "Presunto Cru": "8 fatias",
+        "Mostarda Dijon": "2 colheres de sopa",
+        "Gema de Ovo": "1 unidade"
+      },
+      "receita": [
+        "Tempere o filé mignon com sal e pimenta e sele em uma frigideira quente. Reserve.",
+        "Refogue os cogumelos até que a água evapore completamente.",
+        "Abra a massa folhada e disponha as fatias de presunto cru, os cogumelos e o filé mignon por cima.",
+        "Pincele a massa com gema de ovo e envolva o filé mignon, selando bem as bordas.",
+        "Leve ao forno pré-aquecido a 200°C por cerca de 30 minutos, ou até dourar.",
+        "Deixe descansar por 5 minutos antes de cortar e servir."
       ]
     },
     {
       "nome": "Escondidinho de Carne Moída",
-      "ingredientes": [
-        "Carne Moída",
-        "Purê de Mandioca",
-        "Queijo Mussarela",
-        "Cebola",
-        "Alho"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Carne Moída": "500g",
+        "Purê de Mandioca": "500g",
+        "Queijo Mussarela": "200g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Sal": "a gosto",
+        "Pimenta": "a gosto"
+      },
+      "receita": [
+        "Refogue a carne moída com cebola, alho, sal e pimenta. Reserve.",
+        "Prepare o purê de mandioca e ajuste os temperos a gosto.",
+        "Em um refratário, coloque uma camada de carne moída, cubra com o purê e finalize com o queijo mussarela.",
+        "Leve ao forno pré-aquecido a 200°C até que o queijo esteja dourado.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Rocambole de Carne Moída Recheado",
-      "ingredientes": [
-        "Carne Moída",
-        "Queijo Mussarela",
-        "Presunto",
-        "Cebola",
-        "Alho",
-        "Farinha de Rosca",
-        "Ovo"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Carne Moída": "500g",
+        "Queijo Mussarela": "200g",
+        "Presunto": "200g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Farinha de Rosca": "1/2 xícara",
+        "Ovo": "1 unidade"
+      },
+      "receita": [
+        "Misture a carne moída, alho, cebola, ovo e farinha de rosca até formar uma massa homogênea.",
+        "Abra a massa de carne sobre um plástico filme, formando um retângulo.",
+        "Distribua as fatias de presunto e queijo mussarela sobre a carne.",
+        "Enrole como um rocambole, utilizando o plástico filme para ajudar a moldar.",
+        "Transfira para uma assadeira e leve ao forno pré-aquecido a 200°C por 40 minutos ou até dourar.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Filé de Peixe à Milanesa",
-      "ingredientes": [
-        "Filé de Peixe",
-        "Farinha de Trigo",
-        "Ovo",
-        "Farinha de Rosca",
-        "Óleo para Fritar"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé de Peixe": "500g",
+        "Farinha de Trigo": "1/2 xícara",
+        "Ovo": "2 unidades batidas",
+        "Farinha de Rosca": "1/2 xícara",
+        "Óleo para Fritar": "suficiente para imersão"
+      },
+      "receita": [
+        "Tempere os filés de peixe com sal, pimenta e limão.",
+        "Passe os filés na farinha de trigo, depois nos ovos batidos e por último na farinha de rosca.",
+        "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados e crocantes.",
+        "Escorra em papel toalha e sirva com limão."
       ]
     },
     {
       "nome": "Quibe Recheado com Molho Branco e Mussarela",
-      "ingredientes": [
-        "Carne Moída",
-        "Trigo para Quibe",
-        "Mussarela",
-        "Cebola",
-        "Alho",
-        "Temperos diversos",
-        "Molho Branco"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Carne Moída": "500g",
+        "Trigo para Quibe": "1 xícara (hidratado)",
+        "Mussarela": "200g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Temperos diversos": "a gosto",
+        "Molho Branco": "1 xícara"
+      },
+      "receita": [
+        "Misture a carne moída, trigo para quibe, cebola, alho e temperos até formar uma massa.",
+        "Em uma assadeira, coloque metade da massa e espalhe.",
+        "Adicione o recheio de mussarela e cubra com o restante da massa.",
+        "Leve ao forno pré-aquecido a 200°C por 30 minutos ou até dourar.",
+        "Espalhe o molho branco sobre o quibe assado e finalize com queijo mussarela.",
+        "Leve ao forno para gratinar e sirva quente."
       ]
     },
     {
       "nome": "Lombo a Molho Barbecue",
-      "ingredientes": [
-        "Lombo de Porco",
-        "Molho Barbecue",
-        "Alho",
-        "Sal",
-        "Pimenta do Reino",
-        "Azeite"
+      "verificado": false,
+      "porção": 6,
+      "ingredientes": {
+        "Lombo de Porco": "1kg",
+        "Molho Barbecue": "1/2 xícara",
+        "Alho": "3 dentes picados",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Azeite": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere o lombo com alho, sal, pimenta e azeite. Deixe marinar por 1 hora.",
+        "Coloque o lombo em uma assadeira e cubra com papel-alumínio.",
+        "Leve ao forno pré-aquecido a 180°C por 1 hora.",
+        "Retire o papel-alumínio, pincele o molho barbecue e asse por mais 30 minutos, regando com o molho ocasionalmente.",
+        "Sirva fatiado com o molho restante."
       ]
     },
     {
       "nome": "Pernil Assado a Molho Madeira",
-      "ingredientes": [
-        "Pernil de Porco",
-        "Molho Madeira",
-        "Alho",
-        "Cebola",
-        "Vinho Tinto",
-        "Sal",
-        "Pimenta do Reino"
+      "verificado": false,
+      "porção": 8,
+      "ingredientes": {
+        "Pernil de Porco": "1,5kg",
+        "Molho Madeira": "1 xícara",
+        "Alho": "4 dentes picados",
+        "Cebola": "1 unidade picada",
+        "Vinho Tinto": "1/2 xícara",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      },
+      "receita": [
+        "Tempere o pernil com alho, cebola, vinho tinto, sal e pimenta. Deixe marinar por 12 horas.",
+        "Transfira o pernil para uma assadeira, cubra com papel-alumínio e leve ao forno pré-aquecido a 180°C por 2 horas.",
+        "Retire o papel-alumínio, pincele o molho madeira e asse por mais 30 minutos até dourar.",
+        "Sirva com o molho madeira aquecido."
       ]
     },
     {
       "nome": "Picadinho de Pernil ao Cubo",
-      "ingredientes": [
-        "Pernil de Porco em Cubos",
-        "Cebola",
-        "Alho",
-        "Pimentão",
-        "Tomate",
-        "Sal",
-        "Pimenta do Reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Pernil de Porco em Cubos": "500g",
+        "Cebola": "1 unidade picada",
+        "Alho": "2 dentes picados",
+        "Pimentão": "1 unidade picado",
+        "Tomate": "2 unidades picadas",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      },
+      "receita": [
+        "Aqueça o azeite em uma panela e refogue o alho e a cebola até dourar.",
+        "Adicione os cubos de pernil e deixe dourar bem.",
+        "Junte o pimentão e o tomate, tempere com sal e pimenta, e cozinhe até o pernil ficar macio.",
+        "Sirva acompanhado de arroz e salada."
       ]
     },
     {
       "nome": "Costelinha Suína Caramelizada",
-      "ingredientes": [
-        "Costelinha Suína",
-        "Açúcar Mascavo",
-        "Molho de Soja",
-        "Alho",
-        "Cebola",
-        "Mel",
-        "Vinagre",
-        "Sal",
-        "Pimenta do Reino",
-        "Óleo"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Costelinha Suína": "1kg",
+        "Açúcar Mascavo": "3 colheres de sopa",
+        "Molho de Soja": "1/4 xícara",
+        "Alho": "3 dentes picados",
+        "Cebola": "1 unidade picada",
+        "Mel": "2 colheres de sopa",
+        "Vinagre": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Óleo": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere a costelinha com sal e pimenta.",
+        "Aqueça o óleo em uma panela e doure a costelinha por todos os lados.",
+        "Adicione o alho, a cebola, o açúcar mascavo, o molho de soja, o mel e o vinagre.",
+        "Cozinhe em fogo baixo até a costelinha ficar macia e o molho caramelizado.",
+        "Sirva quente."
       ]
     },
     {
       "nome": "Filé de Porco ao Molho de Laranja e Gengibre",
-      "ingredientes": [
-        "Filé de Porco",
-        "Laranja",
-        "Gengibre",
-        "Alho",
-        "Cebola",
-        "Mel",
-        "Azeite",
-        "Sal",
-        "Pimenta do Reino"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Filé de Porco": "500g",
+        "Laranja": "2 unidades (suco)",
+        "Gengibre": "1 colher de sopa ralada",
+        "Alho": "2 dentes picados",
+        "Cebola": "1 unidade picada",
+        "Mel": "1 colher de sopa",
+        "Azeite": "2 colheres de sopa",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      },
+      "receita": [
+        "Tempere o filé de porco com sal e pimenta.",
+        "Aqueça o azeite em uma frigideira e sele os filés até dourarem. Reserve.",
+        "Na mesma frigideira, refogue o alho, a cebola e o gengibre.",
+        "Adicione o suco de laranja e o mel, deixando reduzir até formar um molho espesso.",
+        "Volte os filés à frigideira, cubra com o molho e cozinhe por mais alguns minutos.",
+        "Sirva acompanhado de arroz branco ou purê de batatas."
       ]
     },
     {
       "nome": "Bisteca de Porco Grelhada",
-      "ingredientes": [
-        "Bisteca de Porco",
-        "Alho",
-        "Limão",
-        "Sal",
-        "Pimenta do Reino",
-        "Azeite"
+      "verificado": false,
+      "porção": 4,
+      "ingredientes": {
+        "Bisteca de Porco": "4 unidades",
+        "Alho": "2 dentes picados",
+        "Limão": "1 unidade (suco)",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto",
+        "Azeite": "2 colheres de sopa"
+      },
+      "receita": [
+        "Tempere as bistecas com alho, suco de limão, sal e pimenta. Deixe marinar por 30 minutos.",
+        "Aqueça uma grelha ou frigideira com o azeite.",
+        "Grelhe as bistecas por 4 a 5 minutos de cada lado, ou até ficarem bem douradas.",
+        "Sirva acompanhadas de salada ou batatas assadas."
       ]
     }
   ]

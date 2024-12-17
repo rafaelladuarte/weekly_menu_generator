@@ -86,23 +86,26 @@
       "nome": "Batata Recheada com Frango",
       "verificado": false,
       "porção": 4,
-      "ingredientes": [
-        "Batata",
-        "Queijo Ralado",
-        "Creme de Leite",
-        "Bacon",
-        "Cebolinha",
-        "Sal",
-        "Pimenta do Reino"
-      ],
+      "ingredientes": {
+        "Batata": "4 unidades grandes",
+        "Frango Desfiado": "300g",
+        "Queijo Ralado (Parmesão)": "50g",
+        "Queijo Mussarela": "100g",
+        "Creme de Leite": "100ml",
+        "Bacon": "50g (picado e frito)",
+        "Cebolinha": "a gosto",
+        "Sal": "a gosto",
+        "Pimenta do Reino": "a gosto"
+      },
       "receita": [
-        "Reúna todos os ingredientes;",
-        "Retire o miolo das 4 batatas e transfira para um recipiente;",
-        "Amasse bem até formar um purê, adicione o sal, a cebolinha, o cream cheese, o frango desfiado e misture bem;",
-        "Acrescente a mussarela ralada e misture até incorporar;",
-        "Recheie as batatas com o creme de frango, polvilhe parmesão por cima de cada e disponha na cestinha da airfryer;",
-        "Ligue a airfryer a 200 ºC por cerca de 25 minutos;",
-        "Agora é só servir!"
+        "Cozinhe as batatas com casca até ficarem macias. Depois, corte ao meio e retire o miolo, formando uma cavidade.",
+        "Amasse o miolo das batatas em um recipiente até formar um purê.",
+        "Misture o purê de batata com sal, pimenta, cebolinha, creme de leite, frango desfiado e queijo mussarela até obter uma mistura homogênea.",
+        "Recheie as cavidades das batatas com o creme preparado.",
+        "Polvilhe o queijo parmesão ralado por cima e finalize com o bacon picado e frito.",
+        "Disponha as batatas recheadas na cesta da airfryer.",
+        "Asse a 200 ºC por aproximadamente 25 minutos, ou até dourar.",
+        "Retire da airfryer e sirva quente."
       ]
     },
     {
@@ -131,18 +134,37 @@
         "Requeijão Cremoso": "1 colher de sopa",
         "Peito de Peru": "2 fatias"
       },
-      "receita": []
+      "receita": [
+        "Em um recipiente, misture o ovo com a tapioca até obter uma massa homogênea.",
+        "Aqueça uma frigideira antiaderente em fogo baixo e despeje a massa.",
+        "Cozinhe por 2-3 minutos, vire e deixe dourar do outro lado.",
+        "Espalhe o requeijão cremoso sobre a crepioca ainda quente.",
+        "Adicione as fatias de peito de peru e dobre ao meio.",
+        "Sirva em seguida."
+      ]
     },
     {
       "nome": "X-Tudo Caseiro",
-      "ingredientes": [
-        "Pão de Hamburguer",
-        "Hamburguer",
-        "Mussarela",
-        "Alface",
-        "Tomate",
-        "Ovo Frito",
-        "Peito de Peru"
+      "verificado": false,
+      "ingredientes": {
+        "Pão de Hambúrguer": "2 unidades",
+        "Hambúrguer": "2 unidades",
+        "Queijo Mussarela": "2 fatias",
+        "Alface": "2 folhas",
+        "Tomate": "4 rodelas",
+        "Ovo": "2 unidades (fritos)",
+        "Peito de Peru": "2 fatias",
+        "Maionese": "a gosto",
+        "Ketchup": "a gosto",
+        "Mostarda": "a gosto"
+      },
+      "receita": [
+        "Grelhe os hambúrgueres em uma frigideira até o ponto desejado.",
+        "Frite os ovos em uma frigideira separada.",
+        "Corte os pães ao meio e aqueça levemente em uma chapa ou frigideira.",
+        "Monte o lanche: passe maionese nas metades do pão, adicione o hambúrguer, o queijo mussarela, o ovo frito, o peito de peru, a alface e o tomate.",
+        "Finalize com ketchup e mostarda a gosto.",
+        "Feche o pão e sirva acompanhado de batatas fritas ou salada, se preferir."
       ]
     },
     {
