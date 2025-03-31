@@ -1,0 +1,2337 @@
+[
+    {
+        "nome": "Omelete",
+        "verificado": true,
+        "porção": 1,
+        "ingredientes": {
+            "Ovos": "2 unidades",
+            "Queijo": "50 gramas",
+            "Presunto": "50 gramas",
+            "Tomate": "1 unidade"
+        },
+        "receita": [
+            "Bata os ovos em uma tigela.",
+            "Adicione o queijo, presunto e tomate picado.",
+            "Aqueça uma frigideira e despeje a mistura.",
+            "Cozinhe até firmar e vire para dourar do outro lado."
+        ],
+        "tags": [
+            "Café da Manhã"
+        ],
+        "image": "omelete.jpg"
+    },
+    {
+        "nome": "Banana com Iogurte Natural Desnatado",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Banana": "1 unidade",
+            "Iogurte Natural Desnatado": "170ml"
+        },
+        "receita": [
+            "Descasque a banana e corte em rodelas.",
+            "Em uma tigela, coloque o iogurte natural desnatado.",
+            "Adicione as rodelas de banana por cima do iogurte.",
+            "Misture levemente e sirva."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Pão de Forma com Doce de Leite",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Pão de Forma Tradicional": "50g",
+            "Doce de Leite": "1 colher de sopa"
+        },
+        "receita": [
+            "Pegue uma fatia de pão de forma.",
+            "Passe o doce de leite uniformemente sobre o pão.",
+            "Sirva imediatamente."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Banana com Maçã e Mel",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Banana": "1 unidade",
+            "Maçã": "1 unidade",
+            "Mel": "1 colher de sopa"
+        },
+        "receita": [
+            "Descasque a banana e a maçã.",
+            "Corte ambas em cubos pequenos.",
+            "Misture as frutas em uma tigela.",
+            "Regue com mel e sirva."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Tapioca com Goiabada",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Tapioca": "1 porção (cerca de 80g)",
+            "Goiabada": "1 colher de sopa"
+        },
+        "receita": [
+            "Prepare a tapioca conforme instruções da embalagem.",
+            "Enquanto ainda quente, adicione a goiabada.",
+            "Dobre a tapioca ao meio para derreter levemente a goiabada.",
+            "Sirva quente."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frutas Picadas com Mel",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Frutas Variadas": "100g",
+            "Mel": "1 colher de chá"
+        },
+        "receita": [
+            "Lave e pique as frutas de sua preferência.",
+            "Coloque em uma tigela ou prato.",
+            "Regue com mel por cima.",
+            "Sirva fresco."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Pão Francês Tostado com Mel",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Pão Francês": "50g",
+            "Mel": "1 colher de chá"
+        },
+        "receita": [
+            "Corte o pão francês ao meio.",
+            "Toaste levemente em uma torradeira ou frigideira.",
+            "Regue com mel e sirva."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Pão Francês com Ovo",
+        "verificado": true,
+        "porção": 1,
+        "ingredientes": {
+            "Pão Francês": "50g",
+            "Ovo": "1 unidade",
+            "Sal": "a gosto",
+            "Pimenta": "a gosto (opcional)"
+        },
+        "receita": [
+            "Frite ou cozinhe o ovo como preferir (mexido, frito, pochê).",
+            "Corte o pão francês ao meio e toste levemente se desejar.",
+            "Coloque o ovo dentro do pão.",
+            "Tempere com sal e pimenta a gosto.",
+            "Sirva quente."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Tapioca com Frango e Café Preto",
+        "verificado": true,
+        "porção": 1,
+        "ingredientes": {
+            "Tapioca": "80g",
+            "Frango Desfiado": "25g",
+            "Café Preto": "100ml"
+        },
+        "receita": [
+            "Prepare a tapioca conforme instruções.",
+            "Recheie com o frango desfiado previamente cozido.",
+            "Prepare o café preto separadamente.",
+            "Sirva a tapioca acompanhada do café."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Cuscuz Cozido com Ovo",
+        "verificado": true,
+        "porção": 1,
+        "ingredientes": {
+            "Cuscuz": "80g",
+            "Ovo": "1 unidade",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Cozinhe o cuscuz conforme instruções da embalagem.",
+            "Prepare o ovo como preferir (cozido, frito ou mexido).",
+            "Sirva o cuscuz com o ovo por cima.",
+            "Tempere com sal a gosto."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Torrada com Creme de Ricota Light",
+        "verificado": true,
+        "porção": 1,
+        "ingredientes": {
+            "Torrada Tradicional": "80g",
+            "Creme de Ricota Light": "1 colher de sopa"
+        },
+        "receita": [
+            "Toaste o pão até ficar crocante.",
+            "Passe o creme de ricota light uniformemente.",
+            "Sirva imediatamente."
+        ],
+        "tags": ["Café da Manhã"],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Salada de Frango",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Frango": "200 gramas",
+            "Alface": "5 folhas",
+            "Tomate": "1 unidade",
+            "Azeite": "2 colheres de sopa"
+        },
+        "receita": [
+            "Cozinhe e desfie o frango.",
+            "Lave e corte a alface e o tomate.",
+            "Misture todos os ingredientes em uma tigela.",
+            "Tempere com azeite e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "salada_de_frango.jpg"
+    },
+    {
+        "nome": "Purê de Batata",
+        "verificado": false,
+        "porção": 3,
+        "ingredientes": {
+            "Batatas": "500 gramas",
+            "Leite": "1/2 xícara",
+            "Manteiga": "1 colher de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Descasque e cozinhe as batatas até ficarem macias.",
+            "Amasse as batatas e misture com leite, manteiga e sal.",
+            "Mexa bem até obter um purê cremoso.",
+            "Sirva quente como acompanhamento."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Pão Francês com Ovos Mexidos",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Pão Francês": "2 unidades",
+            "Ovos": "2 unidades",
+            "Leite": "1 colher de sopa",
+            "Manteiga": "1 colher de chá",
+            "Sal": "A gosto",
+            "Pimenta do Reino": "A gosto"
+        },
+        "receita": [
+            "Corte o pão francês ao meio e, se desejar, torre ligeiramente;",
+            "Em uma tigela, bata os ovos com o leite ou água até ficar bem misturado. Tempere com sal e pimenta,",
+            "Aqueça a manteiga ou azeite em uma frigideira em fogo médio.",
+            "Despeje os ovos batidos na frigideira e cozinhe, mexendo constantemente, até que estejam macios e cozidos.",
+            "Coloque os ovos mexidos sobre o pão e sirva imediatamente"
+        ],
+        "tags": [
+            "Pratos Rápidos",
+            "Café da Manhã"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Wrap de Peito de Peru com Alface e Creme de Ricota",
+        "porção": 2,
+        "verificado": false,
+        "ingredientes": {
+            "Wrap": "2 unidades",
+            "Peito de Peru": "4 fatias",
+            "Alface": "2 folhas",
+            "Creme de Ricota": "2 colheres de sopa",
+            "Tomate": "4 fatias",
+            "Sal": "A gosto",
+            "Pimenta do Reino": "A gosto"
+        },
+        "receita": [
+            "Aqueça ligeiramente o wrap em uma frigideira ou micro-ondas.",
+            "Espalhe o creme de ricota uniformemente sobre o wrap.",
+            "Adicione as fatias de peito de peru e as folhas de alface.",
+            "Se desejar, adicione fatias de tomate.",
+            "Tempere com sal e pimenta a gosto.",
+            "Enrole o wrap firmemente e corte ao meio antes de servir."
+        ],
+        "tags": [
+            "Pratos Rápidos"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Grelhado com Batata Doce e Brócolis",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Peito de Frango": "1 unidade",
+            "Batata Doce": "2 unidades médias",
+            "Brócolis": "1 xícara de buquês",
+            "Azeite": "2 colheres de sopa",
+            "Alho": "2 dentes picados",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "receita": [
+            "Tempere o peito de frango com sal, pimenta e alho. Reserve.",
+            "Cozinhe as batatas doces até ficarem macias e corte-as em rodelas.",
+            "Em uma frigideira, aqueça 1 colher de sopa de azeite e grelhe o frango até dourar e cozinhar por completo.",
+            "Na mesma frigideira, adicione mais azeite e refogue os brócolis até ficarem macios.",
+            "Sirva o frango acompanhado das batatas e do brócolis."
+        ],
+        "tags": [
+            "Pratos Rápidos",
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Recheada com Frango",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata": "4 unidades grandes",
+            "Frango Desfiado": "300g",
+            "Queijo Ralado (Parmesão)": "50g",
+            "Queijo Mussarela": "100g",
+            "Creme de Leite": "100ml",
+            "Bacon": "50g (picado e frito)",
+            "Cebolinha": "a gosto",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "receita": [
+            "Cozinhe as batatas com casca até ficarem macias. Depois, corte ao meio e retire o miolo, formando uma cavidade.",
+            "Amasse o miolo das batatas em um recipiente até formar um purê.",
+            "Misture o purê de batata com sal, pimenta, cebolinha, creme de leite, frango desfiado e queijo mussarela até obter uma mistura homogênea.",
+            "Recheie as cavidades das batatas com o creme preparado.",
+            "Polvilhe o queijo parmesão ralado por cima e finalize com o bacon picado e frito.",
+            "Disponha as batatas recheadas na cesta da airfryer.",
+            "Asse a 200 ºC por aproximadamente 25 minutos, ou até dourar.",
+            "Retire da airfryer e sirva quente."
+        ],
+        "tags": [
+            "Pratos Rápidos"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Nuggets Caseiro",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Frango Desfiado": "200g",
+            "Ovos": "1",
+            "Musssarela": "2 fatias"
+        },
+        "receita": [
+            "Em uma tigela, mexa os ovos até ficarem homogêneos",
+            "No mixer, adicione o frango desfiado e as fatias de muçarela. Bata até obter uma mistura uniforme",
+            "Com a massa pronta, corte-a em cubinhos.",
+            "Unte a air fryer com um pouco de azeite ou spray de cozinha.",
+            "Coloque os cubinhos na air fryer e asse por 5 minutos de cada lado, ou até que estejam dourados e crocantes.",
+            "Retire e sirva quente"
+        ],
+        "tags": [
+            "Pratos Rápidos"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Crepioca com Requeijão Cremoso e Peito de Peru",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Ovos": "1",
+            "Tapioca": "2 colheres de sopa",
+            "Requeijão Cremoso": "1 colher de sopa",
+            "Peito de Peru": "2 fatias"
+        },
+        "receita": [
+            "Em um recipiente, misture o ovo com a tapioca até obter uma massa homogênea.",
+            "Aqueça uma frigideira antiaderente em fogo baixo e despeje a massa.",
+            "Cozinhe por 2-3 minutos, vire e deixe dourar do outro lado.",
+            "Espalhe o requeijão cremoso sobre a crepioca ainda quente.",
+            "Adicione as fatias de peito de peru e dobre ao meio.",
+            "Sirva em seguida."
+        ],
+        "tags": [
+            "Pratos Rápidos",
+            "Café da Manhã"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "X-Tudo Caseiro",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Pão de Hambúrguer": "2 unidades",
+            "Hambúrguer": "2 unidades",
+            "Queijo Mussarela": "2 fatias",
+            "Alface": "2 folhas",
+            "Tomate": "4 rodelas",
+            "Ovo": "2 unidades (fritos)",
+            "Peito de Peru": "2 fatias",
+            "Maionese": "a gosto",
+            "Ketchup": "a gosto",
+            "Mostarda": "a gosto"
+        },
+        "receita": [
+            "Grelhe os hambúrgueres em uma frigideira até o ponto desejado.",
+            "Frite os ovos em uma frigideira separada.",
+            "Corte os pães ao meio e aqueça levemente em uma chapa ou frigideira.",
+            "Monte o lanche: passe maionese nas metades do pão, adicione o hambúrguer, o queijo mussarela, o ovo frito, o peito de peru, a alface e o tomate.",
+            "Finalize com ketchup e mostarda a gosto.",
+            "Feche o pão e sirva acompanhado de batatas fritas ou salada, se preferir."
+        ],
+        "tags": [
+            "Pratos Rápidos"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Panqueca Simples",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Ovos": "1 unidade",
+            "Farinha de Trigo": "1 xícara",
+            "Leite": "1 xícara",
+            "Óleo": "1 colher de sopa",
+            "Sal": "1 pitada"
+        },
+        "receita": [
+            "Bata todos os ingredientes no liquidificador até obter uma consistência cremosa.",
+            "Unte uma frigideira com óleo e despeje uma concha de massa.",
+            "Faça movimentos circulares para que a massa se espalhe por toda a frigideira.",
+            "Espere até a massa se soltar do fundo, vire e deixe fritar do outro lado.",
+            "Acrescente o recheio de sua preferência, enrole e está pronta para servir."
+        ],
+        "tags": [
+            "Pratos Rápidos",
+            "Café da Manhã"
+        ],
+        "image": "panqueca.jpg"
+    },
+    {
+        "nome": "Macarrão com Almôndegas e Molho Vermelho",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Macarrão": "250g",
+            "Carne Moída": "300g",
+            "Cebola": "1 unidade pequena picada",
+            "Molho de Tomate": "2 xícaras",
+            "Ovo": "1 unidade",
+            "Farinha de Rosca": "2 colheres de sopa",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Alho": "1 dente picado"
+        },
+        "receita": [
+            "Cozinhe o macarrão conforme as instruções da embalagem. Reserve.",
+            "Misture a carne moída com o ovo, farinha de rosca, cebola, sal e pimenta. Forme almôndegas pequenas.",
+            "Aqueça o azeite em uma frigideira e doure as almôndegas por todos os lados.",
+            "Adicione o molho de tomate e deixe cozinhar em fogo baixo por 10 minutos.",
+            "Sirva o macarrão coberto com o molho e as almôndegas."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Cremoso",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Frango": "500 gramas",
+            "Creme de Leite": "1 caixinha",
+            "Alho": "2 dentes",
+            "Cebola": "1 unidade",
+            "Temperos diversos": "a gosto"
+        },
+        "receita": [
+            "Tempere o frango com os temperos de sua preferência e reserve.",
+            "Em uma panela, aqueça um fio de óleo e refogue o alho e a cebola até dourarem.",
+            "Adicione o frango e cozinhe até dourar.",
+            "Acrescente o creme de leite, misture bem e cozinhe por mais 5 minutos.",
+            "Sirva acompanhado de arroz ou purê de batatas."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Coxa e Sobrecoxa Assada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Coxa e Sobrecoxa de Frango": "1kg",
+            "Alho": "3 dentes",
+            "Limão": "1 unidade",
+            "Temperos diversos": "a gosto",
+            "Óleo ou Azeite": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere as coxas e sobrecoxas com o alho, suco de limão e temperos de sua preferência.",
+            "Deixe marinar por pelo menos 30 minutos.",
+            "Pré-aqueça o forno a 200°C.",
+            "Coloque o frango em uma assadeira, regue com óleo ou azeite e cubra com papel-alumínio.",
+            "Asse por 40 minutos, retire o papel e deixe dourar por mais 20 minutos."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango à Parmegiana",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé de Frango": "4 unidades",
+            "Farinha de Trigo": "1 xícara",
+            "Ovo": "2 unidades",
+            "Farinha de Rosca": "1 xícara",
+            "Molho de Tomate": "2 xícaras",
+            "Queijo Mussarela": "200g",
+            "Óleo para Fritar": "suficiente para fritar"
+        },
+        "receita": [
+            "Tempere os filés de frango com sal e pimenta.",
+            "Passe cada filé na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+            "Aqueça o óleo e frite os filés até ficarem dourados. Escorra em papel-toalha.",
+            "Em uma assadeira, coloque os filés, cubra com o molho de tomate e finalize com o queijo mussarela.",
+            "Leve ao forno preaquecido a 180°C até o queijo derreter e dourar."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Xadrez",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Peito de Frango": "400g em cubos",
+            "Pimentão": "1 unidade de cada cor (verde, vermelho, amarelo)",
+            "Cebola": "1 unidade grande",
+            "Molho de Soja": "1/4 de xícara",
+            "Amendoim": "1/2 xícara",
+            "Cenoura": "1 unidade média em rodelas",
+            "Óleo de Gergelim": "1 colher de sopa"
+        },
+        "receita": [
+            "Aqueça o óleo de gergelim em uma panela wok ou frigideira.",
+            "Adicione o frango e doure bem. Retire e reserve.",
+            "Na mesma panela, refogue os pimentões, a cebola e a cenoura por 3 minutos.",
+            "Volte o frango para a panela, adicione o molho de soja e misture bem.",
+            "Finalize com o amendoim e sirva quente, acompanhado de arroz."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango à Milanesa",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé de Frango": "4 unidades",
+            "Farinha de Trigo": "1 xícara",
+            "Ovo": "2 unidades",
+            "Farinha de Rosca": "1 xícara",
+            "Óleo para Fritar": "suficiente para fritar"
+        },
+        "receita": [
+            "Tempere os filés de frango com sal e pimenta.",
+            "Passe cada filé na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+            "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados.",
+            "Escorra em papel-toalha e sirva com limão ou o acompanhamento de sua preferência."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Strogonoff de Frango",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Peito de Frango": "500g em cubos",
+            "Creme de Leite": "1 caixinha",
+            "Molho de Tomate": "1/2 xícara",
+            "Mostarda": "1 colher de sopa",
+            "Ketchup": "2 colheres de sopa",
+            "Champignon": "1/2 xícara"
+        },
+        "receita": [
+            "Em uma panela, aqueça um fio de óleo e refogue o frango até dourar.",
+            "Adicione o molho de tomate, mostarda e ketchup. Misture bem e cozinhe por 5 minutos.",
+            "Acrescente o champignon e o creme de leite, mexendo até incorporar.",
+            "Sirva quente com arroz e batata palha."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Grelhado",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Filé de Frango": "2 unidades",
+            "Azeite": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Alho": "1 dente picado"
+        },
+        "receita": [
+            "Tempere os filés de frango com sal, pimenta e alho.",
+            "Aqueça uma frigideira com azeite em fogo médio.",
+            "Grelhe os filés por 3-4 minutos de cada lado ou até estarem cozidos e dourados.",
+            "Sirva acompanhado de salada ou legumes grelhados."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Assado com Ervas e Batata",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Frango Inteiro": "1 unidade (aproximadamente 1.5kg)",
+            "Alho": "4 dentes picados",
+            "Alecrim": "2 ramos",
+            "Tomilho": "2 ramos",
+            "Sal": "a gosto",
+            "Azeite": "3 colheres de sopa",
+            "Limão": "1 unidade"
+        },
+        "receita": [
+            "Tempere o frango com sal, alho, azeite, suco de limão e as ervas. Deixe marinar por 1 hora.",
+            "Pré-aqueça o forno a 200°C.",
+            "Coloque o frango em uma assadeira e distribua batatas cortadas em pedaços ao redor.",
+            "Cubra com papel-alumínio e asse por 1 hora. Retire o papel e deixe dourar por mais 30 minutos.",
+            "Sirva quente acompanhado das batatas."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango à Passarinho com Cebola",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Frango Cortado em Pedaços Pequenos": "1kg",
+            "Alho": "3 dentes picados",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Limão": "1 unidade",
+            "Óleo para Fritar": "suficiente para fritar"
+        },
+        "receita": [
+            "Tempere o frango com alho, sal, pimenta e suco de limão. Deixe marinar por 30 minutos.",
+            "Aqueça o óleo em uma panela funda.",
+            "Frite o frango em pequenas porções até dourar e ficar crocante.",
+            "Sirva com rodelas de cebola crua ou refogada, a gosto."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Filé de Frango ao Molho de Açafrão",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Filé de Frango": "2 unidades",
+            "Açafrão": "1 colher de chá",
+            "Creme de Leite": "1 caixinha",
+            "Alho": "1 dente picado",
+            "Cebola": "1/2 unidade picada",
+            "Óleo ou Manteiga": "1 colher de sopa"
+        },
+        "receita": [
+            "Tempere os filés de frango com sal e pimenta.",
+            "Em uma frigideira, aqueça o óleo ou a manteiga e doure os filés. Reserve.",
+            "Na mesma frigideira, refogue o alho e a cebola.",
+            "Adicione o açafrão e o creme de leite, misture bem e deixe aquecer sem ferver.",
+            "Coloque os filés de volta à frigideira, cubra com o molho e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Lasanha de Frango",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Massa para Lasanha": "1 pacote",
+            "Frango Desfiado": "500g",
+            "Molho de Tomate": "2 xícaras",
+            "Molho Branco": "2 xícaras",
+            "Queijo Mussarela": "300g",
+            "Queijo Parmesão": "50g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados"
+        },
+        "receita": [
+            "Em uma panela, refogue o alho e a cebola. Adicione o frango desfiado e o molho de tomate, misturando bem.",
+            "Em um refratário, monte a lasanha alternando camadas de massa, molho de tomate com frango, molho branco e queijo mussarela.",
+            "Finalize com queijo parmesão por cima.",
+            "Asse em forno preaquecido a 180°C por 30 minutos ou até gratinar."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Fricassê",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Frango Desfiado": "500g",
+            "Milho": "1 lata",
+            "Creme de Leite": "1 caixinha",
+            "Requeijão": "1 copo",
+            "Cebola": "1 unidade picada",
+            "Batata Palha": "1 pacote pequeno",
+            "Queijo Mussarela": "200g"
+        },
+        "receita": [
+            "No liquidificador, bata o milho (com a água da lata), o creme de leite e o requeijão até formar um creme.",
+            "Em uma panela, refogue a cebola e o frango desfiado. Adicione o creme e cozinhe por 5 minutos.",
+            "Coloque a mistura em um refratário, cubra com o queijo mussarela e leve ao forno preaquecido a 180°C até derreter.",
+            "Finalize com batata palha por cima e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Escondidinho de Frango",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Frango Desfiado": "500g",
+            "Purê de Batata": "500g",
+            "Requeijão": "1 copo",
+            "Queijo Mussarela": "200g",
+            "Alho": "2 dentes picados",
+            "Cebola": "1 unidade picada"
+        },
+        "receita": [
+            "Em uma panela, refogue o alho e a cebola. Adicione o frango desfiado e misture bem.",
+            "Em um refratário, espalhe metade do purê de batata no fundo.",
+            "Adicione o frango refogado por cima e cubra com o requeijão.",
+            "Finalize com o restante do purê e polvilhe queijo mussarela por cima.",
+            "Leve ao forno preaquecido a 180°C até dourar e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango com Legumes",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Peito de Frango": "500g em cubos",
+            "Cenoura": "2 unidades em rodelas",
+            "Abobrinha": "1 unidade em cubos",
+            "Brócolis": "1/2 maço",
+            "Cebola": "1 unidade em pétalas",
+            "Alho": "2 dentes picados",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Tempere o frango com sal e reserve.",
+            "Em uma panela ou frigideira grande, aqueça o azeite e refogue o alho e a cebola.",
+            "Adicione o frango e cozinhe até dourar.",
+            "Acrescente os legumes e cozinhe por 5-7 minutos, mexendo ocasionalmente, até que fiquem macios.",
+            "Ajuste o sal, se necessário, e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango Teriyaki",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Peito de Frango": "500g em tiras",
+            "Molho Teriyaki": "1/2 xícara",
+            "Gergelim": "1 colher de sopa",
+            "Cebolinha": "2 colheres de sopa picadas",
+            "Azeite": "1 colher de sopa"
+        },
+        "receita": [
+            "Tempere o frango com sal, se necessário.",
+            "Aqueça o azeite em uma frigideira e doure as tiras de frango.",
+            "Adicione o molho teriyaki e cozinhe por mais 5 minutos, até o molho reduzir ligeiramente.",
+            "Finalize com gergelim e cebolinha por cima. Sirva com arroz branco ou legumes."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango ao Molho Curry",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Peito de Frango": "500g em cubos",
+            "Curry": "1 colher de sopa",
+            "Leite de Coco": "1 xícara",
+            "Alho": "2 dentes picados",
+            "Cebola": "1 unidade picada",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Tempere o frango com sal e reserve.",
+            "Aqueça o azeite em uma panela e refogue o alho e a cebola até dourar.",
+            "Adicione o curry e misture bem. Em seguida, acrescente o frango e refogue até dourar.",
+            "Despeje o leite de coco e cozinhe por 10 minutos em fogo baixo, até o molho engrossar.",
+            "Ajuste o sal, se necessário, e sirva com arroz branco ou pão naan."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Frango ao Molho Mostarda",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé de Frango": "500g",
+            "Mostarda Dijon": "3 colheres de sopa",
+            "Creme de Leite": "1 xícara",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Azeite": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere o frango com sal e pimenta, e reserve.",
+            "Aqueça o azeite em uma frigideira e doure os filés de frango dos dois lados. Retire e reserve.",
+            "Na mesma frigideira, refogue a cebola e o alho até dourar.",
+            "Adicione a mostarda dijon e o creme de leite, misturando bem.",
+            "Retorne os filés de frango à frigideira e cozinhe por mais 5 minutos em fogo baixo. Sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Galinha Caipira",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Frango Caipira": "1kg, cortado em pedaços",
+            "Cebola": "2 unidades picadas",
+            "Alho": "3 dentes picados",
+            "Tomate": "2 unidades picadas",
+            "Pimentão": "1 unidade picado",
+            "Colorau": "1 colher de sopa",
+            "Coentro": "a gosto"
+        },
+        "receita": [
+            "Tempere a galinha caipira com sal, alho e coentro.",
+            "Aqueça uma panela grande e refogue a cebola e o pimentão com um pouco de óleo.",
+            "Adicione o colorau, o tomate e os pedaços de galinha. Refogue até dourar.",
+            "Cubra com água e cozinhe em fogo médio por 45 minutos, ou até a carne estar macia.",
+            "Ajuste os temperos e sirva com arroz branco ou pirão."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Linguiça de Frango",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Linguiça de Frango": "500g"
+        },
+        "receita": [
+            "Aqueça uma frigideira em fogo médio.",
+            "Corte as linguiças de frango em pedaços ou mantenha inteiras, conforme preferir.",
+            "Grelhe a linguiça, virando ocasionalmente, até que estejam douradas e completamente cozidas.",
+            "Sirva com acompanhamentos de sua escolha, como arroz, farofa ou salada."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Almôndegas",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Carne Bovina Moída": "500g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Tomate": "1 unidade picada",
+            "Molho de Tomate": "1 xícara",
+            "Ovo": "1 unidade",
+            "Farinha de Trigo": "2 colheres de sopa",
+            "Queijo Ralado": "3 colheres de sopa"
+        },
+        "receita": [
+            "Em uma tigela, misture a carne moída, o ovo, a farinha, o alho, a cebola e o queijo ralado. Tempere com sal e pimenta.",
+            "Modele pequenas bolas e reserve.",
+            "Aqueça uma panela com óleo e doure as almôndegas.",
+            "Adicione o tomate picado e o molho de tomate, cozinhando por 10 minutos em fogo baixo.",
+            "Sirva com arroz ou espaguete."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Carne de Panela com Batata",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Carne de Bife": "500g, cortada em cubos",
+            "Alho": "2 dentes picados",
+            "Cebola": "1 unidade picada",
+            "Tomate": "2 unidades picadas",
+            "Água": "2 xícaras",
+            "Tempero a gosto": "a gosto"
+        },
+        "receita": [
+            "Tempere a carne com sal e pimenta, e reserve.",
+            "Em uma panela de pressão, aqueça o óleo e doure a carne.",
+            "Adicione o alho, a cebola e o tomate, refogando bem.",
+            "Coloque as batatas cortadas em pedaços grandes, cubra com água e tampe a panela.",
+            "Cozinhe por 20 minutos após pegar pressão. Ajuste os temperos e sirva."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bife ao Molho Barbecue",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Bife de Contrafilé": "4 unidades",
+            "Molho Barbecue": "1/2 xícara",
+            "Alho": "2 dentes picados",
+            "Cebola": "1 unidade picada"
+        },
+        "receita": [
+            "Tempere os bifes com sal, pimenta e alho.",
+            "Aqueça uma frigideira e grelhe os bifes até o ponto desejado. Retire e reserve.",
+            "Na mesma frigideira, refogue a cebola até dourar.",
+            "Adicione o molho barbecue e misture bem. Deixe aquecer.",
+            "Sirva os bifes cobertos com o molho."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bife à Milanesa",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Bife de Contra-filé": "4 unidades",
+            "Farinha de Trigo": "1 xícara",
+            "Ovo": "2 unidades, batidos",
+            "Farinha de Rosca": "1 xícara",
+            "Óleo para Fritar": "suficiente para imersão"
+        },
+        "receita": [
+            "Tempere os bifes com sal e pimenta.",
+            "Passe cada bife na farinha de trigo, depois no ovo batido e, por último, na farinha de rosca.",
+            "Aqueça o óleo em uma panela funda e frite os bifes até ficarem dourados.",
+            "Retire e deixe escorrer em papel toalha. Sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bife à Parmegiana",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Bife à Milanesa": "4 unidades",
+            "Molho de Tomate": "2 xícaras",
+            "Queijo Mussarela": "200g",
+            "Queijo Parmesão": "50g"
+        },
+        "receita": [
+            "Pré-aqueça o forno a 180°C.",
+            "Coloque os bifes à milanesa em um refratário.",
+            "Cubra com o molho de tomate e espalhe o queijo mussarela por cima.",
+            "Polvilhe o queijo parmesão e leve ao forno por 15 minutos, ou até o queijo derreter e dourar.",
+            "Sirva imediatamente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bife de Fígado Acebolado",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Bife de Fígado": "500g",
+            "Cebola": "2 unidades cortadas em rodelas",
+            "Alho": "2 dentes picados",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Óleo ou Manteiga": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere os bifes com sal, pimenta e alho.",
+            "Aqueça o óleo ou a manteiga em uma frigideira e doure os bifes. Retire e reserve.",
+            "Na mesma frigideira, refogue as cebolas até ficarem macias e douradas.",
+            "Disponha as cebolas sobre os bifes e sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Picadinho de Carne",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Carne em Cubos": "500g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Tomate": "2 unidades picadas",
+            "Cenoura": "1 unidade picada",
+            "Ervilha": "1/2 xícara",
+            "Batata": "2 unidades picadas",
+            "Sal": "a gosto",
+            "Pimenta": "a gosto"
+        },
+        "receita": [
+            "Aqueça uma panela com óleo e doure a carne em cubos.",
+            "Adicione o alho e a cebola, refogando até dourar.",
+            "Coloque o tomate, a cenoura e a batata, misturando bem.",
+            "Cubra com água e cozinhe em fogo baixo até os legumes estarem macios.",
+            "Adicione as ervilhas, ajuste os temperos e deixe cozinhar por mais 5 minutos.",
+            "Sirva com arroz ou polenta."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Carne Moída",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Carne Moída": "500g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Tomate": "2 unidades picadas",
+            "Sal": "a gosto",
+            "Pimenta": "a gosto"
+        },
+        "receita": [
+            "Aqueça uma panela com óleo e refogue a cebola e o alho até dourar.",
+            "Adicione a carne moída e cozinhe até que fique bem soltinha.",
+            "Acrescente os tomates e tempere com sal e pimenta.",
+            "Cozinhe até que o molho esteja espesso e os tomates desmanchados.",
+            "Sirva com arroz e feijão ou como recheio de tortas e pastéis."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Vaca Atolada",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Costela Bovina": "1kg",
+            "Mandioca": "800g",
+            "Cebola": "1 unidade picada",
+            "Alho": "3 dentes picados",
+            "Tomate": "2 unidades picadas",
+            "Pimentão": "1 unidade picada",
+            "Sal": "a gosto",
+            "Pimenta": "a gosto"
+        },
+        "receita": [
+            "Em uma panela de pressão, doure as costelas com óleo.",
+            "Adicione a cebola, o alho, o tomate e o pimentão. Refogue bem.",
+            "Acrescente água até cobrir as costelas e cozinhe por 30 minutos após pegar pressão.",
+            "Adicione a mandioca em pedaços e mais água, se necessário.",
+            "Cozinhe sem pressão até que a mandioca esteja macia e o caldo espesso.",
+            "Ajuste os temperos e sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bife Wellington",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé Mignon": "500g",
+            "Massa Folhada": "1 rolo",
+            "Cogumelos": "200g, picados",
+            "Presunto Cru": "8 fatias",
+            "Mostarda Dijon": "2 colheres de sopa",
+            "Gema de Ovo": "1 unidade"
+        },
+        "receita": [
+            "Tempere o filé mignon com sal e pimenta e sele em uma frigideira quente. Reserve.",
+            "Refogue os cogumelos até que a água evapore completamente.",
+            "Abra a massa folhada e disponha as fatias de presunto cru, os cogumelos e o filé mignon por cima.",
+            "Pincele a massa com gema de ovo e envolva o filé mignon, selando bem as bordas.",
+            "Leve ao forno pré-aquecido a 200°C por cerca de 30 minutos, ou até dourar.",
+            "Deixe descansar por 5 minutos antes de cortar e servir."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Escondidinho de Carne Moída",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Carne Moída": "500g",
+            "Purê de Mandioca": "500g",
+            "Queijo Mussarela": "200g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Sal": "a gosto",
+            "Pimenta": "a gosto"
+        },
+        "receita": [
+            "Refogue a carne moída com cebola, alho, sal e pimenta. Reserve.",
+            "Prepare o purê de mandioca e ajuste os temperos a gosto.",
+            "Em um refratário, coloque uma camada de carne moída, cubra com o purê e finalize com o queijo mussarela.",
+            "Leve ao forno pré-aquecido a 200°C até que o queijo esteja dourado.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Rocambole de Carne Moída Recheado",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Carne Moída": "500g",
+            "Queijo Mussarela": "200g",
+            "Presunto": "200g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Farinha de Rosca": "1/2 xícara",
+            "Ovo": "1 unidade"
+        },
+        "receita": [
+            "Misture a carne moída, alho, cebola, ovo e farinha de rosca até formar uma massa homogênea.",
+            "Abra a massa de carne sobre um plástico filme, formando um retângulo.",
+            "Distribua as fatias de presunto e queijo mussarela sobre a carne.",
+            "Enrole como um rocambole, utilizando o plástico filme para ajudar a moldar.",
+            "Transfira para uma assadeira e leve ao forno pré-aquecido a 200°C por 40 minutos ou até dourar.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Filé de Peixe à Milanesa",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé de Peixe": "500g",
+            "Farinha de Trigo": "1/2 xícara",
+            "Ovo": "2 unidades batidas",
+            "Farinha de Rosca": "1/2 xícara",
+            "Óleo para Fritar": "suficiente para imersão"
+        },
+        "receita": [
+            "Tempere os filés de peixe com sal, pimenta e limão.",
+            "Passe os filés na farinha de trigo, depois nos ovos batidos e por último na farinha de rosca.",
+            "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados e crocantes.",
+            "Escorra em papel toalha e sirva com limão."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Quibe Recheado com Molho Branco e Mussarela",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Carne Moída": "500g",
+            "Trigo para Quibe": "1 xícara (hidratado)",
+            "Mussarela": "200g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Temperos diversos": "a gosto",
+            "Molho Branco": "1 xícara"
+        },
+        "receita": [
+            "Misture a carne moída, trigo para quibe, cebola, alho e temperos até formar uma massa.",
+            "Em uma assadeira, coloque metade da massa e espalhe.",
+            "Adicione o recheio de mussarela e cubra com o restante da massa.",
+            "Leve ao forno pré-aquecido a 200°C por 30 minutos ou até dourar.",
+            "Espalhe o molho branco sobre o quibe assado e finalize com queijo mussarela.",
+            "Leve ao forno para gratinar e sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Lombo a Molho Barbecue",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Lombo de Porco": "1kg",
+            "Molho Barbecue": "1/2 xícara",
+            "Alho": "3 dentes picados",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Azeite": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere o lombo com alho, sal, pimenta e azeite. Deixe marinar por 1 hora.",
+            "Coloque o lombo em uma assadeira e cubra com papel-alumínio.",
+            "Leve ao forno pré-aquecido a 180°C por 1 hora.",
+            "Retire o papel-alumínio, pincele o molho barbecue e asse por mais 30 minutos, regando com o molho ocasionalmente.",
+            "Sirva fatiado com o molho restante."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Pernil Assado a Molho Madeira",
+        "verificado": false,
+        "porção": 8,
+        "ingredientes": {
+            "Pernil de Porco": "1,5kg",
+            "Molho Madeira": "1 xícara",
+            "Alho": "4 dentes picados",
+            "Cebola": "1 unidade picada",
+            "Vinho Tinto": "1/2 xícara",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "receita": [
+            "Tempere o pernil com alho, cebola, vinho tinto, sal e pimenta. Deixe marinar por 12 horas.",
+            "Transfira o pernil para uma assadeira, cubra com papel-alumínio e leve ao forno pré-aquecido a 180°C por 2 horas.",
+            "Retire o papel-alumínio, pincele o molho madeira e asse por mais 30 minutos até dourar.",
+            "Sirva com o molho madeira aquecido."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Picadinho de Pernil ao Cubo",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Pernil de Porco em Cubos": "500g",
+            "Cebola": "1 unidade picada",
+            "Alho": "2 dentes picados",
+            "Pimentão": "1 unidade picado",
+            "Tomate": "2 unidades picadas",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "receita": [
+            "Aqueça o azeite em uma panela e refogue o alho e a cebola até dourar.",
+            "Adicione os cubos de pernil e deixe dourar bem.",
+            "Junte o pimentão e o tomate, tempere com sal e pimenta, e cozinhe até o pernil ficar macio.",
+            "Sirva acompanhado de arroz e salada."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Costelinha Suína Caramelizada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Costelinha Suína": "1kg",
+            "Açúcar Mascavo": "3 colheres de sopa",
+            "Molho de Soja": "1/4 xícara",
+            "Alho": "3 dentes picados",
+            "Cebola": "1 unidade picada",
+            "Mel": "2 colheres de sopa",
+            "Vinagre": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Óleo": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere a costelinha com sal e pimenta.",
+            "Aqueça o óleo em uma panela e doure a costelinha por todos os lados.",
+            "Adicione o alho, a cebola, o açúcar mascavo, o molho de soja, o mel e o vinagre.",
+            "Cozinhe em fogo baixo até a costelinha ficar macia e o molho caramelizado.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Filé de Porco ao Molho de Laranja e Gengibre",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Filé de Porco": "500g",
+            "Laranja": "2 unidades (suco)",
+            "Gengibre": "1 colher de sopa ralada",
+            "Alho": "2 dentes picados",
+            "Cebola": "1 unidade picada",
+            "Mel": "1 colher de sopa",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "receita": [
+            "Tempere o filé de porco com sal e pimenta.",
+            "Aqueça o azeite em uma frigideira e sele os filés até dourarem. Reserve.",
+            "Na mesma frigideira, refogue o alho, a cebola e o gengibre.",
+            "Adicione o suco de laranja e o mel, deixando reduzir até formar um molho espesso.",
+            "Volte os filés à frigideira, cubra com o molho e cozinhe por mais alguns minutos.",
+            "Sirva acompanhado de arroz branco ou purê de batatas."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Bisteca de Porco Grelhada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Bisteca de Porco": "4 unidades",
+            "Alho": "2 dentes picados",
+            "Limão": "1 unidade (suco)",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto",
+            "Azeite": "2 colheres de sopa"
+        },
+        "receita": [
+            "Tempere as bistecas com alho, suco de limão, sal e pimenta. Deixe marinar por 30 minutos.",
+            "Aqueça uma grelha ou frigideira com o azeite.",
+            "Grelhe as bistecas por 4 a 5 minutos de cada lado, ou até ficarem bem douradas.",
+            "Sirva acompanhadas de salada ou batatas assadas."
+        ],
+        "tags": [
+            "Prato Principal"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Macarrão à Primavera",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Macarrão": "300g",
+            "Cebola": "1 unidade média",
+            "Alho": "2 dentes",
+            "Pimentão": "1 unidade",
+            "Tomate": "2 unidades",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Manjericão fresco": "a gosto"
+        },
+        "receita": [
+            "Cozinhe o macarrão em água com sal até ficar al dente e reserve.",
+            "Refogue a cebola e o alho no azeite até dourar.",
+            "Adicione o pimentão e o tomate picados e refogue por alguns minutos.",
+            "Misture o macarrão cozido com os legumes refogados.",
+            "Tempere com sal, pimenta-do-reino e manjericão fresco.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Mandioca Amanteigada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Mandioca": "500g",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Alho": "2 dentes",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a mandioca em água com sal até ficar macia.",
+            "Escorra e reserve.",
+            "Em uma frigideira, derreta a manteiga e refogue o alho picado.",
+            "Adicione a mandioca e misture bem.",
+            "Finalize com salsinha picada e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Repolho Refogado",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Repolho": "400g",
+            "Cebola": "1 unidade média",
+            "Óleo ou Azeite": "2 colheres de sopa",
+            "Alho": "2 dentes",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte o repolho em tiras finas e reserve.",
+            "Refogue a cebola e o alho no óleo ou azeite até dourar.",
+            "Adicione o repolho e cozinhe até murchar.",
+            "Tempere com sal e pimenta-do-reino a gosto.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Chuchu Refogado",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Chuchu": "3 unidades médias",
+            "Cebola": "1 unidade média",
+            "Alho": "2 dentes",
+            "Óleo": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Descasque e corte o chuchu em cubos.",
+            "Refogue a cebola e o alho no óleo até dourar.",
+            "Adicione o chuchu e cozinhe até ficar macio.",
+            "Tempere com sal e finalize com salsinha picada.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Seleta de Legumes",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Abobrinha": "1 unidade",
+            "Vagem": "100g",
+            "Ervilha": "100g",
+            "Cenoura": "1 unidade média",
+            "Milho": "100g",
+            "Sal": "a gosto",
+            "Óleo": "1 colher de sopa",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte a abobrinha, a cenoura e a vagem em pedaços pequenos.",
+            "Em uma frigideira, aqueça o óleo e refogue os legumes até ficarem macios.",
+            "Adicione o milho e a ervilha, misturando bem.",
+            "Tempere com sal e pimenta-do-reino.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Milho",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Milho": "2 latas",
+            "Creme de Leite": "200ml",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Cebola": "1 unidade pequena",
+            "Leite": "200ml",
+            "Amido de Milho": "1 colher de sopa"
+        },
+        "receita": [
+            "Refogue a cebola picada na manteiga até dourar.",
+            "Adicione o milho e misture bem.",
+            "Dissolva o amido de milho no leite e adicione à panela.",
+            "Cozinhe até engrossar, mexendo constantemente.",
+            "Acrescente o creme de leite, tempere com sal e misture.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Farofa Confete",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Cenoura": "1 unidade média ralada",
+            "Farinha de mandioca": "1 xícara",
+            "Farinha de milho": "1 xícara",
+            "Ervilha (conserva)": "1/2 xícara",
+            "Milho (conserva)": "1/2 xícara",
+            "Óleo": "2 colheres de sopa",
+            "Margarina": "2 colheres de sopa",
+            "Cebola": "1 unidade média",
+            "Alho": "2 dentes",
+            "Açafrão": "1 colher de chá",
+            "Sal": "a gosto",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Refogue a cebola e o alho no óleo e margarina até dourar.",
+            "Adicione a cenoura ralada, ervilha e milho e cozinhe por alguns minutos.",
+            "Misture as farinhas, o açafrão e o sal.",
+            "Finalize com salsinha picada e sirva."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Purê de Batata Doce",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Doce": "500g",
+            "Leite": "1/2 xícara",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a batata doce até ficar bem macia.",
+            "Amasse as batatas e misture com o leite e a manteiga.",
+            "Tempere com sal e pimenta-do-reino.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Doce Rústica",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Doce": "500g",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Alecrim": "1 colher de chá",
+            "Pimenta-do-reino": "a gosto",
+            "Alho": "3 dentes"
+        },
+        "receita": [
+            "Lave bem as batatas e corte em pedaços rústicos.",
+            "Misture com azeite, alho picado, alecrim, sal e pimenta-do-reino.",
+            "Leve ao forno preaquecido a 200°C por cerca de 30 minutos ou até dourar.",
+            "Sirva como acompanhamento."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Inglesa Cozida",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata": "500g",
+            "Sal": "a gosto",
+            "Água": "suficiente para cobrir as batatas",
+            "Salsinha picada": "a gosto",
+            "Manteiga": "1 colher de sopa"
+        },
+        "receita": [
+            "Descasque e corte as batatas em pedaços médios.",
+            "Cozinhe em água com sal até ficarem macias.",
+            "Escorra e misture com manteiga e salsinha picada.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Inglesa Rústica",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Inglesa": "500g",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Alecrim": "1 colher de chá",
+            "Pimenta-do-reino": "a gosto",
+            "Alho": "3 dentes"
+        },
+        "receita": [
+            "Lave bem as batatas e corte em pedaços médios, com casca.",
+            "Tempere com azeite, alho picado, alecrim, sal e pimenta-do-reino.",
+            "Leve ao forno preaquecido a 200°C por aproximadamente 30 minutos ou até dourar.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Purê de Batata Inglesa",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Inglesa": "500g",
+            "Leite": "1/2 xícara",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Noz-moscada": "a gosto"
+        },
+        "receita": [
+            "Cozinhe as batatas descascadas até ficarem macias.",
+            "Amasse as batatas e misture com leite e manteiga.",
+            "Tempere com sal e uma pitada de noz-moscada.",
+            "Mexa bem até atingir a textura desejada e sirva quente."
+        ],"tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Inglesa Gratinada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Inglesa": "500g",
+            "Creme de Leite": "200ml",
+            "Queijo Parmesão": "50g",
+            "Manteiga": "1 colher de sopa",
+            "Alho": "2 dentes",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Noz-moscada": "a gosto"
+        },
+        "receita": [
+            "Corte as batatas em rodelas finas e cozinhe rapidamente por 5 minutos.",
+            "Unte uma assadeira com manteiga e espalhe o alho picado.",
+            "Monte camadas de batata e cubra com creme de leite.",
+            "Tempere com sal, pimenta e noz-moscada.",
+            "Finalize com queijo parmesão ralado por cima.",
+            "Leve ao forno preaquecido a 200°C até gratinar."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Purê de Abóbora Cabotiá",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Abóbora Cabotiá": "500g",
+            "Manteiga": "2 colheres de sopa",
+            "Creme de Leite": "200ml",
+            "Sal": "a gosto",
+            "Noz-moscada": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a abóbora descascada até ficar bem macia.",
+            "Amasse a abóbora e adicione a manteiga e o creme de leite.",
+            "Tempere com sal e noz-moscada.",
+            "Misture bem até ficar cremoso e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Abóbora Cabotiá Refogada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Abóbora Cabotiá": "500g",
+            "Alho": "2 dentes",
+            "Cebola": "1 unidade pequena",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Corte a abóbora em cubos pequenos.",
+            "Refogue a cebola e o alho no azeite até dourar.",
+            "Adicione a abóbora, tempere com sal e pimenta-do-reino.",
+            "Cozinhe em fogo baixo até a abóbora ficar macia.",
+            "Finalize com salsinha picada e sirva."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Abobrinha Italiana Refogada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Abobrinha": "2 unidades",
+            "Cebola": "1 unidade média",
+            "Alho": "2 dentes",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Orégano": "a gosto"
+        },
+        "receita": [
+            "Corte as abobrinhas em rodelas ou cubos médios.",
+            "Refogue a cebola e o alho no azeite até ficarem levemente dourados.",
+            "Adicione a abobrinha e tempere com sal, pimenta-do-reino e orégano.",
+            "Cozinhe até a abobrinha ficar macia, mas ainda firme.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Salada de Batata com Maionese",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Batata": "500g",
+            "Maionese": "1 xícara",
+            "Cenoura": "1 unidade média",
+            "Ervilha": "1/2 xícara",
+            "Cebola": "1 unidade pequena",
+            "Salsinha": "a gosto",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Cozinhe as batatas e a cenoura cortadas em cubos até ficarem macias.",
+            "Escorra bem e deixe esfriar.",
+            "Em uma tigela, misture as batatas, cenoura, ervilha, cebola picada e maionese.",
+            "Tempere com sal, pimenta-do-reino e finalize com salsinha picada.",
+            "Leve à geladeira por 30 minutos e sirva."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Couve Refogada com Bacon",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Couve": "1 maço",
+            "Bacon": "100g",
+            "Alho": "2 dentes",
+            "Óleo": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Lave e corte a couve em tiras finas.",
+            "Em uma frigideira, frite o bacon até dourar.",
+            "Adicione o alho picado e refogue até ficar levemente dourado.",
+            "Acrescente a couve, tempere com sal e pimenta-do-reino.",
+            "Refogue rapidamente até a couve murchar e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Purê de Mandioca",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Mandioca": "500g",
+            "Leite": "1/2 xícara",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a mandioca em água com sal até ficar bem macia.",
+            "Amasse a mandioca ainda quente e misture com leite e manteiga.",
+            "Tempere com sal e pimenta-do-reino.",
+            "Mexa até obter uma textura lisa e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Inglesa Sauté",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata Inglesa": "500g",
+            "Manteiga": "2 colheres de sopa",
+            "Alho": "2 dentes",
+            "Sal": "a gosto",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Cozinhe as batatas cortadas em cubos até ficarem al dente.",
+            "Em uma frigideira, derreta a manteiga e refogue o alho picado até dourar.",
+            "Adicione as batatas cozidas, tempere com sal e refogue até dourarem.",
+            "Finalize com salsinha picada e sirva."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Berinjela à Milanesa",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Berinjela": "2 unidades",
+            "Farinha de Rosca": "1 xícara",
+            "Ovo": "2 unidades",
+            "Farinha de Trigo": "1/2 xícara",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Óleo para fritar": "suficiente"
+        },
+        "receita": [
+            "Corte as berinjelas em fatias médias e tempere com sal e pimenta-do-reino.",
+            "Passe as fatias na farinha de trigo, depois nos ovos batidos e, por último, na farinha de rosca.",
+            "Aqueça o óleo em uma frigideira e frite as fatias até dourarem.",
+            "Escorra em papel toalha e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Virado de Abobrinha",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Abobrinha": "2 unidades",
+            "Farinha de Mandioca": "1 xícara",
+            "Alho": "2 dentes",
+            "Cebola": "1 unidade pequena",
+            "Óleo": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Rale ou corte a abobrinha em cubos pequenos.",
+            "Refogue o alho e a cebola no óleo até dourarem.",
+            "Adicione a abobrinha e tempere com sal e pimenta-do-reino.",
+            "Acrescente a farinha de mandioca aos poucos, mexendo até obter uma mistura soltinha.",
+            "Ajuste os temperos e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Virado de Couve",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Couve": "1 maço",
+            "Farinha de Mandioca": "1 xícara",
+            "Alho": "2 dentes",
+            "Óleo": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte a couve em tiras finas.",
+            "Refogue o alho no óleo até dourar.",
+            "Adicione a couve e refogue rapidamente.",
+            "Acrescente a farinha de mandioca, tempere com sal e pimenta-do-reino.",
+            "Mexa bem até ficar soltinho e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Virado de Repolho",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Repolho": "1/2 unidade média",
+            "Farinha de Mandioca": "1 xícara",
+            "Alho": "2 dentes",
+            "Óleo": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte o repolho em tiras finas.",
+            "Em uma frigideira, refogue o alho no óleo até dourar.",
+            "Adicione o repolho e tempere com sal e pimenta-do-reino.",
+            "Acrescente a farinha de mandioca aos poucos, mexendo até ficar soltinho.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Milho Refogado",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Milho": "2 xícaras (pode ser em conserva ou milho fresco)",
+            "Manteiga": "2 colheres de sopa",
+            "Cebola": "1 unidade pequena",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Salsinha picada": "a gosto"
+        },
+        "receita": [
+            "Se estiver usando milho fresco, retire os grãos da espiga.",
+            "Em uma panela, derreta a manteiga e refogue a cebola picada até ficar transparente.",
+            "Adicione o milho, tempere com sal e pimenta-do-reino.",
+            "Refogue por 5-7 minutos, mexendo ocasionalmente.",
+            "Finalize com salsinha picada e sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Couve-flor Gratinada",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Couve-flor": "1 unidade média",
+            "Creme de Leite": "1 lata",
+            "Queijo Parmesão": "1/2 xícara",
+            "Manteiga": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a couve-flor em água com sal até ficar al dente.",
+            "Escorra e disponha a couve-flor em um refratário.",
+            "Misture o creme de leite com sal e pimenta-do-reino e despeje sobre a couve-flor.",
+            "Polvilhe com queijo parmesão e adicione pedaços de manteiga por cima.",
+            "Leve ao forno preaquecido a 200°C até gratinar.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Caponata de Berinjela",
+        "verificado": false,
+        "porção": 6,
+        "ingredientes": {
+            "Berinjela": "2 unidades",
+            "Pimentão": "1 unidade vermelha",
+            "Cebola": "1 unidade grande",
+            "Alho": "2 dentes",
+            "Azeitonas": "1/2 xícara",
+            "Azeite": "1/4 de xícara",
+            "Vinagre": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte a berinjela, o pimentão e a cebola em cubos pequenos.",
+            "Em uma frigideira grande ou assadeira, aqueça o azeite e refogue a cebola e o alho.",
+            "Adicione a berinjela, o pimentão e as azeitonas.",
+            "Tempere com sal, pimenta-do-reino e vinagre.",
+            "Cozinhe em fogo médio, mexendo ocasionalmente, até os legumes ficarem macios.",
+            "Sirva quente ou frio."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Batata Frita",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batata": "500g",
+            "Óleo para fritar": "suficiente",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Descasque e corte as batatas em palitos.",
+            "Aqueça o óleo em uma panela ou frigideira funda.",
+            "Frite as batatas em óleo quente até ficarem douradas e crocantes.",
+            "Retire, escorra em papel toalha e tempere com sal.",
+            "Sirva quente."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Sunomono",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Pepino Japonês": "2 unidades",
+            "Vinagre de Arroz": "1/4 de xícara",
+            "Açúcar": "2 colheres de sopa",
+            "Gergelim": "a gosto",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Corte os pepinos em fatias bem finas.",
+            "Tempere com sal e deixe descansar por 10 minutos. Esprema delicadamente para retirar o excesso de água.",
+            "Misture o vinagre de arroz e o açúcar até dissolver.",
+            "Adicione o pepino e misture bem.",
+            "Finalize com gergelim e sirva gelado."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Banana Frita",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Banana": "4 unidades",
+            "Óleo para fritar": "suficiente",
+            "Açúcar": "2 colheres de sopa",
+            "Canela em Pó": "1 colher de chá"
+        },
+        "receita": [
+            "Descasque as bananas e corte-as ao meio, no sentido do comprimento.",
+            "Aqueça o óleo em uma frigideira e frite as bananas até dourarem.",
+            "Retire e escorra em papel toalha.",
+            "Polvilhe com açúcar e canela antes de servir."
+        ],
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Ratatouille",
+        "porcao": "4 porções",
+        "verificado": false,
+        "receita": [
+            "Corte a berinjela, abobrinha, pimentão, tomate e cebola em rodelas finas.",
+            "Pique o alho.",
+            "Tempere os vegetais com azeite, ervas de Provence, sal e pimenta-do-reino.",
+            "Monte os vegetais em camadas em um refratário.",
+            "Asse no forno preaquecido a 180°C até os vegetais ficarem macios."
+        ],
+        "ingredientes": {
+            "Berinjela": "1 unidade",
+            "Abobrinha": "1 unidade",
+            "Pimentão": "1 unidade",
+            "Tomate": "2 unidades",
+            "Cebola": "1 unidade",
+            "Alho": "2 dentes picados",
+            "Azeite": "2 colheres de sopa",
+            "Ervas de Provence": "a gosto",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Brócolis Refogado",
+        "porcao": "2 porções",
+        "verificado": false,
+        "receita": [
+            "Lave e corte o brócolis em pedaços.",
+            "Pique o alho.",
+            "Aqueça o azeite em uma frigideira.",
+            "Adicione o alho picado e refogue até dourar.",
+            "Acrescente o brócolis e tempere com sal.",
+            "Refogue até o brócolis ficar al dente."
+        ],
+        "ingredientes": {
+            "Brócolis": "1 maço",
+            "Alho": "2 dentes picados",
+            "Azeite": "1 colher de sopa",
+            "Sal": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Brócolis Gratinado",
+        "porcao": "3 porções",
+        "verificado": false,
+        "receita": [
+            "Cozinhe o brócolis em água com sal até ficar macio.",
+            "Coloque o brócolis em um refratário.",
+            "Cubra com molho branco.",
+            "Adicione queijo mussarela e parmesão por cima.",
+            "Leve ao forno preaquecido a 200°C até gratinar."
+        ],
+        "ingredientes": {
+            "Brócolis": "1 maço",
+            "Molho Branco": "1 xícara",
+            "Queijo Mussarela": "100g",
+            "Queijo Parmesão": "50g",
+            "Sal": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Mandioca Frita",
+        "porcao": "2 porções",
+        "verificado": false,
+        "receita": [
+            "Cozinhe a mandioca em água com sal até ficar macia.",
+            "Escorra a mandioca e corte em pedaços.",
+            "Aqueça o óleo em uma frigideira funda.",
+            "Frite os pedaços de mandioca até dourarem.",
+            "Retire e deixe escorrer em papel toalha.",
+            "Tempere com sal e sirva quente."
+        ],
+        "ingredientes": {
+            "Mandioca": "500g",
+            "Óleo para Fritar": "suficiente",
+            "Sal": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Guacamole",
+        "porcao": "2 porções",
+        "verificado": false,
+        "receita": [
+            "Retire a polpa do abacate e coloque em uma tigela.",
+            "Amasse o abacate com um garfo.",
+            "Adicione a cebola, tomate e coentro picados.",
+            "Tempere com suco de limão, sal e pimenta-do-reino.",
+            "Misture bem até obter uma consistência uniforme."
+        ],
+        "ingredientes": {
+            "Abacate": "1 unidade",
+            "Cebola": "1/2 unidade picada",
+            "Tomate": "1 unidade picada",
+            "Coentro": "a gosto",
+            "Suco de Limão": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Berinjela Recheada",
+        "porcao": "2 porções",
+        "verificado": false,
+        "receita": [
+            "Corte a berinjela ao meio no sentido do comprimento.",
+            "Retire a polpa e reserve.",
+            "Refogue a carne moída ou vegetais com cebola, alho e molho de tomate.",
+            "Recheie as metades da berinjela com o refogado.",
+            "Cubra com queijo ralado.",
+            "Asse no forno preaquecido a 180°C até a berinjela ficar macia."
+        ],
+        "ingredientes": {
+            "Berinjela": "1 unidade",
+            "Carne Moída ou Vegetais": "150g",
+            "Cebola": "1/2 unidade picada",
+            "Alho": "2 dentes picados",
+            "Molho de Tomate": "1/2 xícara",
+            "Queijo Ralado": "50g",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Tomate Recheado",
+        "porcao": "2 porções",
+        "verificado": false,
+        "receita": [
+            "Corte a tampa dos tomates e retire o miolo.",
+            "Prepare o recheio com carne moída ou ricota, cebola e alho.",
+            "Recheie os tomates com a mistura preparada.",
+            "Cubra com queijo ralado e um fio de azeite.",
+            "Leve ao forno preaquecido a 180°C até gratinar."
+        ],
+        "ingredientes": {
+            "Tomate": "2 unidades",
+            "Carne Moída ou Ricota": "100g",
+            "Cebola": "1/2 unidade picada",
+            "Alho": "1 dente picado",
+            "Queijo Ralado": "50g",
+            "Azeite": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Souflé de Legumes",
+        "porcao": "4 porções",
+        "verificado": false,
+        "receita": [
+            "Cozinhe os legumes variados (cenoura, abobrinha, brócolis).",
+            "Separe as claras das gemas e bata as claras em neve.",
+            "Misture os legumes com as gemas, farinha, leite, queijo ralado e manteiga.",
+            "Incorpore delicadamente as claras em neve.",
+            "Despeje a mistura em uma forma untada.",
+            "Asse no forno preaquecido a 180°C até dourar."
+        ],
+        "ingredientes": {
+            "Legumes Variados": "1 xícara (cenoura, abobrinha, brócolis)",
+            "Ovos": "3 unidades",
+            "Farinha de Trigo": "2 colheres de sopa",
+            "Leite": "1 xícara",
+            "Queijo Ralado": "50g",
+            "Manteiga": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta do Reino": "a gosto"
+        },
+        "tags": [
+            "Guarnição"
+        ],
+        "image": "sem-imagem.png"
+    }
+]
