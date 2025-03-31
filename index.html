@@ -1,82 +1,222 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Cardápio Aleatório</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Meu Site de Receitas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-img {
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #ffc107;
+            color: #000;
+            padding: 2px 8px;
+            margin-right: 5px;
+            font-size: 0.9em;
+            border-radius: 5px;
+        }
+        #sidebar {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .verified-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(25, 135, 84, 0.9);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
-<body>
-
-    <h1>Gerador de Cardápio Aleatório</h1>
-    <p>Escolha o tipo de refeição:</p>
-
-    <select id="tipoRefeicao" onchange="hideReceitas(); hideResulto()">
-        <option value="completo">Completo</option>
-        <option value="rapido">Rápido</option>
-    </select>
-
-    <p>Clique no botão abaixo para gerar o cardápio baseado na sua escolha.</p>
-
-    <button onclick="gerarCardapio()">Gerar Cardápio</button>
-    <br>
-
-    <div>
-        <div id="resultadoCompleto" class="cardapio">
-            <h2>Prato Completo</h2>
-            <p class="verificado" id="verificadoCompleto"></p>
-            <h3>Prato Principal: <span id="pratoPrincipal"></span></h3>
-            <h3>Guarnição: <span id="guarnicao"></span></h3>
-            <h3>Salada: <span id="salada"></span></h3>
-            <button onclick="verReceita('PratoPrincipal')">Receita Prato Principal</button>
-            <button onclick="verReceita('Guarnicao')">Receita Guarnição</button>
+<body class="d-flex">
+    <div id="sidebar" class="bg-light p-3 border-end" style="width: 250px;">
+        <h4 class="mb-3">Buscar Receita</h4>
+        <input type="text" id="search" class="form-control mb-4" placeholder="Digite o nome da receita..." onkeyup="filterRecipes()">
+        
+        <h4 class="mb-3">Filtrar por Tipo</h4>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="mealType" value="all" id="all" checked>
+            <label class="form-check-label" for="all">Todos</label>
         </div>
-    
-        <div id="resultadoRapido" class="cardapio">
-            <h2>Prato Rápido</h2>
-            <p class="verificado" id="verificadoRapido"></p>
-            <h3>Prato: <span id="pratoRapido"></span></h3>
-            <button onclick="verReceita('Rapido')">Receita</button>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="mealType" value="Café da Manhã" id="cafe">
+            <label class="form-check-label" for="cafe">Café da Manhã</label>
         </div>
-    </div>
-
-    <div>
-        <div id="receitaGuarnicao" class="receita">
-            <h2>Ingredientes</h2>
-            <ul id="itensGuarnicao">
-
-            </ul>
-            <h2>Modo de Preparo</h2>
-            <ol id="listaGuarnicao">
-
-            </ol>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="mealType" value="Prato Principal" id="prato">
+            <label class="form-check-label" for="prato">Prato Principal</label>
+        </div>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="mealType" value="Guarnição" id="guarnicao">
+            <label class="form-check-label" for="guarnicao">Guarnição</label>
+        </div>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="radio" name="mealType" value="Pratos Rápidos" id="rapidos">
+            <label class="form-check-label" for="rapidos">Pratos Rápidos</label>
         </div>
 
-        <div id="receitaPratoPrincipal" class="receita">
-            <h2>Ingredientes</h2>
-            <ul id="itensPratoPrincipal">
-
-            </ul>
-            <h2>Modo de Preparo</h2>
-            <ol id="listaPratoPrincipal">
-
-            </ol>
+        <h4 class="mb-3">Filtrar por Verificação</h4>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="verifiedFilter" value="all" id="verifiedAll" checked>
+            <label class="form-check-label" for="verifiedAll">Todas</label>
         </div>
-
-
-        <div id="receitaRapido" class="receita">
-            <h2>Ingredientes</h2>
-            <ul id="itensRapido">
-
-            </ul>
-
-            <h2>Modo de Preparo</h2>
-            <ol id="listaRapido">
-
-            </ol>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="radio" name="verifiedFilter" value="verified" id="verifiedOnly">
+            <label class="form-check-label" for="verifiedOnly">Apenas Verificadas</label>
+        </div>
+        
+        <div class="d-grid">
+            <button class="btn btn-outline-secondary" onclick="resetFilters()">Limpar Filtros</button>
         </div>
     </div>
+    <div id="content" class="container text-center py-4">
+        <h1 class="mb-4">Meu Site de Receitas</h1>
+        <div id="recipe-list" class="row g-3"></div>
+        <div id="recipe-details" class="mt-4 d-none"></div>
+    </div>
+    <script>
+        let recipes = [];
 
+        async function loadRecipes() {
+            try {
+                const response = await fetch('receitas.json');
+                if (!response.ok) {
+                    throw new Error('Erro ao carregar receitas');
+                }
+                recipes = await response.json();
+                displayRecipes();
+                
+                // Adiciona event listeners para todos os filtros
+                document.querySelectorAll('input[name="mealType"], input[name="verifiedFilter"]').forEach(filter => {
+                    filter.addEventListener('change', filterRecipes);
+                });
+            } catch (error) {
+                console.error('Erro:', error);
+                document.getElementById('recipe-list').innerHTML = `
+                    <div class="alert alert-danger">
+                        Erro ao carregar as receitas. Por favor, recarregue a página.
+                    </div>
+                `;
+            }
+        }
+
+        function displayRecipes(filteredRecipes = recipes) {
+            const list = document.getElementById('recipe-list');
+            if (filteredRecipes.length === 0) {
+                list.innerHTML = '<div class="col-12"><div class="alert alert-info">Nenhuma receita encontrada com esses critérios.</div></div>';
+                return;
+            }
+        
+            list.innerHTML = filteredRecipes.map(recipe => `
+                <div class="col-md-4">
+                    <div class="card shadow position-relative">
+                        ${recipe.verificado ? '<span class="verified-badge">✔ Verificado</span>' : ''}
+                        <img src="imagens/${recipe.image}" class="card-img-top" alt="${recipe.nome}" onerror="this.src='imagens/placeholder.jpg'">
+                        <div class="card-body">
+                            <h5 class="card-title">${recipe.nome}</h5>
+                            <div class="mb-2">
+                                ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                            </div>
+                            <button class="btn btn-primary" onclick="showRecipe('${recipe.nome}')">Ver Receita</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function showRecipe(name) {
+            const recipe = recipes.find(r => r.nome === name);
+            if (recipe) {
+                document.getElementById('recipe-list').classList.add('d-none');
+                const detailsDiv = document.getElementById('recipe-details');
+                detailsDiv.classList.remove('d-none');
+                detailsDiv.innerHTML = `
+                    <div class="text-start">
+                        <h2 class="mb-3">${recipe.nome}</h2>
+                        <img src="imagens/${recipe.image}" class="recipe-img" alt="${recipe.nome}" onerror="this.src='imagens/placeholder.jpg'">
+                        <div class="d-flex mb-3">
+                            ${recipe.tags.map(tag => `<span class="tag me-2">${tag}</span>`).join('')}
+                            ${recipe.verificado ? '<span class="tag bg-success text-white">Verificado</span>' : ''}
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="mb-3">Ingredientes (${recipe.porção} porções):</h4>
+                                <ul class="list-group mb-4">
+                                    ${Object.entries(recipe.ingredientes).map(([key, value]) => `
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            ${key}
+                                            <span class="badge bg-primary rounded-pill">${value}</span>
+                                        </li>
+                                    `).join('')}
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="mb-3">Modo de Preparo:</h4>
+                                <ol class="list-group list-group-numbered">
+                                    ${recipe.receita.map(step => `
+                                        <li class="list-group-item">${step}</li>
+                                    `).join('')}
+                                </ol>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary mt-4" onclick="goBack()">Voltar para todas as receitas</button>
+                    </div>
+                `;
+            }
+        }
+
+        function filterRecipes() {
+            const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+            const selectedType = document.querySelector('input[name="mealType"]:checked').value;
+            const verifiedFilter = document.querySelector('input[name="verifiedFilter"]:checked').value;
+
+            const filteredRecipes = recipes.filter(recipe => {
+                const matchesType = selectedType === "all" || recipe.tags.includes(selectedType);
+                const matchesSearch = recipe.nome.toLowerCase().includes(searchTerm);
+                const matchesVerified = verifiedFilter === "all" || (verifiedFilter === "verified" && recipe.verificado);
+                
+                return matchesType && matchesSearch && matchesVerified;
+            });
+
+            displayRecipes(filteredRecipes);
+        }
+
+        function resetFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('all').checked = true;
+            document.getElementById('verifiedAll').checked = true;
+            filterRecipes();
+        }
+
+        function goBack() {
+            document.getElementById('recipe-list').classList.remove('d-none');
+            document.getElementById('recipe-details').classList.add('d-none');
+        }
+
+        document.addEventListener('DOMContentLoaded', loadRecipes);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
