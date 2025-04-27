@@ -23,7 +23,7 @@
             border-radius: 8px;
             margin-bottom: 20px;
         }
-        .tag {
+        .categoria {
             display: inline-block;
             background-color: #ffc107;
             color: #000;
@@ -55,7 +55,7 @@
         <h4 class="mb-3">Buscar Receita</h4>
         <input type="text" id="search" class="form-control mb-4" placeholder="Digite o nome da receita..." onkeyup="filterRecipes()">
         
-        <h4 class="mb-3">Filtrar por Tipo</h4>
+        <h4 class="mb-3">Categoria</h4>
         <div class="form-check mb-2">
             <input class="form-check-input" type="radio" name="mealType" value="all" id="all" checked>
             <label class="form-check-label" for="all">Todos</label>
@@ -63,6 +63,10 @@
         <div class="form-check mb-2">
             <input class="form-check-input" type="radio" name="mealType" value="Café da Manhã" id="cafe">
             <label class="form-check-label" for="cafe">Café da Manhã</label>
+        </div>
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="mealType" value="Fitness" id="fitness">
+            <label class="form-check-label" for="fitness">Fitness</label>
         </div>
         <div class="form-check mb-2">
             <input class="form-check-input" type="radio" name="mealType" value="Prato Principal" id="prato">
@@ -73,11 +77,11 @@
             <label class="form-check-label" for="guarnicao">Guarnição</label>
         </div>
         <div class="form-check mb-3">
-            <input class="form-check-input" type="radio" name="mealType" value="Pratos Rápidos" id="rapidos">
-            <label class="form-check-label" for="rapidos">Pratos Rápidos</label>
+            <input class="form-check-input" type="radio" name="mealType" value="Lanches" id="lanches">
+            <label class="form-check-label" for="lanches">Lanches</label>
         </div>
 
-        <h4 class="mb-3">Filtrar por Verificação</h4>
+        <h4 class="mb-3">Verificação</h4>
         <div class="form-check mb-2">
             <input class="form-check-input" type="radio" name="verifiedFilter" value="all" id="verifiedAll" checked>
             <label class="form-check-label" for="verifiedAll">Todas</label>
@@ -137,7 +141,7 @@
                         <div class="card-body">
                             <h5 class="card-title">${recipe.nome}</h5>
                             <div class="mb-2">
-                                ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                                ${recipe.categorias.map(categoria => `<span class="categoria">${categoria}</span>`).join('')}
                             </div>
                             <button class="btn btn-primary" onclick="showRecipe('${recipe.nome}')">Ver Receita</button>
                         </div>
@@ -157,8 +161,8 @@
                         <h2 class="mb-3">${recipe.nome}</h2>
                         <img src="imagens/${recipe.image}" class="recipe-img" alt="${recipe.nome}" onerror="this.src='imagens/placeholder.jpg'">
                         <div class="d-flex mb-3">
-                            ${recipe.tags.map(tag => `<span class="tag me-2">${tag}</span>`).join('')}
-                            ${recipe.verificado ? '<span class="tag bg-success text-white">Verificado</span>' : ''}
+                            ${recipe.categorias.map(categoria => `<span class="categoria me-2">${categoria}</span>`).join('')}
+                            ${recipe.verificado ? '<span class="categoria bg-success text-white">Verificado</span>' : ''}
                         </div>
                         <div class="row">
                             <div class="col-md-6">
@@ -193,7 +197,7 @@
             const verifiedFilter = document.querySelector('input[name="verifiedFilter"]:checked').value;
 
             const filteredRecipes = recipes.filter(recipe => {
-                const matchesType = selectedType === "all" || recipe.tags.includes(selectedType);
+                const matchesType = selectedType === "all" || recipe.categorias.includes(selectedType);
                 const matchesSearch = recipe.nome.toLowerCase().includes(searchTerm);
                 const matchesVerified = verifiedFilter === "all" || (verifiedFilter === "verified" && recipe.verificado);
                 
