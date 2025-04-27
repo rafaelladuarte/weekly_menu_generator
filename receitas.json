@@ -5,8 +5,8 @@
         "porção": 1,
         "ingredientes": {
             "Ovos": "2 unidades",
-            "Queijo": "50 gramas",
-            "Presunto": "50 gramas",
+            "Queijo": "50g",
+            "Presunto": "50g",
             "Tomate": "1 unidade"
         },
         "receita": [
@@ -15,31 +15,31 @@
             "Aqueça uma frigideira e despeje a mistura.",
             "Cozinhe até firmar e vire para dourar do outro lado."
         ],
-        "tags": [
-            "Café da Manhã"
+        "categorias": [
+            "Lanches"
         ],
         "image": "omelete.jpg"
     },
     {
-        "nome": "Banana com Iogurte Natural Desnatado",
-        "verificado": false,
+        "nome": "Fruta com Iogurte Natural Desnatado",
+        "verificado": true,
         "porção": 1,
         "ingredientes": {
-            "Banana": "1 unidade",
+            "Fruta": "1 unidade",
             "Iogurte Natural Desnatado": "170ml"
         },
         "receita": [
-            "Descasque a banana e corte em rodelas.",
+            "Escolha a fruta de sua preferência (banana, maçã, uva, mamão).",
             "Em uma tigela, coloque o iogurte natural desnatado.",
-            "Adicione as rodelas de banana por cima do iogurte.",
+            "Adicione a fruta por cima do iogurte.",
             "Misture levemente e sirva."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Café da Manhã"],
+        "image": "iogurte_banana.jpg"
     },
     {
         "nome": "Pão de Forma com Doce de Leite",
-        "verificado": false,
+        "verificado": true,
         "porção": 1,
         "ingredientes": {
             "Pão de Forma Tradicional": "50g",
@@ -50,99 +50,50 @@
             "Passe o doce de leite uniformemente sobre o pão.",
             "Sirva imediatamente."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Fitness"],
+        "tags": ["Pré-treino"],
+        "image": "pao_forma_doce_leite.png"
     },
     {
-        "nome": "Banana com Maçã e Mel",
-        "verificado": false,
-        "porção": 1,
-        "ingredientes": {
-            "Banana": "1 unidade",
-            "Maçã": "1 unidade",
-            "Mel": "1 colher de sopa"
-        },
-        "receita": [
-            "Descasque a banana e a maçã.",
-            "Corte ambas em cubos pequenos.",
-            "Misture as frutas em uma tigela.",
-            "Regue com mel e sirva."
-        ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
-    },
-    {
-        "nome": "Tapioca com Goiabada",
-        "verificado": false,
-        "porção": 1,
-        "ingredientes": {
-            "Tapioca": "1 porção (cerca de 80g)",
-            "Goiabada": "1 colher de sopa"
-        },
-        "receita": [
-            "Prepare a tapioca conforme instruções da embalagem.",
-            "Enquanto ainda quente, adicione a goiabada.",
-            "Dobre a tapioca ao meio para derreter levemente a goiabada.",
-            "Sirva quente."
-        ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
-    },
-    {
-        "nome": "Frutas Picadas com Mel",
-        "verificado": false,
-        "porção": 1,
-        "ingredientes": {
-            "Frutas Variadas": "100g",
-            "Mel": "1 colher de chá"
-        },
-        "receita": [
-            "Lave e pique as frutas de sua preferência.",
-            "Coloque em uma tigela ou prato.",
-            "Regue com mel por cima.",
-            "Sirva fresco."
-        ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
-    },
-    {
-        "nome": "Pão Francês Tostado com Mel",
-        "verificado": false,
-        "porção": 1,
-        "ingredientes": {
-            "Pão Francês": "50g",
-            "Mel": "1 colher de chá"
-        },
-        "receita": [
-            "Corte o pão francês ao meio.",
-            "Toaste levemente em uma torradeira ou frigideira.",
-            "Regue com mel e sirva."
-        ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
-    },
-    {
-        "nome": "Pão Francês com Ovo",
+        "nome": "Banana com Granola e Mel",
         "verificado": true,
         "porção": 1,
         "ingredientes": {
-            "Pão Francês": "50g",
-            "Ovo": "1 unidade",
-            "Sal": "a gosto",
-            "Pimenta": "a gosto (opcional)"
+            "Banana": "2 unidade",
+            "Granola": "30g",
+            "Mel": "1 colher de sopa"
         },
         "receita": [
-            "Frite ou cozinhe o ovo como preferir (mexido, frito, pochê).",
-            "Corte o pão francês ao meio e toste levemente se desejar.",
-            "Coloque o ovo dentro do pão.",
-            "Tempere com sal e pimenta a gosto.",
-            "Sirva quente."
+            "Descasque a banana e corte em rodelas.",
+            "Despeje a granola.",
+            "Misture as rodelas da banana com a granola em uma tigela.",
+            "Regue com mel e sirva."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Fitness"],
+        "tags": ["Pré-treino"],
+        "image": "banana_granola_mel.png"
     },
     {
-        "nome": "Tapioca com Frango e Café Preto",
+        "nome": "Tapioca com Goiabada e Mussarela",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Tapioca": "1 porção (cerca de 50g)",
+            "Goiabada": "1 colher de sopa",
+            "Mussarela": "1 fatia"
+        },
+        "receita": [
+            "Prepare a tapioca conforme instruções da embalagem.",
+            "Enquanto ainda quente, adicione a fatia de mussarela e a porção de goiabada.",
+            "Dobre a tapioca ao meio para derreter levemente a mussarela e a goiabada.",
+            "Sirva quente."
+        ],
+        "categorias": ["Fitness"],
+        "tags": ["Pré-treino"],
+        "image": "tapioca_goiabada_mussarela.jpg"
+    },
+    {
+        "nome": "Tapioca com Frango Desfiado",
         "verificado": true,
         "porção": 1,
         "ingredientes": {
@@ -153,11 +104,10 @@
         "receita": [
             "Prepare a tapioca conforme instruções.",
             "Recheie com o frango desfiado previamente cozido.",
-            "Prepare o café preto separadamente.",
-            "Sirva a tapioca acompanhada do café."
+            "Sirva a tapioca."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Café da Manhã"],
+        "image": "tapioca_frango_desfiado.png"
     },
     {
         "nome": "Cuscuz Cozido com Ovo",
@@ -174,8 +124,8 @@
             "Sirva o cuscuz com o ovo por cima.",
             "Tempere com sal a gosto."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Café da Manhã"],
+        "image": "cuscuz_ovo.png"
     },
     {
         "nome": "Torrada com Creme de Ricota Light",
@@ -190,15 +140,15 @@
             "Passe o creme de ricota light uniformemente.",
             "Sirva imediatamente."
         ],
-        "tags": ["Café da Manhã"],
-        "image": "sem-imagem.png"
+        "categorias": ["Café da Manhã"],
+        "image": "torrada_ricota.png"
     },
     {
         "nome": "Salada de Frango",
         "verificado": false,
         "porção": 2,
         "ingredientes": {
-            "Frango": "200 gramas",
+            "Frango": "200g",
             "Alface": "5 folhas",
             "Tomate": "1 unidade",
             "Azeite": "2 colheres de sopa"
@@ -209,17 +159,17 @@
             "Misture todos os ingredientes em uma tigela.",
             "Tempere com azeite e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "salada_de_frango.jpg"
     },
     {
         "nome": "Purê de Batata",
-        "verificado": false,
+        "verificado": true,
         "porção": 3,
         "ingredientes": {
-            "Batatas": "500 gramas",
+            "Batatas": "500g",
             "Leite": "1/2 xícara",
             "Manteiga": "1 colher de sopa",
             "Sal": "a gosto"
@@ -230,14 +180,14 @@
             "Mexa bem até obter um purê cremoso.",
             "Sirva quente como acompanhamento."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "pure_batata.png"
     },
     {
         "nome": "Pão Francês com Ovos Mexidos",
-        "verificado": false,
+        "verificado": true,
         "porção": 2,
         "ingredientes": {
             "Pão Francês": "2 unidades",
@@ -254,16 +204,15 @@
             "Despeje os ovos batidos na frigideira e cozinhe, mexendo constantemente, até que estejam macios e cozidos.",
             "Coloque os ovos mexidos sobre o pão e sirva imediatamente"
         ],
-        "tags": [
-            "Pratos Rápidos",
+        "categorias": [
             "Café da Manhã"
         ],
-        "image": "sem-imagem.png"
+        "image": "pao_frances_ovo_mexido.jpg"
     },
     {
         "nome": "Wrap de Peito de Peru com Alface e Creme de Ricota",
         "porção": 2,
-        "verificado": false,
+        "verificado": true,
         "ingredientes": {
             "Wrap": "2 unidades",
             "Peito de Peru": "4 fatias",
@@ -281,14 +230,14 @@
             "Tempere com sal e pimenta a gosto.",
             "Enrole o wrap firmemente e corte ao meio antes de servir."
         ],
-        "tags": [
-            "Pratos Rápidos"
+        "categorias": [
+            "Lanches"
         ],
-        "image": "sem-imagem.png"
+        "image": "wrap_peru_ricota.png"
     },
     {
         "nome": "Frango Grelhado com Batata Doce e Brócolis",
-        "verificado": false,
+        "verificado": true,
         "porção": 2,
         "ingredientes": {
             "Peito de Frango": "1 unidade",
@@ -306,11 +255,10 @@
             "Na mesma frigideira, adicione mais azeite e refogue os brócolis até ficarem macios.",
             "Sirva o frango acompanhado das batatas e do brócolis."
         ],
-        "tags": [
-            "Pratos Rápidos",
+        "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango_grelhado_brocolis_batata_doce.png"
     },
     {
         "nome": "Batata Recheada com Frango",
@@ -337,10 +285,10 @@
             "Asse a 200 ºC por aproximadamente 25 minutos, ou até dourar.",
             "Retire da airfryer e sirva quente."
         ],
-        "tags": [
-            "Pratos Rápidos"
+        "categorias": [
+            "Lanches"
         ],
-        "image": "sem-imagem.png"
+        "image": "batata_recheada_frango.png"
     },
     {
         "nome": "Nuggets Caseiro",
@@ -359,14 +307,14 @@
             "Coloque os cubinhos na air fryer e asse por 5 minutos de cada lado, ou até que estejam dourados e crocantes.",
             "Retire e sirva quente"
         ],
-        "tags": [
-            "Pratos Rápidos"
+        "categorias": [
+            "Lanches"
         ],
         "image": "sem-imagem.png"
     },
     {
         "nome": "Crepioca com Requeijão Cremoso e Peito de Peru",
-        "verificado": false,
+        "verificado": true,
         "porção": 1,
         "ingredientes": {
             "Ovos": "1",
@@ -382,11 +330,11 @@
             "Adicione as fatias de peito de peru e dobre ao meio.",
             "Sirva em seguida."
         ],
-        "tags": [
-            "Pratos Rápidos",
+        "categorias": [
+            "Lanches",
             "Café da Manhã"
         ],
-        "image": "sem-imagem.png"
+        "image": "crepioca_requeijao_peru.png"
     },
     {
         "nome": "X-Tudo Caseiro",
@@ -412,34 +360,55 @@
             "Finalize com ketchup e mostarda a gosto.",
             "Feche o pão e sirva acompanhado de batatas fritas ou salada, se preferir."
         ],
-        "tags": [
-            "Pratos Rápidos"
+        "categorias": [
+            "Lanches"
         ],
         "image": "sem-imagem.png"
     },
     {
-        "nome": "Panqueca Simples",
-        "verificado": false,
-        "porção": 2,
+        "nome": "Panqueca com Carne Moída",
+        "verificado": true,
+        "porção": 10,
         "ingredientes": {
-            "Ovos": "1 unidade",
-            "Farinha de Trigo": "1 xícara",
+            "Ovos": "2 unidades",
+            "Farinha de Trigo": "1 e 1/2 xícara",
             "Leite": "1 xícara",
-            "Óleo": "1 colher de sopa",
-            "Sal": "1 pitada"
+            "Óleo": "4 colheres de sopa",
+            "Mussarela": "400g",
+            "Carne Moída": "300g",
+            "Cebola": "1/2 unidade picada",
+            "Tomate": "1/2 unidade picada",
+            "Extrato de Tomate": "1/2 lata",
+            "Creme de Leite": "1 caixa",
+            "Queijo Ralado": "a gosto",
+            "Sal": "a gosto"
+           
         },
         "receita": [
-            "Bata todos os ingredientes no liquidificador até obter uma consistência cremosa.",
-            "Unte uma frigideira com óleo e despeje uma concha de massa.",
+            "Para a Massa: Bata no liquidificador os ovos, o leite, o óleo, e acrescente a farinha de trigo aos poucos.",
+            "Após acrescentar toda a farinha de trigo, adicione sal a gosto.",
+            "Misture a massa até obter uma consistência cremosa.",
+            "Com um papel-toalha, espalhe óleo por toda a frigideira e despeje uma concha de massa..",
             "Faça movimentos circulares para que a massa se espalhe por toda a frigideira.",
-            "Espere até a massa se soltar do fundo, vire e deixe fritar do outro lado.",
-            "Acrescente o recheio de sua preferência, enrole e está pronta para servir."
+            "Espere até a massa soltar do fundo e vire a massa para fritar do outro lado.",
+            "Para o Molho:Em uma panela, doure a cebola com o óleo e acrescente a carne.",
+            "Deixe cozinhar até que saia água da carne, diminua o fogo e tampe.",
+            "Acrescente o tomate picado e tampe novamente.Deixe cozinhar por mais 3 minutos e misture.",
+            "Acrescente o extrato de tomate e temperos a gosto.Deixe cozinhar por mais 10 minutos.",
+            "Quando o molho engrossar, desligue o fogo.Deixe esfriar o molho, acrescente o creme de leite e misture bem.",
+            "Quando estiver bem homogêneo, leve novamente ao fogo e deixe cozinhar em fogo baixo por mais 5 minutos.",
+            "Para a Montagem: Recheie a panqueca com uma fatia de mussarela, uma porção de carne e enrole.",
+            "Faça esse processo com todas as panquecas.",
+            "Despeje um pouco de caldo no fundo de um refratário, para untar.",
+            "Disponha as panquecas já prontas no refratário e despeje sobre elas o restante do molho.",
+            "Polvilhe queijo ralado sobre as panquecas.",
+            "Leve ao forno para gratinar, em fogo médio, por 20 minutos ou até que o queijo esteja derretido."
+
         ],
-        "tags": [
-            "Pratos Rápidos",
-            "Café da Manhã"
+        "categorias": [
+            "Lanches"
         ],
-        "image": "panqueca.jpg"
+        "image": "panqueca_carne_moida.png"
     },
     {
         "nome": "Macarrão com Almôndegas e Molho Vermelho",
@@ -464,7 +433,7 @@
             "Adicione o molho de tomate e deixe cozinhar em fogo baixo por 10 minutos.",
             "Sirva o macarrão coberto com o molho e as almôndegas."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -474,7 +443,7 @@
         "verificado": false,
         "porção": 4,
         "ingredientes": {
-            "Frango": "500 gramas",
+            "Frango": "500g",
             "Creme de Leite": "1 caixinha",
             "Alho": "2 dentes",
             "Cebola": "1 unidade",
@@ -487,7 +456,7 @@
             "Acrescente o creme de leite, misture bem e cozinhe por mais 5 minutos.",
             "Sirva acompanhado de arroz ou purê de batatas."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -510,7 +479,7 @@
             "Coloque o frango em uma assadeira, regue com óleo ou azeite e cubra com papel-alumínio.",
             "Asse por 40 minutos, retire o papel e deixe dourar por mais 20 minutos."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -535,7 +504,7 @@
             "Em uma assadeira, coloque os filés, cubra com o molho de tomate e finalize com o queijo mussarela.",
             "Leve ao forno preaquecido a 180°C até o queijo derreter e dourar."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -560,7 +529,7 @@
             "Volte o frango para a panela, adicione o molho de soja e misture bem.",
             "Finalize com o amendoim e sirva quente, acompanhado de arroz."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -582,7 +551,7 @@
             "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados.",
             "Escorra em papel-toalha e sirva com limão ou o acompanhamento de sua preferência."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -605,7 +574,7 @@
             "Acrescente o champignon e o creme de leite, mexendo até incorporar.",
             "Sirva quente com arroz e batata palha."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -627,7 +596,7 @@
             "Grelhe os filés por 3-4 minutos de cada lado ou até estarem cozidos e dourados.",
             "Sirva acompanhado de salada ou legumes grelhados."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -652,7 +621,7 @@
             "Cubra com papel-alumínio e asse por 1 hora. Retire o papel e deixe dourar por mais 30 minutos.",
             "Sirva quente acompanhado das batatas."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -675,7 +644,7 @@
             "Frite o frango em pequenas porções até dourar e ficar crocante.",
             "Sirva com rodelas de cebola crua ou refogada, a gosto."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -699,7 +668,7 @@
             "Adicione o açafrão e o creme de leite, misture bem e deixe aquecer sem ferver.",
             "Coloque os filés de volta à frigideira, cubra com o molho e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -724,7 +693,7 @@
             "Finalize com queijo parmesão por cima.",
             "Asse em forno preaquecido a 180°C por 30 minutos ou até gratinar."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -748,7 +717,7 @@
             "Coloque a mistura em um refratário, cubra com o queijo mussarela e leve ao forno preaquecido a 180°C até derreter.",
             "Finalize com batata palha por cima e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -772,7 +741,7 @@
             "Finalize com o restante do purê e polvilhe queijo mussarela por cima.",
             "Leve ao forno preaquecido a 180°C até dourar e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -798,7 +767,7 @@
             "Acrescente os legumes e cozinhe por 5-7 minutos, mexendo ocasionalmente, até que fiquem macios.",
             "Ajuste o sal, se necessário, e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -820,7 +789,7 @@
             "Adicione o molho teriyaki e cozinhe por mais 5 minutos, até o molho reduzir ligeiramente.",
             "Finalize com gergelim e cebolinha por cima. Sirva com arroz branco ou legumes."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -845,7 +814,7 @@
             "Despeje o leite de coco e cozinhe por 10 minutos em fogo baixo, até o molho engrossar.",
             "Ajuste o sal, se necessário, e sirva com arroz branco ou pão naan."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -869,7 +838,7 @@
             "Adicione a mostarda dijon e o creme de leite, misturando bem.",
             "Retorne os filés de frango à frigideira e cozinhe por mais 5 minutos em fogo baixo. Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -894,7 +863,7 @@
             "Cubra com água e cozinhe em fogo médio por 45 minutos, ou até a carne estar macia.",
             "Ajuste os temperos e sirva com arroz branco ou pirão."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -912,7 +881,7 @@
             "Grelhe a linguiça, virando ocasionalmente, até que estejam douradas e completamente cozidas.",
             "Sirva com acompanhamentos de sua escolha, como arroz, farofa ou salada."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -938,7 +907,7 @@
             "Adicione o tomate picado e o molho de tomate, cozinhando por 10 minutos em fogo baixo.",
             "Sirva com arroz ou espaguete."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -962,7 +931,7 @@
             "Coloque as batatas cortadas em pedaços grandes, cubra com água e tampe a panela.",
             "Cozinhe por 20 minutos após pegar pressão. Ajuste os temperos e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -984,7 +953,7 @@
             "Adicione o molho barbecue e misture bem. Deixe aquecer.",
             "Sirva os bifes cobertos com o molho."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1006,7 +975,7 @@
             "Aqueça o óleo em uma panela funda e frite os bifes até ficarem dourados.",
             "Retire e deixe escorrer em papel toalha. Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1028,7 +997,7 @@
             "Polvilhe o queijo parmesão e leve ao forno por 15 minutos, ou até o queijo derreter e dourar.",
             "Sirva imediatamente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1051,7 +1020,7 @@
             "Na mesma frigideira, refogue as cebolas até ficarem macias e douradas.",
             "Disponha as cebolas sobre os bifes e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1079,7 +1048,7 @@
             "Adicione as ervilhas, ajuste os temperos e deixe cozinhar por mais 5 minutos.",
             "Sirva com arroz ou polenta."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1103,7 +1072,7 @@
             "Cozinhe até que o molho esteja espesso e os tomates desmanchados.",
             "Sirva com arroz e feijão ou como recheio de tortas e pastéis."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1130,7 +1099,7 @@
             "Cozinhe sem pressão até que a mandioca esteja macia e o caldo espesso.",
             "Ajuste os temperos e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1155,7 +1124,7 @@
             "Leve ao forno pré-aquecido a 200°C por cerca de 30 minutos, ou até dourar.",
             "Deixe descansar por 5 minutos antes de cortar e servir."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1180,7 +1149,7 @@
             "Leve ao forno pré-aquecido a 200°C até que o queijo esteja dourado.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1206,7 +1175,7 @@
             "Transfira para uma assadeira e leve ao forno pré-aquecido a 200°C por 40 minutos ou até dourar.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1228,7 +1197,7 @@
             "Aqueça o óleo em uma frigideira e frite os filés até ficarem dourados e crocantes.",
             "Escorra em papel toalha e sirva com limão."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1254,7 +1223,7 @@
             "Espalhe o molho branco sobre o quibe assado e finalize com queijo mussarela.",
             "Leve ao forno para gratinar e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1278,7 +1247,7 @@
             "Retire o papel-alumínio, pincele o molho barbecue e asse por mais 30 minutos, regando com o molho ocasionalmente.",
             "Sirva fatiado com o molho restante."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1302,7 +1271,7 @@
             "Retire o papel-alumínio, pincele o molho madeira e asse por mais 30 minutos até dourar.",
             "Sirva com o molho madeira aquecido."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1326,7 +1295,7 @@
             "Junte o pimentão e o tomate, tempere com sal e pimenta, e cozinhe até o pernil ficar macio.",
             "Sirva acompanhado de arroz e salada."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1354,7 +1323,7 @@
             "Cozinhe em fogo baixo até a costelinha ficar macia e o molho caramelizado.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1382,7 +1351,7 @@
             "Volte os filés à frigideira, cubra com o molho e cozinhe por mais alguns minutos.",
             "Sirva acompanhado de arroz branco ou purê de batatas."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1405,7 +1374,7 @@
             "Grelhe as bistecas por 4 a 5 minutos de cada lado, ou até ficarem bem douradas.",
             "Sirva acompanhadas de salada ou batatas assadas."
         ],
-        "tags": [
+        "categorias": [
             "Prato Principal"
         ],
         "image": "sem-imagem.png"
@@ -1433,7 +1402,7 @@
             "Tempere com sal, pimenta-do-reino e manjericão fresco.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1456,7 +1425,7 @@
             "Adicione a mandioca e misture bem.",
             "Finalize com salsinha picada e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1480,7 +1449,7 @@
             "Tempere com sal e pimenta-do-reino a gosto.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1504,7 +1473,7 @@
             "Tempere com sal e finalize com salsinha picada.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1530,7 +1499,7 @@
             "Tempere com sal e pimenta-do-reino.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1556,7 +1525,7 @@
             "Acrescente o creme de leite, tempere com sal e misture.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1585,7 +1554,7 @@
             "Misture as farinhas, o açafrão e o sal.",
             "Finalize com salsinha picada e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1607,7 +1576,7 @@
             "Tempere com sal e pimenta-do-reino.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1630,7 +1599,7 @@
             "Leve ao forno preaquecido a 200°C por cerca de 30 minutos ou até dourar.",
             "Sirva como acompanhamento."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1652,7 +1621,7 @@
             "Escorra e misture com manteiga e salsinha picada.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1675,7 +1644,7 @@
             "Leve ao forno preaquecido a 200°C por aproximadamente 30 minutos ou até dourar.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1696,7 +1665,7 @@
             "Amasse as batatas e misture com leite e manteiga.",
             "Tempere com sal e uma pitada de noz-moscada.",
             "Mexa bem até atingir a textura desejada e sirva quente."
-        ],"tags": [
+        ],"categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1723,7 +1692,7 @@
             "Finalize com queijo parmesão ralado por cima.",
             "Leve ao forno preaquecido a 200°C até gratinar."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1745,7 +1714,7 @@
             "Tempere com sal e noz-moscada.",
             "Misture bem até ficar cremoso e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1770,7 +1739,7 @@
             "Cozinhe em fogo baixo até a abóbora ficar macia.",
             "Finalize com salsinha picada e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1795,7 +1764,7 @@
             "Cozinhe até a abobrinha ficar macia, mas ainda firme.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1821,7 +1790,7 @@
             "Tempere com sal, pimenta-do-reino e finalize com salsinha picada.",
             "Leve à geladeira por 30 minutos e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1845,7 +1814,7 @@
             "Acrescente a couve, tempere com sal e pimenta-do-reino.",
             "Refogue rapidamente até a couve murchar e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1867,7 +1836,7 @@
             "Tempere com sal e pimenta-do-reino.",
             "Mexa até obter uma textura lisa e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1889,7 +1858,7 @@
             "Adicione as batatas cozidas, tempere com sal e refogue até dourarem.",
             "Finalize com salsinha picada e sirva."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1913,7 +1882,7 @@
             "Aqueça o óleo em uma frigideira e frite as fatias até dourarem.",
             "Escorra em papel toalha e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1938,7 +1907,7 @@
             "Acrescente a farinha de mandioca aos poucos, mexendo até obter uma mistura soltinha.",
             "Ajuste os temperos e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1962,7 +1931,7 @@
             "Acrescente a farinha de mandioca, tempere com sal e pimenta-do-reino.",
             "Mexa bem até ficar soltinho e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -1986,7 +1955,7 @@
             "Acrescente a farinha de mandioca aos poucos, mexendo até ficar soltinho.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2010,7 +1979,7 @@
             "Refogue por 5-7 minutos, mexendo ocasionalmente.",
             "Finalize com salsinha picada e sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2035,7 +2004,7 @@
             "Leve ao forno preaquecido a 200°C até gratinar.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2063,7 +2032,7 @@
             "Cozinhe em fogo médio, mexendo ocasionalmente, até os legumes ficarem macios.",
             "Sirva quente ou frio."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2084,7 +2053,7 @@
             "Retire, escorra em papel toalha e tempere com sal.",
             "Sirva quente."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2107,7 +2076,7 @@
             "Adicione o pepino e misture bem.",
             "Finalize com gergelim e sirva gelado."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2128,7 +2097,7 @@
             "Retire e escorra em papel toalha.",
             "Polvilhe com açúcar e canela antes de servir."
         ],
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2156,7 +2125,7 @@
             "Sal": "a gosto",
             "Pimenta do Reino": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2179,7 +2148,7 @@
             "Azeite": "1 colher de sopa",
             "Sal": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2202,7 +2171,7 @@
             "Queijo Parmesão": "50g",
             "Sal": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2224,7 +2193,7 @@
             "Óleo para Fritar": "suficiente",
             "Sal": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2249,7 +2218,7 @@
             "Sal": "a gosto",
             "Pimenta do Reino": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2276,7 +2245,7 @@
             "Sal": "a gosto",
             "Pimenta do Reino": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2302,7 +2271,7 @@
             "Sal": "a gosto",
             "Pimenta do Reino": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
@@ -2329,9 +2298,29 @@
             "Sal": "a gosto",
             "Pimenta do Reino": "a gosto"
         },
-        "tags": [
+        "categorias": [
             "Guarnição"
         ],
         "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Smoothie de Beterraba com Morango",
+        "porcao": "1 porção",
+        "verificado": true,
+        "receita": [
+            "Despeje os ingredientes no liquidificador.",
+            "Bata até obter uma mistura homogênea.",
+            "Sirva gelado"
+        ],
+        "ingredientes": {
+            "Morango": "120g",
+            "Leite": "120 ml",
+            "Beterraba em pó": "5g"
+        },
+        "categorias": [
+            "Fitness"
+        ],
+        "tags":["Pré-treino"],
+        "image": "smoothie_morango_beterraba.png"
     }
 ]
